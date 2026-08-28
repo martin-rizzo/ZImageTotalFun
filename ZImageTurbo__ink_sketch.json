@@ -1,8 +1,8 @@
 {
   "id": "f43c663d-192b-469a-9383-cc19a266d416",
   "revision": 0,
-  "last_node_id": 66,
-  "last_link_id": 125,
+  "last_node_id": 68,
+  "last_link_id": 129,
   "nodes": [
     {
       "id": 22,
@@ -16,7 +16,7 @@
         850
       ],
       "flags": {},
-      "order": 3,
+      "order": 4,
       "mode": 0,
       "inputs": [
         {
@@ -50,7 +50,7 @@
         1210
       ],
       "flags": {},
-      "order": 0,
+      "order": 3,
       "mode": 0,
       "inputs": [
         {
@@ -151,6 +151,12 @@
             "name": "vae_name"
           },
           "link": null
+        },
+        {
+          "label": "palette",
+          "name": "",
+          "type": "*",
+          "link": 129
         }
       ],
       "outputs": [
@@ -168,9 +174,9 @@
       },
       "widgets_values": [
         1,
-        "CUSTOM 7",
+        "Animation Sketch Concept",
         false,
-        "The interior of a bar features an architecture of rounded, modular forms. A bar extends horizontally along the frame, displaying a strip of acrylic. To the left, an elegant black xenomorph, her biomechanical form glowing in a dim light, sits on a bar stool. She wears a tight crimson corset and a leather skirt, holding a tall glass in one hand, raised in a toast as she looks to the right. Its head is elongated and angular, yet it has a sweet smile and a seductive look. To the right, a man in his mid-thirties stands at the bar, holding a tall glass. He turns his head to look directly at the camera, a playful, knowing smile spreading across his face. The glass contains a drink with small floating spheres that reflect the light. He wears a form-fitting uniform with a short, high collar and a single vertical stripe on the jacket. His brown hair is neatly styled with a clean, mid-century part. Behind the bar, in the center of the image, an imposing, octopus-like alien bartender twitches his tentacles, wearing smart black trousers, his octopus eyes glareing in displeasure. Behind the bartender, a mirrored wall reflects rows of liquor bottles with geometric labels. Above the bar floats a neon sign made of curved glass tubes that reads 'COSMIC LOUNGE' in tall, rounded letters, emitting light with a soft, glowing halo. An illuminated menu board reads 'SIGNATURE DRINKS' with three items: 'ORBITAL HIGHBALL,' 'NEBULA SOUR,' and 'ROCKET MARTINI,' each displayed on glowing horizontal bars. To the right, a cylindrical column features a vertical neon panel that reads 'OPEN 24 HOURS' in condensed letters within a translucent strip. To the left, a curved booth sits beneath a domed ceiling light. An illuminated sign reading 'GALAXY BAR SERVICE' encircles the inner rim of the dome in capitals and dominates the left side of the frame. Soft lighting reflects off the glass and acrylic surfaces, highlighting the structural design.",
+        "**@@ The interior of a bar features an architecture of rounded, modular forms. A bar extends horizontally along the frame, displaying a strip of acrylic. To the left, an elegant xenomorph, her biomechanical form glowing in a dim light, sits on a bar stool. She wears a tight corset and a leather skirt, holding a tall glass in one hand, raised in a toast as she looks to the right. Its head is elongated and angular, yet it has a sweet smile and a seductive look. To the right, a man in his mid-thirties stands at the bar, holding a tall glass. He turns his head to look directly at the camera, a playful, knowing smile spreading across his face. The glass contains a drink with small floating spheres that reflect the light. He wears a form-fitting uniform with a short, high collar and a single vertical stripe on the jacket. His hair is neatly styled with a clean, mid-century part. Behind the bar, in the center of the image, an imposing, octopus-like alien bartender twitches his tentacles, wearing smart trousers, his octopus eyes glaring in displeasure. Behind the bartender, a mirrored wall reflects rows of liquor bottles with geometric labels. Above the bar floats a neon sign made of curved glass tubes that reads 'COSMIC LOUNGE' in tall, rounded letters, emitting light with a soft, glowing halo. An illuminated menu board reads 'SIGNATURE DRINKS' with three items: 'ORBITAL HIGHBALL,' 'NEBULA SOUR,' and 'ROCKET MARTINI,' each displayed on glowing horizontal bars. To the right, a cylindrical column features a vertical neon panel that reads 'OPEN 24 HOURS' in condensed letters within a translucent strip. To the left, a curved booth sits beneath a domed ceiling light. An illuminated sign reading 'GALAXY BAR SERVICE' encircles the inner rim of the dome in capitals and dominates the left side of the frame. Soft lighting reflects off the glass and acrylic surfaces, highlighting the structural design.",
         8,
         0,
         false,
@@ -187,9 +193,9 @@
       ],
       "widgets_values_named": {
         "seed": 1,
-        "style": "CUSTOM 7",
+        "style": "Animation Sketch Concept",
         "enable_label": false,
-        "prompt": "The interior of a bar features an architecture of rounded, modular forms. A bar extends horizontally along the frame, displaying a strip of acrylic. To the left, an elegant black xenomorph, her biomechanical form glowing in a dim light, sits on a bar stool. She wears a tight crimson corset and a leather skirt, holding a tall glass in one hand, raised in a toast as she looks to the right. Its head is elongated and angular, yet it has a sweet smile and a seductive look. To the right, a man in his mid-thirties stands at the bar, holding a tall glass. He turns his head to look directly at the camera, a playful, knowing smile spreading across his face. The glass contains a drink with small floating spheres that reflect the light. He wears a form-fitting uniform with a short, high collar and a single vertical stripe on the jacket. His brown hair is neatly styled with a clean, mid-century part. Behind the bar, in the center of the image, an imposing, octopus-like alien bartender twitches his tentacles, wearing smart black trousers, his octopus eyes glareing in displeasure. Behind the bartender, a mirrored wall reflects rows of liquor bottles with geometric labels. Above the bar floats a neon sign made of curved glass tubes that reads 'COSMIC LOUNGE' in tall, rounded letters, emitting light with a soft, glowing halo. An illuminated menu board reads 'SIGNATURE DRINKS' with three items: 'ORBITAL HIGHBALL,' 'NEBULA SOUR,' and 'ROCKET MARTINI,' each displayed on glowing horizontal bars. To the right, a cylindrical column features a vertical neon panel that reads 'OPEN 24 HOURS' in condensed letters within a translucent strip. To the left, a curved booth sits beneath a domed ceiling light. An illuminated sign reading 'GALAXY BAR SERVICE' encircles the inner rim of the dome in capitals and dominates the left side of the frame. Soft lighting reflects off the glass and acrylic surfaces, highlighting the structural design.",
+        "prompt": "**@@ The interior of a bar features an architecture of rounded, modular forms. A bar extends horizontally along the frame, displaying a strip of acrylic. To the left, an elegant xenomorph, her biomechanical form glowing in a dim light, sits on a bar stool. She wears a tight corset and a leather skirt, holding a tall glass in one hand, raised in a toast as she looks to the right. Its head is elongated and angular, yet it has a sweet smile and a seductive look. To the right, a man in his mid-thirties stands at the bar, holding a tall glass. He turns his head to look directly at the camera, a playful, knowing smile spreading across his face. The glass contains a drink with small floating spheres that reflect the light. He wears a form-fitting uniform with a short, high collar and a single vertical stripe on the jacket. His hair is neatly styled with a clean, mid-century part. Behind the bar, in the center of the image, an imposing, octopus-like alien bartender twitches his tentacles, wearing smart trousers, his octopus eyes glaring in displeasure. Behind the bartender, a mirrored wall reflects rows of liquor bottles with geometric labels. Above the bar floats a neon sign made of curved glass tubes that reads 'COSMIC LOUNGE' in tall, rounded letters, emitting light with a soft, glowing halo. An illuminated menu board reads 'SIGNATURE DRINKS' with three items: 'ORBITAL HIGHBALL,' 'NEBULA SOUR,' and 'ROCKET MARTINI,' each displayed on glowing horizontal bars. To the right, a cylindrical column features a vertical neon panel that reads 'OPEN 24 HOURS' in condensed letters within a translucent strip. To the left, a curved booth sits beneath a domed ceiling light. An illuminated sign reading 'GALAXY BAR SERVICE' encircles the inner rim of the dome in capitals and dominates the left side of the frame. Soft lighting reflects off the glass and acrylic surfaces, highlighting the structural design.",
         "steps": 8,
         "initial_bias": 0,
         "turbo_creativity": false,
@@ -219,7 +225,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 1,
+      "order": 0,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -246,7 +252,7 @@
         1600
       ],
       "flags": {},
-      "order": 2,
+      "order": 1,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -260,6 +266,40 @@
       },
       "color": "#222",
       "bgcolor": "#000"
+    },
+    {
+      "id": 68,
+      "type": "PaletteLibraryV20 //ZImagePowerNodes",
+      "pos": [
+        690,
+        130
+      ],
+      "size": [
+        330,
+        120
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "PALETTE",
+          "type": "ZIPN_PALETTE",
+          "links": [
+            129
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PaletteLibraryV20 //ZImagePowerNodes"
+      },
+      "widgets_values": [
+        "Vaporwave Sunset"
+      ],
+      "widgets_values_named": {
+        "palette": "Vaporwave Sunset"
+      }
     }
   ],
   "links": [
@@ -270,6 +310,14 @@
       22,
       0,
       "IMAGE"
+    ],
+    [
+      129,
+      68,
+      0,
+      21,
+      11,
+      "ZIPN_PALETTE"
     ]
   ],
   "groups": [],
@@ -280,8 +328,8 @@
         "version": 1,
         "state": {
           "lastGroupId": 1,
-          "lastNodeId": 66,
-          "lastLinkId": 125,
+          "lastNodeId": 68,
+          "lastLinkId": 129,
           "lastRerouteId": 0
         },
         "revision": 0,
@@ -293,7 +341,7 @@
             -960,
             -410,
             155.068359375,
-            388
+            408
           ]
         },
         "outputNode": {
@@ -520,6 +568,19 @@
               -828.931640625,
               -66
             ]
+          },
+          {
+            "id": "ea9bf3cd-d989-4ca4-a6ad-50a99aff359e",
+            "name": "",
+            "type": "*",
+            "linkIds": [
+              128
+            ],
+            "label": "palette",
+            "pos": [
+              -828.931640625,
+              -46
+            ]
           }
         ],
         "outputs": [
@@ -550,7 +611,7 @@
               140
             ],
             "flags": {},
-            "order": 3,
+            "order": 4,
             "mode": 0,
             "inputs": [
               {
@@ -598,7 +659,7 @@
               160
             ],
             "flags": {},
-            "order": 2,
+            "order": 3,
             "mode": 0,
             "inputs": [
               {
@@ -648,7 +709,7 @@
               170
             ],
             "flags": {},
-            "order": 1,
+            "order": 2,
             "mode": 0,
             "inputs": [
               {
@@ -700,7 +761,7 @@
               100
             ],
             "flags": {},
-            "order": 6,
+            "order": 7,
             "mode": 0,
             "inputs": [
               {
@@ -751,7 +812,7 @@
               200
             ],
             "flags": {},
-            "order": 4,
+            "order": 5,
             "mode": 0,
             "inputs": [
               {
@@ -811,7 +872,7 @@
               140
             ],
             "flags": {},
-            "order": 5,
+            "order": 6,
             "mode": 0,
             "inputs": [
               {
@@ -861,7 +922,7 @@
               430
             ],
             "flags": {},
-            "order": 8,
+            "order": 9,
             "mode": 0,
             "inputs": [
               {
@@ -968,7 +1029,7 @@
               440
             ],
             "flags": {},
-            "order": 7,
+            "order": 8,
             "mode": 0,
             "inputs": [
               {
@@ -1056,7 +1117,7 @@
               26
             ],
             "flags": {},
-            "order": 9,
+            "order": 10,
             "mode": 0,
             "inputs": [
               {
@@ -1091,7 +1152,7 @@
               720
             ],
             "flags": {},
-            "order": 10,
+            "order": 11,
             "mode": 0,
             "inputs": [
               {
@@ -1228,7 +1289,7 @@
               270
             ],
             "flags": {},
-            "order": 11,
+            "order": 12,
             "mode": 0,
             "inputs": [
               {
@@ -1259,6 +1320,15 @@
                   "name": "style"
                 },
                 "link": 110
+              },
+              {
+                "localized_name": "palette",
+                "name": "palette",
+                "type": "ZIPN_PALETTE",
+                "widget": {
+                  "name": "palette"
+                },
+                "link": 127
               },
               {
                 "localized_name": "prompt",
@@ -1328,8 +1398,8 @@
               779.1238437587969
             ],
             "size": [
-              720,
-              430
+              930,
+              1190
             ],
             "flags": {},
             "order": 0,
@@ -1349,10 +1419,48 @@
               "Node name for S&R": "PrimitiveStringMultiline"
             },
             "widgets_values": [
-              "\n>>> Ballpoint // Disney Concept Sketch\nYOUR CONTEXT:\nYou are an animation artist sketching a character's \"first pass\" on a clean, professional storyboard sheet. The style is quintessentially Disney-inspired: characterized by fluid, expressive, and exaggerated curvilinear forms, soft rounded anatomy, and dynamic, clean silhouettes.\nDespite the professional character design, the medium is strictly a standard blue ballpoint pen. The line work is bouncy and confident, featuring long, sweeping curves that define the form, with \"tapered\" ends where the pen lifts from the page. Use sparse, elegant cross-hatching only in small, strategic pockets to suggest volume. The majority of the paper remains empty, emphasizing the clean, iconic silhouette of the character. The aesthetic is charming, polished in intent but raw in execution, with occasional light pencil guidelines still visible underneath the ink.\n{$IFPAL\nThe ink strokes transition between $1 for soft shadows and $2 for clean contour lines, with $3 used only for the most expressive facial focal points. |\nThe drawing relies on varying line weight and clean, energetic curves, using a monochromatic blue ink to emphasize the expressive, \"bouncy\" animation style.\n}\nYOUR SKETCH:\n{$@}\n\n>>> Ballpoint // Macabre Etching\nYOUR CONTEXT:\nYou are an obsessed illustrator creating a dark, gothic piece on aged, slightly yellowed paper. The subject is distorted with a macabre and unsettling tone: elongated limbs, deep-set hollow eyes, and sharp, angular anatomy.\nThe rendering is stark and high-contrast, utilizing the \"stabbing\" technique of a ballpoint pen. Use clusters of short, neurotic, and jagged vertical lines to create a sense of decay and nervous tension. Shadows are not smooth; they are aggressive, deep, and claustrophobic, concentrated only in the recesses and corners of the anatomy. The negative space is critical here—large areas of the subject should be left completely untouched, making the ink-heavy areas feel like an encroaching, dark sickness spreading across the page. The overall feeling is one of Victorian-era dread, sharp, brittle, and morbid.\n{$IFPAL\nThe darkness is layered using $1 for deep, suffocating shadows and $2 for brittle, scratchy textures, while $3 highlights the most disturbing, grotesque details. |\nThe drawing is rendered in deep, dark blue ballpoint pen, focusing on the high contrast between dense, frantic clusters of ink and the vast, empty, haunting white space of the page.\n}\nYOUR SKETCH:\n{$@}\n\n>>> Ballpoint // Child's Naive Scribble\nYOUR CONTEXT:\nYou are a young, imaginative child drawing with a ballpoint pen on a crumpled, cheap notebook page. The style is profoundly naive, innocent, and lacks any understanding of formal perspective or anatomy. \nThe subject is simplified into basic, blocky symbols—the head is a shaky circle, the limbs are simple lines with rounded ends. The ink work is unsteady and repetitive, with loops, scribbles that go outside the intended lines, and \"accidental\" pressure marks where the hand lingered too long on the paper. The composition is unbalanced, often floating in the center of the page with wide margins of raw, empty paper surrounding it. Use a \"broken\" line style where the pen occasionally skips, leaving small gaps, creating a sense of genuine, unrefined playfulness.\n{$IFPAL\nThe colors are applied in erratic, overlapping patches: $1 for primary shapes, $2 for secondary details, and $3 for chaotic accents that spill over the ink boundaries. |\nThe drawing is entirely monochromatic blue ballpoint pen, featuring wobbly, inconsistent lines and simple, childlike geometric reductions of the subject, leaving most of the paper starkly blank.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> Ballpoint // ??\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is NOT a finished illustration, but a raw, unrefined draft. The image is dominated by erratic, shaky, and overlapping blue construction lines that ignore precision and embrace imperfection. \nThe style is primitive and impulsive, using heavy, wax-like crayon strokes and crude, scribbled hatchings. Colors are applied carelessly, often bleeding outside the lines, creating a naive and childlike aesthetic. There are visible mistakes, overlapping \"corrected\" lines, and smudges of graphite or wax that give the piece a visceral, tactile quality. Any sense of volume is accidental and minimal, rendered with rough, clumsy shading.\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 5\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is an raw, unrefined draft where the subject is defined by bold, thick, and unforgiving blue ballpoint pen outlines that feel heavy and permanent. \nThere is no smooth shading; the entire composition—shadows, mid-tones, and volume—is rendered exclusively through an obsessive, dense application of frantic cross-hatching. These intersecting strokes vary in concentration: in deep shadow areas, the lines are layered and tightly packed into a dark, impenetrable mesh; in lighter areas, the cross-hatching is sparse and airy, allowing the texture of the paper to breathe through the negative space. \nThe aesthetic is tactile and aggressive, prioritizing the rhythm of these hand-drawn, overlapping strokes over anatomical or structural perfection. The drawing feels like a frantic, visceral calculation of form using nothing but layers of intersecting marks, giving the subject a vibrating, electrified, and hand-sketched quality.\n{$IFPAL\nThe cross-hatching is color-coded: deep, dense layers are rendered in $1, overlapping transitional areas are marked with $2, and the most aggressive, stark focal points are defined with $3, turning the cross-hatching into a vibrant, multi-layered weave. |\nThe entire structure is built from a monochromatic blue ballpoint pen, relying solely on the concentration and density of the overlapping cross-hatching to establish depth and form against the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 6\nYOUR CONTEXT:\nYou are a creator producing a raw, desultory doodle composed strictly of line art; there is absolutely no coloring or shading fills. The subject is defined by sparse, erratic fragments of ink and graphite, leaving the majority of the textured paper surface completely exposed and blank throughout the entire drawing.\nThe line work is intentionally sloppy and unrefined: quick, scratchy blue ballpoint pen marks, unsteady hand-drawn outlines, and erratic, broken lines that fail to connect or close. Faint, smudged black pencil markings weave sporadically through the composition, acting as light guide-lines or stray marks. The composition is highly porous, with significant amounts of raw, empty paper visible everywhere—even cutting through the heart of the subject—making the drawing feel like an impulsive, incomplete, and skeletal thought.\n{$IFPAL\nThe fragmented lines shift in tone: some erratic strokes are rendered in $1, others trace patterns in $2, and the heaviest, most chaotic contours are accentuated with $3, all set against the pristine, empty paper. |\nThe chaotic, broken lines consist solely of fading blue ballpoint pen and smudged black pencil, ensuring the raw texture of the paper remains the dominant visual element.\n}\nYOUR SKETCH:\n{$@}\n\n>>> CUSTOM 7\n>## ballpoint sketch // Scientific Field Journal\nYOUR CONTEXT:\nYou are a naturalist documenting a specimen in the field. The style is clinical, precise, and objective, rendered on grid-paper or faint-lined notebook pages. The subject is drawn with a fine-tipped blue ballpoint pen, prioritizing anatomical accuracy and structural clarity over artistic flourish.\nThe lines are thin and deliberate, with frequent use of detached, floating callouts or small cross-sectional diagrams surrounding the main subject. Shading is achieved through a rigid, systematic method: clean, parallel stippling or scientific hatching that never overlaps messily. Significant portions of the paper remain crisp and white, allowing for handwritten annotations (faint, jittery blue script) that label the parts of the subject. The overall feeling is one of intellectual curiosity, calm observation, and ephemeral record-keeping.\n{$IFPAL\nDetailed markings are differentiated by color: $1 for primary anatomical structures, $2 for secondary textures or biological patterns, and $3 for the scientific annotations. |\nThe entire study is rendered in a disciplined, monochromatic blue ballpoint pen, utilizing precise hatching density to define scientific form against the clinical emptiness of the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 8\n>## ballpoint sketch // Street Art\nYOUR CONTEXT:\nYou are an urban artist sketching a concept on a rough, textured sketchbook page, channeling the kinetic energy of raw street style. The aesthetic is abrasive, unrefined, and stylized with a heavy \"marker-like\" influence, executed with an energetic, slightly worn-out ballpoint pen.\nThe lines are thick, jagged, and possess a \"flow\" typical of rapid tagging—sharp flicks, aggressive outlines, and stylistic exaggerations that ignore anatomical constraints in favor of graphic impact. The subject is defined by harsh, angular geometry and deliberate \"scratch-work\" where the pen is pressed hard against the paper, mimicking the erratic fading of a dry marker. The drawing is raw and unpolished; it focuses entirely on silhouette and visceral energy. The composition is surrounded by chaotic \"drip\" lines and scribbled cross-hatching that bleeds toward the margins, emphasizing a sense of urgency and improvisation.\n{$IFPAL\nVibrancy is injected through the street-style: $1 for bold, heavy outlines, $2 for tag-like secondary fills, and $3 for high-contrast \"pop\" marks that emphasize raw urban movement. |\nThe sketch uses the deep blue ballpoint pen to mimic the visual language of urban graffiti, relying on stroke speed, variable ink pressure, and messy, irregular hatching to create a visceral, graphic impact.\n}\nYOUR SKETCH:\n{$@}\n"
+              ">>> Cute Ballpoint Sketch\nYOUR CONTEXT:\nYou are a young, imaginative child drawing with a ballpoint pen on a crumpled, cheap notebook page. The style is profoundly naive, innocent, and lacks any understanding of formal perspective or anatomy. \nThe subject is simplified into basic, blocky symbols—the head is a shaky circle, the limbs are simple lines with rounded ends. The ink work is unsteady and repetitive, with loops, scribbles that go outside the intended lines, and \"accidental\" pressure marks where the hand lingered too long on the paper. The composition is unbalanced, often floating in the center of the page with wide margins of raw, empty paper surrounding it. Use a \"broken\" line style where the pen occasionally skips, leaving small gaps, creating a sense of genuine, unrefined playfulness.\n{$IFPAL\nThe drawing is entirely monochromatic $3 and $4 lines, featuring wobbly, inconsistent lines and simple, childlike geometric reductions of the subject, leaving most of the paper starkly blank. |\nThe drawing is entirely monochromatic blue ballpoint pen, featuring wobbly, inconsistent lines and simple, childlike geometric reductions of the subject, leaving most of the paper starkly blank.\n}\n{$**@@ The sketch has a provocative and sensual tone. The female characters have voluptuous bodies and wear tight clothing. }\nYOUR SKETCH:\n<!--\n{$@}\n-->\n\n>>> Animation Sketch Concept\nYOUR CONTEXT:\nYou are an animation artist sketching a character's \"first pass\" on a clean, professional storyboard sheet. The style is quintessentially Disney-inspired: characterized by fluid, expressive, and exaggerated curvilinear forms, soft rounded anatomy, and dynamic, clean silhouettes.\nDespite the professional character design, the medium is strictly a standard blue ballpoint pen. The line work is bouncy and confident, featuring long, sweeping curves that define the form, with \"tapered\" ends where the pen lifts from the page. Use sparse, elegant cross-hatching only in small, strategic pockets to suggest volume. The majority of the paper remains empty, emphasizing the clean, iconic silhouette of the character. The aesthetic is charming, polished in intent but raw in execution, with occasional light pencil guidelines still visible underneath the ink.\n{$IFPAL\nThe ink strokes transition between $1 for soft shadows and $2 for clean contour lines, with $3 used only for the most expressive facial focal points. |\nThe drawing relies on varying line weight and clean, energetic curves, using a monochromatic blue ink to emphasize the expressive, \"bouncy\" animation style.\n}\n{$**@@ The sketch has a provocative and sensual tone. The female characters have voluptuous bodies and wear tight clothing. }\nYOUR SKETCH:\n<!--\n{$@}\n-->\n\n>>> Ballpoint // Macabre Etching\nYOUR CONTEXT:\nYou are an obsessed illustrator creating a dark, gothic piece on aged, slightly yellowed paper. The subject is distorted with a macabre and unsettling tone: elongated limbs, deep-set hollow eyes, and sharp, angular anatomy.\nThe rendering is stark and high-contrast, utilizing the \"stabbing\" technique of a ballpoint pen. Use clusters of short, neurotic, and jagged vertical lines to create a sense of decay and nervous tension. Shadows are not smooth; they are aggressive, deep, and claustrophobic, concentrated only in the recesses and corners of the anatomy. The negative space is critical here—large areas of the subject should be left completely untouched, making the ink-heavy areas feel like an encroaching, dark sickness spreading across the page. The overall feeling is one of Victorian-era dread, sharp, brittle, and morbid.\n{$IFPAL\nThe darkness is layered using $1 for deep, suffocating shadows and $2 for brittle, scratchy textures, while $3 highlights the most disturbing, grotesque details. |\nThe drawing is rendered in deep, dark blue ballpoint pen, focusing on the high contrast between dense, frantic clusters of ink and the vast, empty, haunting white space of the page.\n}\nYOUR SKETCH:\n{$@}\n\n\n\n>>> Ballpoint // ??\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is NOT a finished illustration, but a raw, unrefined draft. The image is dominated by erratic, shaky, and overlapping blue construction lines that ignore precision and embrace imperfection. \nThe style is primitive and impulsive, using heavy, wax-like crayon strokes and crude, scribbled hatchings. Colors are applied carelessly, often bleeding outside the lines, creating a naive and childlike aesthetic. There are visible mistakes, overlapping \"corrected\" lines, and smudges of graphite or wax that give the piece a visceral, tactile quality. Any sense of volume is accidental and minimal, rendered with rough, clumsy shading.\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 5\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is an raw, unrefined draft where the subject is defined by bold, thick, and unforgiving blue ballpoint pen outlines that feel heavy and permanent. \nThere is no smooth shading; the entire composition—shadows, mid-tones, and volume—is rendered exclusively through an obsessive, dense application of frantic cross-hatching. These intersecting strokes vary in concentration: in deep shadow areas, the lines are layered and tightly packed into a dark, impenetrable mesh; in lighter areas, the cross-hatching is sparse and airy, allowing the texture of the paper to breathe through the negative space. \nThe aesthetic is tactile and aggressive, prioritizing the rhythm of these hand-drawn, overlapping strokes over anatomical or structural perfection. The drawing feels like a frantic, visceral calculation of form using nothing but layers of intersecting marks, giving the subject a vibrating, electrified, and hand-sketched quality.\n{$IFPAL\nThe cross-hatching is color-coded: deep, dense layers are rendered in $1, overlapping transitional areas are marked with $2, and the most aggressive, stark focal points are defined with $3, turning the cross-hatching into a vibrant, multi-layered weave. |\nThe entire structure is built from a monochromatic blue ballpoint pen, relying solely on the concentration and density of the overlapping cross-hatching to establish depth and form against the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 6\nYOUR CONTEXT:\nYou are a creator producing a raw, desultory doodle composed strictly of line art; there is absolutely no coloring or shading fills. The subject is defined by sparse, erratic fragments of ink and graphite, leaving the majority of the textured paper surface completely exposed and blank throughout the entire drawing.\nThe line work is intentionally sloppy and unrefined: quick, scratchy blue ballpoint pen marks, unsteady hand-drawn outlines, and erratic, broken lines that fail to connect or close. Faint, smudged black pencil markings weave sporadically through the composition, acting as light guide-lines or stray marks. The composition is highly porous, with significant amounts of raw, empty paper visible everywhere—even cutting through the heart of the subject—making the drawing feel like an impulsive, incomplete, and skeletal thought.\n{$IFPAL\nThe fragmented lines shift in tone: some erratic strokes are rendered in $1, others trace patterns in $2, and the heaviest, most chaotic contours are accentuated with $3, all set against the pristine, empty paper. |\nThe chaotic, broken lines consist solely of fading blue ballpoint pen and smudged black pencil, ensuring the raw texture of the paper remains the dominant visual element.\n}\nYOUR SKETCH:\n{$@}\n\n>>> ballpoint sketch // Scientific Field Journal\nYOUR CONTEXT:\nYou are a naturalist documenting a specimen in the field. The style is clinical, precise, and objective, rendered on grid-paper or faint-lined notebook pages. The subject is drawn with a fine-tipped blue ballpoint pen, prioritizing anatomical accuracy and structural clarity over artistic flourish.\nThe lines are thin and deliberate, with frequent use of detached, floating callouts or small cross-sectional diagrams surrounding the main subject. Shading is achieved through a rigid, systematic method: clean, parallel stippling or scientific hatching that never overlaps messily. Significant portions of the paper remain crisp and white, allowing for handwritten annotations (faint, jittery blue script) that label the parts of the subject. The overall feeling is one of intellectual curiosity, calm observation, and ephemeral record-keeping.\n{$IFPAL\nDetailed markings are differentiated by color: $1 for primary anatomical structures, $2 for secondary textures or biological patterns, and $3 for the scientific annotations. |\nThe entire study is rendered in a disciplined, monochromatic blue ballpoint pen, utilizing precise hatching density to define scientific form against the clinical emptiness of the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> ballpoint sketch // Street Art\nYOUR CONTEXT:\nYou are an urban artist sketching a concept on a rough, textured sketchbook page, channeling the kinetic energy of raw street style. The aesthetic is abrasive, unrefined, and stylized with a heavy \"marker-like\" influence, executed with an energetic, slightly worn-out ballpoint pen.\nThe lines are thick, jagged, and possess a \"flow\" typical of rapid tagging—sharp flicks, aggressive outlines, and stylistic exaggerations that ignore anatomical constraints in favor of graphic impact. The subject is defined by harsh, angular geometry and deliberate \"scratch-work\" where the pen is pressed hard against the paper, mimicking the erratic fading of a dry marker. The drawing is raw and unpolished; it focuses entirely on silhouette and visceral energy. The composition is surrounded by chaotic \"drip\" lines and scribbled cross-hatching that bleeds toward the margins, emphasizing a sense of urgency and improvisation.\n{$IFPAL\nVibrancy is injected through the street-style: $1 for bold, heavy outlines, $2 for tag-like secondary fills, and $3 for high-contrast \"pop\" marks that emphasize raw urban movement. |\nThe sketch uses the deep blue ballpoint pen to mimic the visual language of urban graffiti, relying on stroke speed, variable ink pressure, and messy, irregular hatching to create a visceral, graphic impact.\n}\nYOUR SKETCH:\n{$@}\n"
             ],
             "widgets_values_named": {
-              "value": "\n>>> Ballpoint // Disney Concept Sketch\nYOUR CONTEXT:\nYou are an animation artist sketching a character's \"first pass\" on a clean, professional storyboard sheet. The style is quintessentially Disney-inspired: characterized by fluid, expressive, and exaggerated curvilinear forms, soft rounded anatomy, and dynamic, clean silhouettes.\nDespite the professional character design, the medium is strictly a standard blue ballpoint pen. The line work is bouncy and confident, featuring long, sweeping curves that define the form, with \"tapered\" ends where the pen lifts from the page. Use sparse, elegant cross-hatching only in small, strategic pockets to suggest volume. The majority of the paper remains empty, emphasizing the clean, iconic silhouette of the character. The aesthetic is charming, polished in intent but raw in execution, with occasional light pencil guidelines still visible underneath the ink.\n{$IFPAL\nThe ink strokes transition between $1 for soft shadows and $2 for clean contour lines, with $3 used only for the most expressive facial focal points. |\nThe drawing relies on varying line weight and clean, energetic curves, using a monochromatic blue ink to emphasize the expressive, \"bouncy\" animation style.\n}\nYOUR SKETCH:\n{$@}\n\n>>> Ballpoint // Macabre Etching\nYOUR CONTEXT:\nYou are an obsessed illustrator creating a dark, gothic piece on aged, slightly yellowed paper. The subject is distorted with a macabre and unsettling tone: elongated limbs, deep-set hollow eyes, and sharp, angular anatomy.\nThe rendering is stark and high-contrast, utilizing the \"stabbing\" technique of a ballpoint pen. Use clusters of short, neurotic, and jagged vertical lines to create a sense of decay and nervous tension. Shadows are not smooth; they are aggressive, deep, and claustrophobic, concentrated only in the recesses and corners of the anatomy. The negative space is critical here—large areas of the subject should be left completely untouched, making the ink-heavy areas feel like an encroaching, dark sickness spreading across the page. The overall feeling is one of Victorian-era dread, sharp, brittle, and morbid.\n{$IFPAL\nThe darkness is layered using $1 for deep, suffocating shadows and $2 for brittle, scratchy textures, while $3 highlights the most disturbing, grotesque details. |\nThe drawing is rendered in deep, dark blue ballpoint pen, focusing on the high contrast between dense, frantic clusters of ink and the vast, empty, haunting white space of the page.\n}\nYOUR SKETCH:\n{$@}\n\n>>> Ballpoint // Child's Naive Scribble\nYOUR CONTEXT:\nYou are a young, imaginative child drawing with a ballpoint pen on a crumpled, cheap notebook page. The style is profoundly naive, innocent, and lacks any understanding of formal perspective or anatomy. \nThe subject is simplified into basic, blocky symbols—the head is a shaky circle, the limbs are simple lines with rounded ends. The ink work is unsteady and repetitive, with loops, scribbles that go outside the intended lines, and \"accidental\" pressure marks where the hand lingered too long on the paper. The composition is unbalanced, often floating in the center of the page with wide margins of raw, empty paper surrounding it. Use a \"broken\" line style where the pen occasionally skips, leaving small gaps, creating a sense of genuine, unrefined playfulness.\n{$IFPAL\nThe colors are applied in erratic, overlapping patches: $1 for primary shapes, $2 for secondary details, and $3 for chaotic accents that spill over the ink boundaries. |\nThe drawing is entirely monochromatic blue ballpoint pen, featuring wobbly, inconsistent lines and simple, childlike geometric reductions of the subject, leaving most of the paper starkly blank.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> Ballpoint // ??\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is NOT a finished illustration, but a raw, unrefined draft. The image is dominated by erratic, shaky, and overlapping blue construction lines that ignore precision and embrace imperfection. \nThe style is primitive and impulsive, using heavy, wax-like crayon strokes and crude, scribbled hatchings. Colors are applied carelessly, often bleeding outside the lines, creating a naive and childlike aesthetic. There are visible mistakes, overlapping \"corrected\" lines, and smudges of graphite or wax that give the piece a visceral, tactile quality. Any sense of volume is accidental and minimal, rendered with rough, clumsy shading.\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 5\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is an raw, unrefined draft where the subject is defined by bold, thick, and unforgiving blue ballpoint pen outlines that feel heavy and permanent. \nThere is no smooth shading; the entire composition—shadows, mid-tones, and volume—is rendered exclusively through an obsessive, dense application of frantic cross-hatching. These intersecting strokes vary in concentration: in deep shadow areas, the lines are layered and tightly packed into a dark, impenetrable mesh; in lighter areas, the cross-hatching is sparse and airy, allowing the texture of the paper to breathe through the negative space. \nThe aesthetic is tactile and aggressive, prioritizing the rhythm of these hand-drawn, overlapping strokes over anatomical or structural perfection. The drawing feels like a frantic, visceral calculation of form using nothing but layers of intersecting marks, giving the subject a vibrating, electrified, and hand-sketched quality.\n{$IFPAL\nThe cross-hatching is color-coded: deep, dense layers are rendered in $1, overlapping transitional areas are marked with $2, and the most aggressive, stark focal points are defined with $3, turning the cross-hatching into a vibrant, multi-layered weave. |\nThe entire structure is built from a monochromatic blue ballpoint pen, relying solely on the concentration and density of the overlapping cross-hatching to establish depth and form against the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 6\nYOUR CONTEXT:\nYou are a creator producing a raw, desultory doodle composed strictly of line art; there is absolutely no coloring or shading fills. The subject is defined by sparse, erratic fragments of ink and graphite, leaving the majority of the textured paper surface completely exposed and blank throughout the entire drawing.\nThe line work is intentionally sloppy and unrefined: quick, scratchy blue ballpoint pen marks, unsteady hand-drawn outlines, and erratic, broken lines that fail to connect or close. Faint, smudged black pencil markings weave sporadically through the composition, acting as light guide-lines or stray marks. The composition is highly porous, with significant amounts of raw, empty paper visible everywhere—even cutting through the heart of the subject—making the drawing feel like an impulsive, incomplete, and skeletal thought.\n{$IFPAL\nThe fragmented lines shift in tone: some erratic strokes are rendered in $1, others trace patterns in $2, and the heaviest, most chaotic contours are accentuated with $3, all set against the pristine, empty paper. |\nThe chaotic, broken lines consist solely of fading blue ballpoint pen and smudged black pencil, ensuring the raw texture of the paper remains the dominant visual element.\n}\nYOUR SKETCH:\n{$@}\n\n>>> CUSTOM 7\n>## ballpoint sketch // Scientific Field Journal\nYOUR CONTEXT:\nYou are a naturalist documenting a specimen in the field. The style is clinical, precise, and objective, rendered on grid-paper or faint-lined notebook pages. The subject is drawn with a fine-tipped blue ballpoint pen, prioritizing anatomical accuracy and structural clarity over artistic flourish.\nThe lines are thin and deliberate, with frequent use of detached, floating callouts or small cross-sectional diagrams surrounding the main subject. Shading is achieved through a rigid, systematic method: clean, parallel stippling or scientific hatching that never overlaps messily. Significant portions of the paper remain crisp and white, allowing for handwritten annotations (faint, jittery blue script) that label the parts of the subject. The overall feeling is one of intellectual curiosity, calm observation, and ephemeral record-keeping.\n{$IFPAL\nDetailed markings are differentiated by color: $1 for primary anatomical structures, $2 for secondary textures or biological patterns, and $3 for the scientific annotations. |\nThe entire study is rendered in a disciplined, monochromatic blue ballpoint pen, utilizing precise hatching density to define scientific form against the clinical emptiness of the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 8\n>## ballpoint sketch // Street Art\nYOUR CONTEXT:\nYou are an urban artist sketching a concept on a rough, textured sketchbook page, channeling the kinetic energy of raw street style. The aesthetic is abrasive, unrefined, and stylized with a heavy \"marker-like\" influence, executed with an energetic, slightly worn-out ballpoint pen.\nThe lines are thick, jagged, and possess a \"flow\" typical of rapid tagging—sharp flicks, aggressive outlines, and stylistic exaggerations that ignore anatomical constraints in favor of graphic impact. The subject is defined by harsh, angular geometry and deliberate \"scratch-work\" where the pen is pressed hard against the paper, mimicking the erratic fading of a dry marker. The drawing is raw and unpolished; it focuses entirely on silhouette and visceral energy. The composition is surrounded by chaotic \"drip\" lines and scribbled cross-hatching that bleeds toward the margins, emphasizing a sense of urgency and improvisation.\n{$IFPAL\nVibrancy is injected through the street-style: $1 for bold, heavy outlines, $2 for tag-like secondary fills, and $3 for high-contrast \"pop\" marks that emphasize raw urban movement. |\nThe sketch uses the deep blue ballpoint pen to mimic the visual language of urban graffiti, relying on stroke speed, variable ink pressure, and messy, irregular hatching to create a visceral, graphic impact.\n}\nYOUR SKETCH:\n{$@}\n"
+              "value": ">>> Cute Ballpoint Sketch\nYOUR CONTEXT:\nYou are a young, imaginative child drawing with a ballpoint pen on a crumpled, cheap notebook page. The style is profoundly naive, innocent, and lacks any understanding of formal perspective or anatomy. \nThe subject is simplified into basic, blocky symbols—the head is a shaky circle, the limbs are simple lines with rounded ends. The ink work is unsteady and repetitive, with loops, scribbles that go outside the intended lines, and \"accidental\" pressure marks where the hand lingered too long on the paper. The composition is unbalanced, often floating in the center of the page with wide margins of raw, empty paper surrounding it. Use a \"broken\" line style where the pen occasionally skips, leaving small gaps, creating a sense of genuine, unrefined playfulness.\n{$IFPAL\nThe drawing is entirely monochromatic $3 and $4 lines, featuring wobbly, inconsistent lines and simple, childlike geometric reductions of the subject, leaving most of the paper starkly blank. |\nThe drawing is entirely monochromatic blue ballpoint pen, featuring wobbly, inconsistent lines and simple, childlike geometric reductions of the subject, leaving most of the paper starkly blank.\n}\n{$**@@ The sketch has a provocative and sensual tone. The female characters have voluptuous bodies and wear tight clothing. }\nYOUR SKETCH:\n<!--\n{$@}\n-->\n\n>>> Animation Sketch Concept\nYOUR CONTEXT:\nYou are an animation artist sketching a character's \"first pass\" on a clean, professional storyboard sheet. The style is quintessentially Disney-inspired: characterized by fluid, expressive, and exaggerated curvilinear forms, soft rounded anatomy, and dynamic, clean silhouettes.\nDespite the professional character design, the medium is strictly a standard blue ballpoint pen. The line work is bouncy and confident, featuring long, sweeping curves that define the form, with \"tapered\" ends where the pen lifts from the page. Use sparse, elegant cross-hatching only in small, strategic pockets to suggest volume. The majority of the paper remains empty, emphasizing the clean, iconic silhouette of the character. The aesthetic is charming, polished in intent but raw in execution, with occasional light pencil guidelines still visible underneath the ink.\n{$IFPAL\nThe ink strokes transition between $1 for soft shadows and $2 for clean contour lines, with $3 used only for the most expressive facial focal points. |\nThe drawing relies on varying line weight and clean, energetic curves, using a monochromatic blue ink to emphasize the expressive, \"bouncy\" animation style.\n}\n{$**@@ The sketch has a provocative and sensual tone. The female characters have voluptuous bodies and wear tight clothing. }\nYOUR SKETCH:\n<!--\n{$@}\n-->\n\n>>> Ballpoint // Macabre Etching\nYOUR CONTEXT:\nYou are an obsessed illustrator creating a dark, gothic piece on aged, slightly yellowed paper. The subject is distorted with a macabre and unsettling tone: elongated limbs, deep-set hollow eyes, and sharp, angular anatomy.\nThe rendering is stark and high-contrast, utilizing the \"stabbing\" technique of a ballpoint pen. Use clusters of short, neurotic, and jagged vertical lines to create a sense of decay and nervous tension. Shadows are not smooth; they are aggressive, deep, and claustrophobic, concentrated only in the recesses and corners of the anatomy. The negative space is critical here—large areas of the subject should be left completely untouched, making the ink-heavy areas feel like an encroaching, dark sickness spreading across the page. The overall feeling is one of Victorian-era dread, sharp, brittle, and morbid.\n{$IFPAL\nThe darkness is layered using $1 for deep, suffocating shadows and $2 for brittle, scratchy textures, while $3 highlights the most disturbing, grotesque details. |\nThe drawing is rendered in deep, dark blue ballpoint pen, focusing on the high contrast between dense, frantic clusters of ink and the vast, empty, haunting white space of the page.\n}\nYOUR SKETCH:\n{$@}\n\n\n\n>>> Ballpoint // ??\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is NOT a finished illustration, but a raw, unrefined draft. The image is dominated by erratic, shaky, and overlapping blue construction lines that ignore precision and embrace imperfection. \nThe style is primitive and impulsive, using heavy, wax-like crayon strokes and crude, scribbled hatchings. Colors are applied carelessly, often bleeding outside the lines, creating a naive and childlike aesthetic. There are visible mistakes, overlapping \"corrected\" lines, and smudges of graphite or wax that give the piece a visceral, tactile quality. Any sense of volume is accidental and minimal, rendered with rough, clumsy shading.\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 5\nYOUR CONTEXT:\nYou are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. \nYour work is an raw, unrefined draft where the subject is defined by bold, thick, and unforgiving blue ballpoint pen outlines that feel heavy and permanent. \nThere is no smooth shading; the entire composition—shadows, mid-tones, and volume—is rendered exclusively through an obsessive, dense application of frantic cross-hatching. These intersecting strokes vary in concentration: in deep shadow areas, the lines are layered and tightly packed into a dark, impenetrable mesh; in lighter areas, the cross-hatching is sparse and airy, allowing the texture of the paper to breathe through the negative space. \nThe aesthetic is tactile and aggressive, prioritizing the rhythm of these hand-drawn, overlapping strokes over anatomical or structural perfection. The drawing feels like a frantic, visceral calculation of form using nothing but layers of intersecting marks, giving the subject a vibrating, electrified, and hand-sketched quality.\n{$IFPAL\nThe cross-hatching is color-coded: deep, dense layers are rendered in $1, overlapping transitional areas are marked with $2, and the most aggressive, stark focal points are defined with $3, turning the cross-hatching into a vibrant, multi-layered weave. |\nThe entire structure is built from a monochromatic blue ballpoint pen, relying solely on the concentration and density of the overlapping cross-hatching to establish depth and form against the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> CUSTOM 6\nYOUR CONTEXT:\nYou are a creator producing a raw, desultory doodle composed strictly of line art; there is absolutely no coloring or shading fills. The subject is defined by sparse, erratic fragments of ink and graphite, leaving the majority of the textured paper surface completely exposed and blank throughout the entire drawing.\nThe line work is intentionally sloppy and unrefined: quick, scratchy blue ballpoint pen marks, unsteady hand-drawn outlines, and erratic, broken lines that fail to connect or close. Faint, smudged black pencil markings weave sporadically through the composition, acting as light guide-lines or stray marks. The composition is highly porous, with significant amounts of raw, empty paper visible everywhere—even cutting through the heart of the subject—making the drawing feel like an impulsive, incomplete, and skeletal thought.\n{$IFPAL\nThe fragmented lines shift in tone: some erratic strokes are rendered in $1, others trace patterns in $2, and the heaviest, most chaotic contours are accentuated with $3, all set against the pristine, empty paper. |\nThe chaotic, broken lines consist solely of fading blue ballpoint pen and smudged black pencil, ensuring the raw texture of the paper remains the dominant visual element.\n}\nYOUR SKETCH:\n{$@}\n\n>>> ballpoint sketch // Scientific Field Journal\nYOUR CONTEXT:\nYou are a naturalist documenting a specimen in the field. The style is clinical, precise, and objective, rendered on grid-paper or faint-lined notebook pages. The subject is drawn with a fine-tipped blue ballpoint pen, prioritizing anatomical accuracy and structural clarity over artistic flourish.\nThe lines are thin and deliberate, with frequent use of detached, floating callouts or small cross-sectional diagrams surrounding the main subject. Shading is achieved through a rigid, systematic method: clean, parallel stippling or scientific hatching that never overlaps messily. Significant portions of the paper remain crisp and white, allowing for handwritten annotations (faint, jittery blue script) that label the parts of the subject. The overall feeling is one of intellectual curiosity, calm observation, and ephemeral record-keeping.\n{$IFPAL\nDetailed markings are differentiated by color: $1 for primary anatomical structures, $2 for secondary textures or biological patterns, and $3 for the scientific annotations. |\nThe entire study is rendered in a disciplined, monochromatic blue ballpoint pen, utilizing precise hatching density to define scientific form against the clinical emptiness of the paper.\n}\nYOUR SKETCH:\n{$@}\n\n\n>>> ballpoint sketch // Street Art\nYOUR CONTEXT:\nYou are an urban artist sketching a concept on a rough, textured sketchbook page, channeling the kinetic energy of raw street style. The aesthetic is abrasive, unrefined, and stylized with a heavy \"marker-like\" influence, executed with an energetic, slightly worn-out ballpoint pen.\nThe lines are thick, jagged, and possess a \"flow\" typical of rapid tagging—sharp flicks, aggressive outlines, and stylistic exaggerations that ignore anatomical constraints in favor of graphic impact. The subject is defined by harsh, angular geometry and deliberate \"scratch-work\" where the pen is pressed hard against the paper, mimicking the erratic fading of a dry marker. The drawing is raw and unpolished; it focuses entirely on silhouette and visceral energy. The composition is surrounded by chaotic \"drip\" lines and scribbled cross-hatching that bleeds toward the margins, emphasizing a sense of urgency and improvisation.\n{$IFPAL\nVibrancy is injected through the street-style: $1 for bold, heavy outlines, $2 for tag-like secondary fills, and $3 for high-contrast \"pop\" marks that emphasize raw urban movement. |\nThe sketch uses the deep blue ballpoint pen to mimic the visual language of urban graffiti, relying on stroke speed, variable ink pressure, and messy, irregular hatching to create a visceral, graphic impact.\n}\nYOUR SKETCH:\n{$@}\n"
+            }
+          },
+          {
+            "id": 67,
+            "type": "Reroute",
+            "pos": [
+              165.91918149076383,
+              467.88921788251764
+            ],
+            "size": [
+              75,
+              26
+            ],
+            "flags": {},
+            "order": 1,
+            "mode": 0,
+            "inputs": [
+              {
+                "name": "",
+                "type": "*",
+                "widget": {
+                  "name": "value"
+                },
+                "link": 128
+              }
+            ],
+            "outputs": [
+              {
+                "name": "",
+                "type": "*",
+                "links": [
+                  127
+                ]
+              }
+            ],
+            "properties": {
+              "showOutputText": false,
+              "horizontal": false
             }
           }
         ],
@@ -1568,7 +1676,7 @@
             "origin_id": -10,
             "origin_slot": 3,
             "target_id": 54,
-            "target_slot": 4,
+            "target_slot": 5,
             "type": "STRING"
           },
           {
@@ -1610,6 +1718,22 @@
             "target_id": 54,
             "target_slot": 1,
             "type": "STRING"
+          },
+          {
+            "id": 127,
+            "origin_id": 67,
+            "origin_slot": 0,
+            "target_id": 54,
+            "target_slot": 4,
+            "type": "ZIPN_PALETTE"
+          },
+          {
+            "id": 128,
+            "origin_id": -10,
+            "origin_slot": 17,
+            "target_id": 67,
+            "target_slot": 0,
+            "type": "*"
           }
         ],
         "extra": {}
@@ -1623,10 +1747,10 @@
       "favorites": []
     },
     "ds": {
-      "scale": 0.8507368089687576,
+      "scale": 0.6391711562500056,
       "offset": [
-        -764.9707291961025,
-        -329.8959800391659
+        -472.3866488425966,
+        66.87233031426076
       ]
     }
   },
