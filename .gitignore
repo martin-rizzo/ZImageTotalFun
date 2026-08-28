@@ -1,0 +1,37 @@
+
+#
+# OS SYSTEM FILES
+#
+.DS_Store
+.profile
+Thumbs.db
+
+#
+# EDITORS BACKUP AND TEMPORARY FILES
+#
+*.bak
+*.tmp
+*.kate-swp
+
+#
+# IDES AND EDITORS
+#
+Xcodeproj/
+.xcuserdata/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+#
+# PYTHON
+#
+__pycache__/
+venv/
+venv-*/
+
+#
+# User-specific files and folders
+#
+*~.*
+*~/
+
