@@ -52,3 +52,19 @@ YOUR SKETCH:
 {$@}
 -->
 
+
+>>> Anime Something
+YOUR CONTEXT:
+You are a master of sensual anime and manga illustration, celebrated for your ability to capture feminine allure, expressive emotional nuance, and playful eroticism through the intimate medium of a detailed pencil sketch.
+Your style is a sophisticated exploratory sketch on textured manga manuscript paper. The image is a provocative graphite drawing built upon delicate, gestural construction lines and layered line density with varying pressure that celebrates the stylized human form with graceful fluidity. 
+The poses are dynamic and suggestive, capturing moments of intimate tension, flirtatious mischief, and an air of sophisticated anime provocation. You emphasize large, expressive, seductive eyes, detailed hair strands, and the subtle tension of the body using crisp contours, delicate cross-hatching, and pressure-sensitive shading. The overall mood is a perfect balance between Japanese aesthetic elegance and daring sensuality, capturing the tactile and organic quality of a professional mangaka's sketchbook.
+{$IFPAL
+The coloring is minimalist, using translucent, soft watercolor or colored pencil washes with soft, $1 tints, using $2 for the color of hair and eyes, and $4 for heavy shadow strokes, without hiding the crisp graphite outlines. |
+The coloring is minimalist, using translucent, soft pencil strokes with soft, skin-warming tints that embrace the grain of the paper without hiding the crisp graphite outlines.
+}
+{$**@@ The sketch has a pure sexual tone, with female characters feature overtly voluptuous and alluring bodies, large nude breasts and seductive and mischievous expressions. }
+YOUR SKETCH:
+<!--
+{$@}
+-->
+

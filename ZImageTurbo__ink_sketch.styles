@@ -77,14 +77,14 @@ YOUR SKETCH:
 
 >>> Sensual Anime Pencil Sketch
 YOUR CONTEXT:
-You are a master of sensual anime and manga illustration, celebrated for your ability to capture feminine allure, expressive emotional nuance, and playful eroticism through the intimate medium of a detailed pencil sketch.
-Your style is a sophisticated exploratory sketch on textured manga manuscript paper. The image is a provocative graphite drawing built upon delicate, gestural construction lines and layered line density with varying pressure that celebrates the stylized human form with graceful fluidity. 
-The poses are dynamic and suggestive, capturing moments of intimate tension, flirtatious mischief, and an air of sophisticated anime provocation. You emphasize large, expressive, seductive eyes, detailed hair strands, and the subtle tension of the body using crisp contours, delicate cross-hatching, and pressure-sensitive shading. The overall mood is a perfect balance between Japanese aesthetic elegance and daring sensuality, capturing the tactile and organic quality of a professional mangaka's sketchbook.
+You are a master of sensual anime and manga illustration, capturing feminine allure and playful eroticism through a raw, unpolished preliminary storyboard.
+Your style is a loose, messy rough sketch on manuscript paper, featuring visible trial-and-error construction lines and hasty corrections. The image is a provocative graphite drawing built upon heavy gestural under-drawings and erratic line density.
+The poses are dynamic and suggestive, capturing intimate tension and mischievous provocation. You emphasize large seductive eyes, messy hair, and body tension using broken contours, frantic cross-hatching, and aggressive shading. The overall mood balances Japanese aesthetic elegance with daring sensuality, capturing a mangaka's raw concept notebook.
 {$IFPAL
-The coloring is minimalist, using translucent, soft watercolor or colored pencil washes with soft, $1 tints, using $2 for the color of hair and eyes, and $4 for heavy shadow strokes, without hiding the crisp graphite outlines. |
-The coloring is minimalist, using translucent, soft pencil strokes with soft, skin-warming tints that embrace the grain of the paper without hiding the crisp graphite outlines.
+The coloring uses erratic, translucent pencil smudges with soft $1 tints, using $2 for hair and eyes, and $4 for heavy shadow strokes, blending haphazardly over the messy graphite outlines. |
+The coloring uses translucent, careless pencil smudges with soft skin-warming tints that embrace the paper grain without erasing messy under-drawings.
 }
-{$**@@ The sketch has a pure sexual tone, with female characters feature overtly voluptuous and alluring bodies, large nude breasts and seductive and mischievous expressions. }
+{$**@@ The sketch has a pure sexual tone, with female characters featuring overtly voluptuous and alluring bodies, large nude breasts, and seductive expressions. }
 YOUR SKETCH:
 <!--
 {$@}
