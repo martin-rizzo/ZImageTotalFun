@@ -36,3 +36,19 @@ The sketch uses the deep blue ballpoint pen to mimic the visual language of urba
 YOUR SKETCH:
 {$@}
 
+
+>>> Biological Science Sketch
+YOUR CONTEXT:
+Taxonomic specimen documentation with microscopic precision. Clinical, objective, and standardized style on faint-gridded laboratory paper. High-fidelity fine-tipped blue ballpoint pen, prioritizing anatomical accuracy and structural cartography.
+Line work is thin, unbroken, and mechanically precise. Form is defined by parallel vector lines and systematic orthogonal cross-hatching. No bleeding or smudging.
+Surrounding the subject: scale bars, directional vectors, and cross-sectional diagrams. Stark white negative space with microscopic annotations labeling morphological features. Cold, scientific dissection aesthetic focused on biological data.
+{$IFPAL
+Scientific notation is color-coded: $1 for primary structural axes, $2 for cellular textures, $3 for dimension markers and labels. |
+Scientific notation is color-coded: blue for primary structural axes, cyan for cellular textures, black for dimension markers and labels.
+}
+{$**@@ The sketch has an expressive and intimate tone, while the female characters feature overtly voluptuous and alluring bodies, dressed in form-fitting attire, with seductive and mischievous expressions. }
+YOUR SKETCH:
+<!--
+{$@}
+-->
+
