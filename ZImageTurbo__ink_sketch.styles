@@ -75,6 +75,22 @@ YOUR SKETCH:
 -->
 
 
+>>> Sensual Anime Pencil Sketch
+YOUR CONTEXT:
+You are a master of sensual anime and manga illustration, celebrated for your ability to capture feminine allure, expressive emotional nuance, and playful eroticism through the intimate medium of a detailed pencil sketch.
+Your style is a sophisticated exploratory sketch on textured manga manuscript paper. The image is a provocative graphite drawing built upon delicate, gestural construction lines and layered line density with varying pressure that celebrates the stylized human form with graceful fluidity. 
+The poses are dynamic and suggestive, capturing moments of intimate tension, flirtatious mischief, and an air of sophisticated anime provocation. You emphasize large, expressive, seductive eyes, detailed hair strands, and the subtle tension of the body using crisp contours, delicate cross-hatching, and pressure-sensitive shading. The overall mood is a perfect balance between Japanese aesthetic elegance and daring sensuality, capturing the tactile and organic quality of a professional mangaka's sketchbook.
+{$IFPAL
+The coloring is minimalist, using translucent, soft watercolor or colored pencil washes with soft, $1 tints, using $2 for the color of hair and eyes, and $4 for heavy shadow strokes, without hiding the crisp graphite outlines. |
+The coloring is minimalist, using translucent, soft pencil strokes with soft, skin-warming tints that embrace the grain of the paper without hiding the crisp graphite outlines.
+}
+{$**@@ The sketch has a pure sexual tone, with female characters feature overtly voluptuous and alluring bodies, large nude breasts and seductive and mischievous expressions. }
+YOUR SKETCH:
+<!--
+{$@}
+-->
+
+
 >>> Cute Ballpoint Sketch
 YOUR CONTEXT:
 You are a young, imaginative child drawing with a ballpoint pen on a crumpled, cheap notebook page. The style is profoundly naive, innocent, and lacks any understanding of formal perspective or anatomy. 
@@ -100,6 +116,22 @@ YOUR SKETCH:
 -->
 
 
+>>> Technical Schematic Draft
+YOUR CONTEXT:
+You are an engineer documenting a design concept. The style is strictly clinical, architectural, and highly objective, rendered on crisp, light-gridded drafting paper. The subject is drawn with a fine-tipped blue ballpoint pen, prioritizing structural geometry, orthogonal projection, and extreme minimalism over artistic flourish.
+The lines are thin, sharp, and deliberate, utilizing rigid straight-edge precision. The subject is presented through a combination of multiple views: primary orthographic projections, detailed cross-sectional slices, and exploded-view segments. Form is defined by precise, varied line weights: heavy outlines for the silhouette, medium for internal structural members, and ultra-fine, dashed lines for hidden geometries and center-lines.
+Instead of shading, the form is revealed through mathematical callouts, extension lines, dimension markers, and occasional alphanumeric technical annotations. There is an absence of erratic marks; the white space is treated as a critical layout element, occupied by clean, sans-serif, capitalized labels and geometric tolerance notes that maintain a layout of total control and intellectual efficiency.
+{$IFPAL
+The entire study is rendered in ballpoint pen, utilizing 3 different colors: $1 for primary structural framework, $2 for secondary mechanical nodes, and $3 for technical annotations and dimension lines. The sketch uses parallel hatching, and geometric precision to define the form against the empty, gridded background of the sheet. |
+The entire study is rendered in a monochromatic blue ballpoint pen, utilizing standardized drafting conventions, parallel hatching, and geometric precision to define the form against the empty, gridded background of the sheet.
+}
+{$**@@ The sketch has an expressive and intimate tone, while the female characters feature overtly voluptuous and alluring bodies, dressed in form-fitting attire, with seductive and mischievous expressions. }
+YOUR SKETCH:
+<!--
+{$@}
+-->
+
+
 >>> Scientific Field Sketch
 YOUR CONTEXT:
 You are a technical researcher documenting a complex prototype in the field. The style is clinical, precise, and objective, rendered on grid-paper or faint-lined notebook pages. The subject is drawn with a fine-tipped blue ballpoint pen, structured explicitly as an explanatory engineering diagram that prioritizes mechanics and dimensional clarity over artistic flourish.
@@ -113,6 +145,5 @@ YOUR SKETCH:
 <!--
 {$@}
 -->
-
 
 
