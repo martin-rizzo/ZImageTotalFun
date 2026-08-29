@@ -1,0 +1,38 @@
+
+>>> CUSTOM 6
+YOUR CONTEXT:
+You are a creator producing a raw, desultory doodle composed strictly of line art; there is absolutely no coloring or shading fills. The subject is defined by sparse, erratic fragments of ink and graphite, leaving the majority of the textured paper surface completely exposed and blank throughout the entire drawing.
+The line work is intentionally sloppy and unrefined: quick, scratchy blue ballpoint pen marks, unsteady hand-drawn outlines, and erratic, broken lines that fail to connect or close. Faint, smudged black pencil markings weave sporadically through the composition, acting as light guide-lines or stray marks. The composition is highly porous, with significant amounts of raw, empty paper visible everywhere—even cutting through the heart of the subject—making the drawing feel like an impulsive, incomplete, and skeletal thought.
+{$IFPAL
+The fragmented lines shift in tone: some erratic strokes are rendered in $1, others trace patterns in $2, and the heaviest, most chaotic contours are accentuated with $3, all set against the pristine, empty paper. |
+The chaotic, broken lines consist solely of fading blue ballpoint pen and smudged black pencil, ensuring the raw texture of the paper remains the dominant visual element.
+}
+YOUR SKETCH:
+{$@}
+
+
+>>> CUSTOM 5
+YOUR CONTEXT:
+You are a manic concept artist capturing a fleeting, urgent spark of inspiration on a scrap of textured paper. 
+Your work is an raw, unrefined draft where the subject is defined by bold, thick, and unforgiving blue ballpoint pen outlines that feel heavy and permanent. 
+There is no smooth shading; the entire composition—shadows, mid-tones, and volume—is rendered exclusively through an obsessive, dense application of frantic cross-hatching. These intersecting strokes vary in concentration: in deep shadow areas, the lines are layered and tightly packed into a dark, impenetrable mesh; in lighter areas, the cross-hatching is sparse and airy, allowing the texture of the paper to breathe through the negative space. 
+The aesthetic is tactile and aggressive, prioritizing the rhythm of these hand-drawn, overlapping strokes over anatomical or structural perfection. The drawing feels like a frantic, visceral calculation of form using nothing but layers of intersecting marks, giving the subject a vibrating, electrified, and hand-sketched quality.
+{$IFPAL
+The cross-hatching is color-coded: deep, dense layers are rendered in $1, overlapping transitional areas are marked with $2, and the most aggressive, stark focal points are defined with $3, turning the cross-hatching into a vibrant, multi-layered weave. |
+The entire structure is built from a monochromatic blue ballpoint pen, relying solely on the concentration and density of the overlapping cross-hatching to establish depth and form against the paper.
+}
+YOUR SKETCH:
+{$@}
+
+
+>>> ballpoint sketch // Street Art
+YOUR CONTEXT:
+You are an urban artist sketching a concept on a rough, textured sketchbook page, channeling the kinetic energy of raw street style. The aesthetic is abrasive, unrefined, and stylized with a heavy "marker-like" influence, executed with an energetic, slightly worn-out ballpoint pen.
+The lines are thick, jagged, and possess a "flow" typical of rapid tagging—sharp flicks, aggressive outlines, and stylistic exaggerations that ignore anatomical constraints in favor of graphic impact. The subject is defined by harsh, angular geometry and deliberate "scratch-work" where the pen is pressed hard against the paper, mimicking the erratic fading of a dry marker. The drawing is raw and unpolished; it focuses entirely on silhouette and visceral energy. The composition is surrounded by chaotic "drip" lines and scribbled cross-hatching that bleeds toward the margins, emphasizing a sense of urgency and improvisation.
+{$IFPAL
+Vibrancy is injected through the street-style: $1 for bold, heavy outlines, $2 for tag-like secondary fills, and $3 for high-contrast "pop" marks that emphasize raw urban movement. |
+The sketch uses the deep blue ballpoint pen to mimic the visual language of urban graffiti, relying on stroke speed, variable ink pressure, and messy, irregular hatching to create a visceral, graphic impact.
+}
+YOUR SKETCH:
+{$@}
+
