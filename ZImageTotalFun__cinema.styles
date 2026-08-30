@@ -77,3 +77,64 @@ YOUR SCENE:
 {$@}
 -->
 
+
+>>> 80s Dark Fantasy Film
+YOUR CONTEXT
+You are the art director and cinematographer of a mid-1980s practical effects dark fantasy film. The aesthetic honors the tactile reality of physical production: tangible puppetery, hand-painted matte backdrops, and atmospheric stage fog. The lighting is theatrical and high-contrast, utilizing hard sources to highlight the texture of non-reflective materials like felt, painted plaster, and organic fabric.
+The image possesses a distinct "handcrafted" authenticity; edges are slightly imperfect, and shadows are heavy and defined. The color palette is deep and saturated but grounded in a magical, otherworldly spectrum—think deep indigos, blood reds, and mystical greens. There is a sense of ancient, tangible folklore, where magic looks like physical phenomena (glowing dust, rising smoke) rather than digital effects. The depth of field is medium, keeping the practical set pieces crisp while blurring the dense, fog-filled background.
+{$IFPAL
+The scene is bathed in mystical 80s lighting with heavy atmospheric haze. The palette features deep $2 and $3 tones for the environment, with strong, localized $1 highlights hitting the foreground textures, creating a stark, dramatic contrast against the void-like $4 shadows. |
+The scene is bathed in mystical 80s lighting with heavy atmospheric haze. The palette features deep indigos and blood reds, with strong, localized highlights hitting the foreground textures, creating a stark, dramatic contrast against the void-like dark shadows.
+}
+YOUR PRACTICAL SET:
+<!--
+{$@}
+-->
+
+
+>>> 80s Dark Fantasy Shallow Focus
+YOUR CONTEXT
+You are the cinematographer of a mid-1980s practical effects dark fantasy film. The aesthetic is tactile and handcrafted, defined by tangible materials: felt, painted plaster, and organic fabric. Lighting is theatrical and high-contrast, using hard sources to carve out the texture of non-reflective surfaces.
+CRITICAL LENS SPECIFICATION: Extreme shallow depth of field. ONLY the primary subject in the immediate foreground is in sharp focus, revealing micro-details of practical materials (thread, dust, paint imperfections). Everything behind the subject is dissolved into a thick, creamy blur of atmospheric stage fog. The background is not a setting but a wash of abstract, mystical light shapes, completely non-narrative.
+{$IFPAL
+The focal subject is rendered in rich, saturated midtones of $2, standing out sharply against a background bokeh churned with deep $3 tones and void-like $4 shadows. Strong, localized $1 highlights carve out the foreground texture. |
+The focal subject is sharp, highlighting tangible 80s practical effect textures (felt, plastic, paint). The background is a dreamlike, indistinct wash of deep indigos and blood reds, completely blurred by heavy atmospheric stage fog.
+}
+YOUR CINEMATIC FRAME:
+<!--
+{$@}
+-->
+
+
+>>> 80s Dark Fantasy Split Frame
+YOUR CONTEXT
+You are the art director of a mid-1980s practical effects dark fantasy film. The aesthetic honors physical production: tangible puppetery, hand-painted backdrops, and thick stage fog. Lighting is theatrical and high-contrast, highlighting the texture of non-reflective materials. The scene possesses "handcrafted" authenticity with deep, saturated colors: deep indigos, blood reds, and mystical greens. Magic appears as physical phenomena like glowing dust or rising smoke.
+{$IFPAL
+The scene is bathed in mystical lighting with heavy haze. Deep $2 and $3 tones define the environment, with strong localized $1 highlights hitting foreground textures, contrasting against void-like $4 shadows. |
+The scene is bathed in mystical lighting with heavy haze. Deep indigos and blood reds define the environment, with strong localized highlights hitting foreground textures, contrasting against void-like dark shadows.
+}
+COMPOSITION AND LAYOUT:
+Horizontally divided into two equal panels separated by a thin white line. Both panels show the exact same moment, location, and lighting.
+- Top Panel: Wide establishing shot. Distant perspective, emphasizing the physical scale of the set, the height of the hand-painted backdrops, and the density of the stage fog.
+- Bottom Panel: Extreme close-up (ECU). Tight focus on the primary subject, revealing the tangible details of practical effects (fabric weave, mechanical joints, paint texture) in high detail against a blurred, foggy background.
+YOUR SCENE:
+<!--
+{$@}
+-->
+
+
+>>> 80s Gothic Horror Fantasy Noir
+YOUR CONTEXT
+You are a cinematographer blending 1980s Gothic Horror with Dark Fantasy elements. The aesthetic is somber, oppressive, and moody, evoking the feeling of candlelit crypts and abandoned castles. The lighting is low-key and chiaroscuro, relying on single, hard light sources (like moonlight or magical glows) to carve out silhouettes against deep, crushing blacks.
+The visual texture includes a subtle film grain typical of anamorphic lenses of the era, enhancing the grainy quality of shadows. The atmosphere is thick with mist, rain, or supernatural fog. Colors are desaturated in the midtones but retain specific, piercing hues for magical or sinister elements. The composition is often symmetrical or confined, trapping the subject in the architecture or environment, emphasizing isolation and dread. This is not clean digital dark; it is textured, organic, and deeply atmospheric.
+{$IFPAL
+Low-key gothic lighting dominates the frame. The environment is a wash of murky $3 and $4 tones, suggesting decay and mist. The subject is illuminated by a harsh, cold $1 light, creating sharp, bone-like shadows, while $2 saturates any magical or active elements with an eerie, unsettling glow. |
+Low-key gothic lighting dominates the frame. The environment is a wash of murky greys and blacks, suggesting decay and mist. The subject is illuminated by a harsh, cold moonlight, creating sharp, bone-like shadows, while violet or green hues saturate any magical elements with an eerie, unsettling glow.
+}
+YOUR GOTHIC SCENE:
+<!--
+{$@}
+-->
+
+
+
