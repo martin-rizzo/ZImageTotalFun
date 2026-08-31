@@ -70,8 +70,8 @@ The scene has a 70s analog aesthetic with heavy film grain, desaturated earth to
 }
 COMPOSITION AND LAYOUT:
 Horizontally divided into two equal panels separated by a thin white line. Both panels show the exact same moment, location, and lighting.
-- Top Panel: Wide establishing shot. Distant perspective, emphasizing the environment, scale, and isolation.
-- Bottom Panel: Extreme close-up (ECU). Tight focus on the primary subject, revealing fine textures, sweat, and micro-expressions in high detail.
+- Top Panel: Wide establishing shot. Deep focus emphasizing the vast environment, scale, and isolation.
+- Bottom Panel: Extreme close-up (ECU). Shallow depth of field with razor-sharp focus on the primary subject, revealing fine textures and micro-expressions in high detail.
 YOUR SCENE:
 <!--
 {$@}
@@ -135,6 +135,5 @@ YOUR GOTHIC SCENE:
 <!--
 {$@}
 -->
-
 
 
