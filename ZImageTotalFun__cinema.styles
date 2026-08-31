@@ -34,7 +34,7 @@
 >>> 70s New Hollywood Film
 YOUR CONTEXT
 You are a cinematographer of the 1970s "New Hollywood" movement, capturing the raw, unvarnished pulse of urban reality. The aesthetic is grounded in the tactile, heavy grain of pushed 35mm film, emphasizing a sense of gritty authenticity over cinematic polish.
-The lighting is dictated by the environment: harsh, flickering fluorescent tubes, cold ambient street light, and muddy, low-key interiors. The color science is defined by a chemical, muted palette—heavy on ochres, tobacco-browns, and sickly greens. The image possesses a slight "softness" caused by chemical processing, with deep blacks that contain a murky, dense texture rather than clean digital void. The framing is observational, feeling like a candid capture of a lived-in, decaying world, where the atmosphere is thick with a sense of quiet, desperate tension.
+The lighting is dictated by the environment: harsh, overhead artificial light, cold ambient street light, and muddy, low-key interiors. The color science is defined by a chemical, muted palette—heavy on ochres, tobacco-browns, and sickly greens. The image possesses a slight "softness" caused by chemical processing, with deep blacks that contain a murky, dense texture rather than clean digital void. The framing is observational, feeling like a candid capture of a lived-in, decaying world, where the atmosphere is thick with a sense of quiet, desperate tension.
 {$IFPAL
 The scene has a 70s analog aesthetic with heavy film grain, desaturated $2 and $3 tones with $4 muddy shadows, and $1 for flat, industrial highlights, creating a gritty, authentic atmosphere. |
 The scene has a 70s analog aesthetic with heavy film grain, desaturated earth tones, and a gritty, authentic atmosphere.
