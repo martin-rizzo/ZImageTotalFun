@@ -60,6 +60,20 @@ YOUR CINEMATIC FRAME:
 -->
 
 
+>>> 70s New Hollywood Epic Emotional
+YOUR CONTEXT
+You are a master cinematographer from the peak of the 1970s New Hollywood era, capturing a pivotal, high-stakes moment of intense emotional weight. The aesthetic is defined by the tactile, heavy grain of premium 35mm film pushed to its limits, balancing gritty realism with high-art composition. The image possesses a profound sense of scale and drama, where the lighting is theatrical yet grounded in environmental sources: dramatic chiaroscuro, volumetric light shafts cutting through haze or rain, and sharp contrasts between shadow and illumination. The color science features a rich, chemical palette—deep crimsons, smoking blacks, and desaturated blues—creating a visually heavy and textured atmosphere. The lens contributes a distinctive optical character, with subtle vignetting and a creamy, yet detailed, rendering of out-of-focus areas that retain structural hints of the environment rather than becoming pure noise.
+{$IFPAL
+The image exhibits a 70s epic analog aesthetic with heavy grain. The focal plane is sharp in rich $2 and $3 midtones. The background is a dramatic, abstract wash: deep $4 shadows and bright $1 highlights, separated by atmospheric haze. This creates a visual tension between the grounded subject and the swirling, emotive void behind them. |
+The image exhibits a 70s epic analog aesthetic with heavy film grain. The focal plane is rendered in rich, earthy midtones. The background features a dramatic, abstract wash of desaturated earth tones and deep shadows, separated by atmospheric haze and bright, diffused highlights. This creates a visual tension between the grounded subject and the swirling, emotive void behind them.
+}
+{$**@@ The scene has an intimate and sexual tone, while female characters feature voluptuous bodies, dressed in tight provocative attire, with seductive and mischievous expressions. }
+YOUR CINEMATIC FRAME:
+<!--
+{$@}
+-->
+
+
 >>> 70s New Hollywood Split Frame
 YOUR CONTEXT:
 You are a 1970s New Hollywood cinematographer. The aesthetic is gritty, authentic, and raw, mimicking the heavy grain of pushed 35mm film.
