@@ -1,0 +1,108 @@
+>## HOW TO WRITE A STYLE TEMPLATE
+>##    Focus exclusively on visual aesthetic, atmospheric mood, and technical
+>##    characteristics (e.g., lighting, texture, lens, weather, sensations,..).
+>##    Avoid mentioning specific subjects, objects, or characters, as these are
+>##    provided by the user via the {$@} placeholder. Think of the template as a
+>##    "lens" or "filter": it defines how the scene feels and looks, not what
+>##    is happening in it.
+>##
+>## TEMPLATE DEFINITION
+>##    Each new visual style must begin with a line prefixed with ">>>"
+>##    followed by the style name(*). Example: ">>> Landscape Photo"
+>##
+>## TEMPLATE FORMAT
+>##    Every line following the style name represents the prompt used
+>##    when that style is selected. The following variables are processed:
+>##
+>##    {$@} : Replaced by the user's input prompt.
+>##
+>##    {$IFPAL X | Y} :
+>##         Conditional logic for color palettes.
+>##         - If a color palette is selected, the text 'X' is used.
+>##         - If no palette is selected, the text 'Y' is used.
+>##         - Within 'X', use $1, $2, $3, and $4 to reference specific
+>##           colors from the palette.
+>##         - $5 is an optional highlight color (not available in all palettes).
+>##
+>##    {$**<cheat-code> X | Y} :
+>##         Quick Modifier
+>##         - <cheat-code> must consist of one or more of the following
+>##           characters: @, *, #, +, -
+>##         - If the user's prompt is prefixed with a double asterisk "**"
+>##           followed by the corresponding cheat code, the text 'X' is used.
+>##         - If no cheat code prefix is detected, the text 'Y' is used.
+>##
+
+
+>>> Puppet Show
+YOUR CONTEXT
+You are a specialized cinematographer recreating the Gerry Anderson "Supermarionation" puppet style, inspired by Thunderbirds and Captain Scarlet.
+Your puppet photographs capture the tangible charm of large marionettes and handcrafted studio mock-ups. The scene includes visible signs of hand-construction: molded resin, painted vinyl, and matte-finished plastics. All elements appear slightly oversized and tactile; the puppets feature simplified facial geometry, painted textures, glossy eyes, and the distinctively stiff, neutral expressions of classic marionettes.
+The depth of field is deep, ensuring that both the puppet and the intricate details of the miniature set remain in sharp, high-definition focus.
+{$IFPAL 
+The color palette follows a bold, primary-driven retro-futuristic scheme: shadows are rendered in grounded $3, midtones in punchy $2, and highlights in crisp, clean $1, with $5 serving as the accent for tactile hardware details. | 
+The scene is defined by a clean, saturated retro sci-fi aesthetic, characterized by controlled color harmony, matte surface finishes, and the earnest, nostalgic glow of mid-century practical effects.
+}
+YOUR THUNDERBIRDS TV SHOW:
+<!--
+{$@}
+-->
+
+
+>>> 70s Children’s TV
+YOUR CONTEXT
+You are a cinematographer working in the vibrant, cozy world of 1970s variety show puppet theater. Your aesthetic is defined by warmth, tactile softness, and an inviting, non-threatening atmosphere.
+The puppets are constructed from plush felt, faux fur, and soft foam, exhibiting visible hand-stitched seams and natural fiber textures. Lighting is soft, diffuse, and front-facing, minimizing harsh shadows to create an upbeat, cheerful environment. The set utilizes brightly painted cardboard and heavy fabric drapes, reminiscent of high-quality early color television broadcasts. The overall image has a slight, pleasing chromatic softness inherent to 2-inch quadruplex videotape.
+{$IFPAL
+The color palette is nostalgic and warm: shadows are rendered in soft $3, midtones in vibrant $2, and highlights in creamy, gentle $1, with $5 accentuating the cozy textures of the costumes. |
+The scene is defined by a comfortable, hand-crafted aesthetic characterized by soft focus, rich textile materials, and the joyful, radiant simplicity of classic television production.
+}
+YOUR PUPPET STYLE PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Miniature Macro
+YOUR CONTEXT
+You are a macro-cinematographer specializing in extreme close-up puppet photography. Your aesthetic captures the hyper-detailed reality of miniature dioramas.
+The composition utilizes a razor-thin depth of field, rendering the edges of the frame in a silky, dreamlike blur while keeping the puppet's intricate facial details, dust motes, and material fibers in sharp, crystalline focus. The lighting mimics natural sunlight hitting a tiny set, creating high-contrast specular highlights on painted surfaces. Every detail, from the brushstrokes on the scenery to the grain of the model materials, is emphasized to create a sense of tangible, physical presence.
+{$IFPAL
+The color palette is bright and punchy: shadows are rendered in cool $3, midtones in saturated $2, and highlights in sharp, white-balanced $1, with $5 adding a pop of intensity to the macro details. |
+The scene is defined by an exquisite, high-detail macro aesthetic, where every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making.
+}
+YOUR PUPPET STYLE PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Dark Gothic
+YOUR CONTEXT
+You are a master cinematographer specializing in stop-motion gothic fantasy. Your aesthetic emphasizes the eerie, tactile beauty of hand-sculpted clay, foam latex, and rusted metal armatures.
+The scene is defined by low-key, chiaroscuro lighting that casts deep, long shadows, highlighting the intricate surface imperfections of the puppets. The atmosphere is melancholic and surreal, with exaggerated, spindly proportions and asymmetrical features. The finish is matte and porous, avoiding any modern plastic sheen, favoring instead a weathered, organic look of materials that have aged in a dark, imaginative realm.
+{$IFPAL
+The color palette is moody and desaturated: shadows are rendered in deep, atmospheric $3, midtones in muted, earthy $2, and highlights in ghostly, pale $1, with $5 used to pull focus to fine textural stitches or cold, metallic details. |
+The scene is defined by a haunting, artisanal gothic aesthetic, characterized by rich tonal depth, palpable surface textures, and the uncanny, weightless presence of high-end stop-motion artistry.
+}
+YOUR PUPPET STYLE PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Creepy Horror
+YOUR CONTEXT
+You are a master cinematographer specializing in the unsettling world of macabre puppet horror. Your aesthetic is defined by the "Uncanny Valley" effect, where the puppets appear hyper-realistic yet profoundly wrong.
+The scene features elongated, slender, and distorted puppet proportions with impossibly thin, spindly limbs, visible ball-and-socket joints, and peeling, cracked porcelain skin. The expressions are frozen in unnatural, grimacing, or vacant stares. All elements appear slightly oversized and tactile; the puppets feature simplified facial geometry, painted textures, glossy eyes, and the distinctively stiff, neutral expressions of classic marionettes. Lighting is harsh, clinical, or flickering, creating deep, jarring hollows in the eyes and unnatural shadows that stretch across the environment.
+The set design is dilapidated and claustrophobic, featuring frayed fabrics, rusted wires, and decaying wooden structures. The atmosphere is one of profound dread, utilizing intense depth-of-field variations to isolate the unsettling features of the puppets against a dark, encroaching, and blurred background.
+{$IFPAL
+The color palette is decaying and sickly: shadows are rendered in deep, necrotic $3, midtones in jaundiced or bruised $2, and highlights in cold, cadaverous $1, with $5 used to emphasize disturbing details like synthetic veins or cracked texture lines. |
+The scene is defined by a visceral, bone-chilling aesthetic, characterized by sickly desaturated tones, stark high-contrast lighting, and the claustrophobic presence of decaying physical materials, evoking a sense of trapped, silent horror.
+}
+YOUR PUPPET STYLE PHOTO:
+<!--
+{$@}
+-->
+
+
