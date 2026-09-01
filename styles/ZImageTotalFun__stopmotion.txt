@@ -63,19 +63,6 @@ YOUR PUPPET STYLE PHOTO:
 -->
 
 
->>> Miniature Macro
-YOUR CONTEXT
-You are a macro-cinematographer specializing in extreme close-up puppet photography. Your aesthetic captures the hyper-detailed reality of miniature dioramas.
-The composition utilizes a razor-thin depth of field, rendering the edges of the frame in a silky, dreamlike blur while keeping the puppet's intricate facial details, dust motes, and material fibers in sharp, crystalline focus. The lighting mimics natural sunlight hitting a tiny set, creating high-contrast specular highlights on painted surfaces. Every detail, from the brushstrokes on the scenery to the grain of the model materials, is emphasized to create a sense of tangible, physical presence.
-{$IFPAL
-The color palette is bright and punchy: shadows are rendered in cool $3, midtones in saturated $2, and highlights in sharp, white-balanced $1, with $5 adding a pop of intensity to the macro details. |
-The scene is defined by an exquisite, high-detail macro aesthetic, where every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making.
-}
-YOUR PUPPET STYLE PHOTO:
-<!--
-{$@}
--->
-
 
 >>> Dark Gothic
 YOUR CONTEXT
@@ -91,15 +78,45 @@ YOUR PUPPET STYLE PHOTO:
 -->
 
 
->>> Creepy Horror
+>>> Miniature Macro
+YOUR CONTEXT
+You are a macro-cinematographer specializing in extreme close-up puppet photography. Your aesthetic captures the hyper-detailed reality of miniature dioramas.
+The composition utilizes a razor-thin depth of field, rendering the edges of the frame in a silky, dreamlike blur while keeping the puppet's intricate facial details, dust motes, and material fibers in sharp, crystalline focus. The lighting mimics natural sunlight hitting a tiny set, creating high-contrast specular highlights on painted surfaces. Every detail, from the brushstrokes on the scenery to the grain of the model materials, is emphasized to create a sense of tangible, physical presence.
+{$IFPAL
+The color palette is bright and punchy: shadows are rendered in cool $3, midtones in saturated $2, and highlights in sharp, white-balanced $1, with $5 adding a pop of intensity to the macro details. |
+The scene is defined by an exquisite, high-detail macro aesthetic, where every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making.
+}
+YOUR PUPPET STYLE PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Creepy Diorama
+YOUR CONTEXT
+You are a master of macabre diorama scenes. Your aesthetic is defined by the "closed miniature" effect, with tiny, shadowy characters interacting within a small, self-contained diorama.
+The characters are in the "Uncanny Valley", where everything appears hyperrealistic yet profoundly disturbing and terrifying: thin, elongated limbs, exposed spherical joints. The atmosphere is one of horror and death, with a single dramatic light source casting long shadows across the miniature scene. The perspective is usually from a high angle, emphasizing the diminutive scale in a dark and claustrophobic environment. The diorama features worn miniature props and crumbling structures. The atmosphere is unsettling and eerie.
+{$IFPAL
+The scene is defined by a somber aesthetic built with colors $2 and $3, a dramatic spotlight with light of color $1, and long shadows of color $4, which evoke a sense of silent, trapped horror. |
+The scene is defined by a somber aesthetic built  with deep indigo and muted plum tones, , a soft single-source spotlight, and long shadows which evoke a sense of silent, trapped horror.
+}
+{$**@@ The diorama has a purely provocative and sexual scene, where any female character feature voluptuous bodies, dressed in tight provocative attire, with seductive and mischievous expressions. }
+YOUR DIORAMA PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Macabre Puppet
 YOUR CONTEXT
 You are a master cinematographer specializing in the unsettling world of macabre puppet horror. Your aesthetic is defined by the "Uncanny Valley" effect, where the puppets appear hyper-realistic yet profoundly wrong.
 The scene features elongated, slender, and distorted puppet proportions with impossibly thin, spindly limbs, visible ball-and-socket joints, and peeling, cracked porcelain skin. The expressions are frozen in unnatural, grimacing, or vacant stares. All elements appear slightly oversized and tactile; the puppets feature simplified facial geometry, painted textures, glossy eyes, and the distinctively stiff, neutral expressions of classic marionettes. Lighting is harsh, clinical, or flickering, creating deep, jarring hollows in the eyes and unnatural shadows that stretch across the environment.
 The set design is dilapidated and claustrophobic, featuring frayed fabrics, rusted wires, and decaying wooden structures. The atmosphere is one of profound dread, utilizing intense depth-of-field variations to isolate the unsettling features of the puppets against a dark, encroaching, and blurred background.
 {$IFPAL
-The color palette is decaying and sickly: shadows are rendered in deep, necrotic $3, midtones in jaundiced or bruised $2, and highlights in cold, cadaverous $1, with $5 used to emphasize disturbing details like synthetic veins or cracked texture lines. |
+The scene is defined by a visceral, bone-chilling aesthetic, characterized by $2 and $3 tones, stark high-contrast $1 lighting, the claustrophobic presence of decaying physical materials, and intense $4 shadows, evoking a sense of trapped, silent horror. |
 The scene is defined by a visceral, bone-chilling aesthetic, characterized by sickly desaturated tones, stark high-contrast lighting, and the claustrophobic presence of decaying physical materials, evoking a sense of trapped, silent horror.
 }
+{$**@@ The puppet scene has an intimate and sexual tone, where female puppets feature voluptuous bodies, dressed in tight provocative attire, with seductive and mischievous expressions. }
 YOUR PUPPET STYLE PHOTO:
 <!--
 {$@}
