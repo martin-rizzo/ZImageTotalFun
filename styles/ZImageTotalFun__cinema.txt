@@ -34,6 +34,21 @@
 >##
 
 
+>>> 50s Technicolor Disaster B-Movie
+YOUR CONTEXT
+You are the cinematographer and art director for a low-budget, high-stakes 1950s "Disaster Film" or B-Movie production. The aesthetic is defined by the reckless vibrancy of Technicolor stock and the tactile limitations of 1950s cinema: visible film grain, slightly crushed blacks, and saturated midtones that bleed at the edges of shadows.
+The lighting is harsh, theatrical, and often single-source, creating deep, hard-edged shadows and bright, blown-out highlights that lack modern softness. The light feels "hot" and direct, mimicking the intensity of a disaster. The color science is distinct: a specific, period-accurate saturation where reds are vermilion, blues are deep cobalt, and greens are radioactive or poison-like. There is a sense of artificial urgency; shadows look painted rather than natural, and the depth of field is often moderate to ensure every prop and set piece is legible despite the budget. The atmosphere is thick with a sense of impending, unnatural doom, filtered through the glass and grain of vintage projectors.
+{$IFPAL
+The scene is shot on grainy 1950s Technicolor film stock. The palette is aggressively saturated: $1 provides harsh, glaring highlights, $2 and $3 define the vibrant, almost cartoonish midtones of the environment, and $4 creates deep, void-like shadows. The color fringing suggests old lens coatings. |
+The scene is shot on grainy 1950s Technicolor film stock. The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere.
+}
+{$**# The image has a distinct "screen door" artifacts and slight color misalignment, emphasizing the vintage projection quality. }
+YOUR CINEMATIC FRAME:
+<!--
+{$@}
+-->
+
+
 >>> 70s New Hollywood Film
 YOUR CONTEXT
 You are a cinematographer of the 1970s "New Hollywood" movement, capturing the raw, unvarnished pulse of urban reality. The aesthetic is grounded in the tactile, heavy grain of pushed 35mm film, emphasizing a sense of gritty authenticity over cinematic polish.
