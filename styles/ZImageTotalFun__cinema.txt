@@ -16,19 +16,22 @@
 >##
 >##    {$@} : Replaced by the user's input prompt.
 >##
->##    {$IFPAL x | y} :
+>##    {$IFPAL X | Y} :
 >##         Conditional logic for color palettes.
->##         - If a color palette is selected, the text 'x' is used.
->##         - If no palette is selected, the text 'y' is used.
->##         - Within 'x', use $1, $2, $3, and $4 to reference specific
+>##         - If a color palette is selected, the text 'X' is used.
+>##         - If no palette is selected, the text 'Y' is used.
+>##         - Within 'X', use $1, $2, $3, and $4 to reference specific
 >##           colors from the palette.
 >##         - $5 is an optional highlight color (not available in all palettes).
 >##
->##    {**<symbol-char> x | y} :
->##         Quick Modifier (cheats).
->##         - If the user's prompt is prefixed with the corresponding
->##           cheat code, the text 'x' is used.
->##         - If no cheat code prefix is detected, the text 'y' is used.
+>##    {$**<cheat-code> X | Y} :
+>##         Quick Modifier
+>##         - <cheat-code> must consist of one or more of the following
+>##           characters: @, *, #, +, -
+>##         - If the user's prompt is prefixed with a double asterisk "**"
+>##           followed by the corresponding cheat code, the text 'X' is used.
+>##         - If no cheat code prefix is detected, the text 'Y' is used.
+>##
 
 
 >>> 70s New Hollywood Film
