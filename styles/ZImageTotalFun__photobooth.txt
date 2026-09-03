@@ -1,0 +1,155 @@
+>## HOW TO WRITE A STYLE TEMPLATE
+>##    Focus exclusively on visual aesthetic, atmospheric mood, and technical
+>##    characteristics (e.g., lighting, texture, lens, weather, sensations,..).
+>##    Avoid mentioning specific subjects, objects, or characters, as these are
+>##    provided by the user via the {$@} placeholder. Think of the template as a
+>##    "lens" or "filter": it defines how the scene feels and looks, not what
+>##    is happening in it.
+>##
+>## TEMPLATE DEFINITION
+>##    Each new visual style must begin with a line prefixed with ">>>"
+>##    followed by the style name(*). Example: ">>> Landscape Photo"
+>##
+>## TEMPLATE FORMAT
+>##    Every line following the style name represents the prompt used
+>##    when that style is selected. The following variables are processed:
+>##
+>##    {$@} : Replaced by the user's input prompt.
+>##
+>##    {$IFPAL X | Y} :
+>##         Conditional logic for color palettes.
+>##         - If a color palette is selected, the text 'X' is used.
+>##         - If no palette is selected, the text 'Y' is used.
+>##         - Within 'X', use $1, $2, $3, and $4 to reference specific
+>##           colors from the palette.
+>##         - $5 is an optional highlight color (not available in all palettes).
+>##
+>##    {$**<cheat-code> X | Y} :
+>##         Quick Modifier
+>##         - <cheat-code> must consist of one or more of the following
+>##           characters: @, *, #, +, -
+>##         - If the user's prompt is prefixed with a double asterisk "**"
+>##           followed by the corresponding cheat code, the text 'X' is used.
+>##         - If no cheat code prefix is detected, the text 'Y' is used.
+>##
+
+
+>>> Analog Photobooth Strip
+YOUR CONTEXT:
+A strip of four vintage photo booth frames, each with a uniform background and identical, intense flash lighting. The background is a uniform, slightly wrinkled gray curtain that fills the space behind the subject in all four frames. The lighting is defined by the direct flash, creating high-contrast illumination on the subject and casting sharp shadows on the curtain.
+The aesthetic is characterized by pronounced 35mm film grain, slight motion blur, and a spontaneous finish. The color palette is slightly desaturated, with a warm, nostalgic tone typical of instant photos from the early 2000s.
+
+<!--
+The character in "Top left", "Top right", "Bottom left" and "Bottom right":
+{$@}
+-->
+
+PHOTO DESIGN (2x2 Grid):
+- Top left: The character is far away and appears shy, with their chin slightly lowered, their gaze fixed downwards, and a slight blush.
+- Top right: The character is far away and appears skeptical, with a raised eyebrow and a doubtful smile.
+- Bottom left: The character is far away and displays exaggerated nervous concern, looking to the left and showing the hand.
+- Bottom right: In this frame, the character is looking very close to the camera, filling the entire frame with their face tilted upwards, mouth open, and an expression of astonishment.
+
+
+
+
+>>> Analog Photobooth Strip 2
+YOUR CONTEXT:
+A strip of four vintage photo booth frames, each with a uniform background and identical, intense flash lighting. The background is a uniform, slightly wrinkled gray curtain that fills the space behind the subject in all four frames. The lighting is defined by the direct flash, creating high-contrast illumination on the subject and casting sharp shadows on the curtain.
+The aesthetic is characterized by pronounced 35mm film grain, slight motion blur, and a spontaneous finish. The color palette is slightly desaturated, with a warm, nostalgic tone typical of instant photos from the early 2000s.
+
+<!--
+The character in "Top left", "Top right", "Bottom left" and "Bottom right":
+{$@}
+-->
+
+PHOTO DESIGN (2x2 Grid):
+ * Top-left: The character is confident, chin raised, half-smile, steady eye contact.
+ * Top-right: The character is nervous, shoulders hunched, eyes glancing toward the curtain edge.
+ * Bottom-left: The character is mischievous, sly sideways grin, one eyebrow lifted.
+ * Bottom-right: The character is heartbroken, eyes glassy, lips trembling, gaze cast down. 
+
+
+
+>>> Analog Photobooth Strip 3
+YOUR CONTEXT:
+A strip of four vintage photo booth frames, each with a uniform background and identical, intense flash lighting. The background is a uniform, slightly wrinkled gray curtain that fills the space behind the subject in all four frames. The lighting is defined by the direct flash, creating high-contrast illumination on the subject and casting sharp shadows on the curtain.
+The aesthetic is characterized by pronounced 35mm film grain, slight motion blur, and a spontaneous, unposed finish marked by wildly shifting moods, eccentric gestures, and unpredictable facial expressions across the frames. The color palette is slightly desaturated, with a warm, nostalgic tone typical of instant photos from the early 2000s.
+
+<!--
+The character in "Top left", "Top right", "Bottom left" and "Bottom right":
+{$@}
+-->
+
+PHOTO DESIGN (2x2 Grid):
+ * Top-left: The character is confident, chin raised, half-smile, steady eye contact.
+ * Top-right: The character is nervous, shoulders hunched, eyes glancing toward the curtain edge.
+ * Bottom-left: The character is mischievous, sly sideways grin, one eyebrow lifted.
+ * Bottom-right: The character is heartbroken, eyes glassy, lips trembling, gaze cast down.
+ 
+
+>>> Analog Photobooth Strip 4
+YOUR CONTEXT:
+A strip of four vintage photo booth frames, each with identical character and vintage enclosed photo booth in the background, featuring four distinct suspicious and investigative moods.
+The background is a each frame is the vintage enclosed photo booth interior. The walls behind the subject are beige with subtle signs of wear, and wood-paneled side bars. The lighting is the typical specific fluorescence of a photo booth, creating soft shadows.
+
+YOUR CHARACTER (same in Top-left, Top-right, Bottom-left and Bottom-right):
+<!--
+{$@}
+-->
+ 
+PHOTO DESIGN (2x2 Grid):
+ Top-left: mildly suspicious, narrowed eyes and one eyebrow raised, studying the camera.
+ Top-right: deeply distrustful, arms subtly crossed, lips pressed firmly together, intense sideways glance.
+ Bottom-left: pretending to believe something, exaggerated polite smile while her eyes remain doubtful, slightly tilted head.
+ Bottom-right: suddenly realizing something is wrong, eyes widened, eyebrows sharply raised, lips forming a small “oh” expression.
+ 
+ 
+>>> Daguerreotype Photobooth
+YOUR CONTEXT:
+An antique daguerreotype photo booth strip of 4 frames in high-contrast monochrome, featuring identical harsh direct lighting against a dark, pleated fabric curtain background. The physical plate shows severe signs of aging and damage, including prominent tarnish rings, chemical stains, cracked emulsion, and worn, oxidized edges. The aesthetic is defined by a highly reflective metallic sheen, deep blacks, blown-out highlights, optical softness, and a spontaneous finish with exaggerated, unpredictable gestures and expressions across the frames.
+
+<!--
+The character in "Top left", "Top right", "Bottom left" and "Bottom right":
+{$@}
+-->
+
+PHOTO DESIGN (2x2 Grid):
+ * Top-left: The character is confident, chin raised, half-smile, steady eye contact.
+ * Top-right: The character is nervous, shoulders hunched, eyes glancing toward the curtain edge.
+ * Bottom-left: The character is mischievous, sly sideways grin, one eyebrow lifted.
+ * Bottom-right: The character is heartbroken, eyes glassy, lips trembling, gaze cast down.
+ 
+ 
+>>> Analog Photobooth Strip 8
+YOUR CONTEXT:
+In the background, only the wooden wall with a horizontal metal slot is visible. A curved strip with 3 vintage photo booth frames arranged in a column has its top end fitting into the horizontal metal slot. In the foreground, the glossy white plastic edge of the strip is visible, curved as it exits the machine. Light reflections are visible on the photographic paper.
+The background within the frames is a uniform, slightly wrinkled gray curtain that fills the space behind the subject in all 3 frames. The lighting is defined by the direct flash, which creates high-contrast illumination on the subject and casts sharp shadows on the curtain.
+The aesthetic is characterized by a pronounced 35mm film grain, a slight motion blur, and a spontaneous, natural finish, marked by abrupt mood swings, exaggerated gestures, and unpredictable facial expressions in every frame. The color palette is slightly desaturated, with a warm and nostalgic tone typical of snapshots from the early 2000s.
+
+<!--
+The character in Top, Middle, and Bottom:
+{$@}
+-->
+
+PHOTO DESIGN (3x1 Vertical Grid):
+ * 1 (Top): The character is far away and appears shy, with their chin slightly lowered, their gaze fixed downwards, and a slight blush.
+ * 2 (Middle): The character is nervous, shoulders hunched, eyes glancing toward the curtain edge.
+ * 3 (Bottom): In this frame, the character is looking very close to the camera, filling the entire frame with their face tilted upwards, mouth open, and an expression of astonishment.
+ 
+ 
+>>> Printed Image
+YOUR CONTEXT:
+A dot-matrix printer sits on a wooden desk. A long roll of paper extends from the back.
+The paper has a halftone picture printed on it made of gray dots on a white background.
+INSIDE THE PAPER {
+Within its boundaries, it contains a pixelated halftone picture made with dots in retrocomputer style, light gray and white.
+INSIDE THE PIXELATED HALFTONE PICTURE {
+<!--
+{$@}
+-->
+} OUTSIZE
+} OUTSIZE
+The photorealistic image is light gray with low contrast and is shaded with halftones, meaning it's composed of thousands of tiny dots.
+However, the photorealistic image is notable for its low quality, low resolution and pixelated, with the top portion fading to white, very light gray ink.
+
