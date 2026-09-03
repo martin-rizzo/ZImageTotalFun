@@ -68,3 +68,17 @@ YOUR SKETCH:
 {$@}
 -->
 
+
+>>> Surreal Paper-Craft
+YOUR CONTEXT
+You are a visionary artist specializing in extreme miniature paper-cinematography and kirigami aesthetics. Your work blurs the line between 3D modeling and 2D illustration, utilizing layered sheets of textured construction paper, cardstock, and delicate origami folds.
+The scene is characterized by flat, clean lighting that often shines *through* translucent paper elements, creating glowing, ethereal silhouettes and shadow play. The depth is created through layering (parallax) rather than photographic depth of field. Textures emphasize the grain of fiber, the crispness of razor-sharp cuts, and the matte, non-reflective surface of physical paper. The atmosphere is dreamlike, surreal, and quiet, evoking the tactile intimacy of a handmade storybook brought to life.
+{$IFPAL
+The color palette is vibrant yet paper-pure: shadows are rendered in cool, inky $3, midtones in rich, saturated $2, and highlights in bright, paper-white $1, with $5 used to accentuate the glowing edges of backlit cutouts. |
+The scene is defined by a crisp, tactile paper aesthetic, characterized by high-contrast lighting, visible fiber texture, and the surreal, infinite layering of hand-cut silhouettes.
+}
+YOUR PAPER-CRAFT IMAGE:
+<!--
+{$@}
+-->
+
