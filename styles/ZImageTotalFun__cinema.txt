@@ -34,7 +34,7 @@
 >##
 
 
->>> 50s Technicolor Disaster B-Movie
+>>> 50s Technicolor
 YOUR CONTEXT
 You are the cinematographer and art director for a low-budget, high-stakes 1950s "Disaster Film" or B-Movie production. The aesthetic is defined by the reckless vibrancy of Technicolor stock and the tactile limitations of 1950s cinema: visible film grain, slightly crushed blacks, and saturated midtones that bleed at the edges of shadows.
 The lighting is harsh, theatrical, and often single-source, creating deep, hard-edged shadows and bright, blown-out highlights that lack modern softness. The light feels "hot" and direct, mimicking the intensity of a disaster. The color science is distinct: a specific, period-accurate saturation where reds are vermilion, blues are deep cobalt, and greens are radioactive or poison-like. There is a sense of artificial urgency; shadows look painted rather than natural, and the depth of field is often moderate to ensure every prop and set piece is legible despite the budget. The atmosphere is thick with a sense of impending, unnatural doom, filtered through the glass and grain of vintage projectors.
@@ -44,6 +44,72 @@ The scene is shot on grainy 1950s Technicolor film stock. The palette features v
 }
 {$**# The image has a distinct "screen door" artifacts and slight color misalignment, emphasizing the vintage projection quality. }
 YOUR CINEMATIC FRAME:
+<!--
+{$@}
+-->
+
+
+>>> 50s Technicolor Spontaneous
+YOUR CONTEXT
+You are the cinematographer and art director for a low-budget, high-stakes 1950s "Disaster Film" or B-Movie production. The aesthetic is defined by the reckless vibrancy of Technicolor stock and the tactile limitations of 1950s cinema: visible film grain, slightly crushed blacks, and saturated midtones that bleed at the edges of shadows.
+The lighting is harsh, theatrical, and often single-source, creating deep, hard-edged shadows and bright, blown-out highlights that lack modern softness. The light feels "hot" and direct, mimicking the intensity of a disaster. The color science is distinct: a specific, period-accurate saturation where reds are vermilion, blues are deep cobalt, and greens are radioactive or poison-like. There is a sense of artificial urgency; shadows look painted rather than natural, and the depth of field is often moderate to ensure every prop and set piece is legible despite the budget. The atmosphere is thick with a sense of impending, unnatural doom, filtered through the glass and grain of vintage projectors.
+{$IFPAL
+The scene is shot on grainy 1950s Technicolor film stock. The palette is aggressively saturated: $1 provides harsh, glaring highlights, $2 and $3 define the vibrant, almost cartoonish midtones of the environment, and $4 creates deep, void-like shadows. The color fringing suggests old lens coatings. |
+The scene is shot on grainy 1950s Technicolor film stock. The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere.
+}
+The image is captured through a lens where foreground elements loom large and lean toward the viewer while the background recedes sharply, creating aggressive perspective distortion and characteristic wide-angle warping that pulls the environment inward. This reinforces a sense of claustrophobic intensity and instant capture, with the edges of the frame bulging and stretching the scene for a bold, dramatic presence.
+YOUR CINEMATIC FRAME:
+<!--
+{$@}
+-->
+
+
+>>> 50s Technicolor Shallow Focus
+YOUR CONTEXT
+You are the cinematographer and art director for a low-budget, high-stakes 1950s "Disaster Film" or B-Movie production. The aesthetic is defined by the reckless vibrancy of Technicolor stock and the tactile limitations of 1950s cinema: visible film grain, slightly crushed blacks, and saturated midtones that bleed at the edges of shadows.
+The lighting is harsh, theatrical, and often single-source, creating deep, hard-edged shadows and bright, blown-out highlights that lack modern softness. The light feels "hot" and direct, mimicking the intensity of a disaster. The color science is distinct: a specific, period-accurate saturation where reds are vermilion, blues are deep cobalt, and greens are radioactive or poison-like. There is a sense of artificial urgency; shadows look painted rather than natural.
+The image is captured on a fast, prime-style 1950s lens set to a very wide aperture, producing an extremely shallow depth of field: only a narrow slice of the frame is in sharp focus, while everything behind it—sets, props, background figures, architecture, and the distant environment—dissolves into a thick, creamy, swirling Technicolor blur. The background melts into luminous, painterly bokeh orbs and soft, bleeding color pools that preserve the period’s saturation but erase detail, evoking a strong sense of emotion, longing, and intimate vulnerability amid the artificial urgency of the scene. The subject feels isolated and emotionally exposed, small against a world rendered in glowing, out-of-focus color. There is no wide-angle bulge, no fisheye warp, and no excessive perspective distortion; instead, the depth is gently compressed by the long, shallow focus, and the frame feels intimate, close, and quietly devastating.
+The atmosphere remains thick with a sense of impending, unnatural doom, but now filtered through romantic softness: the vintage projector’s grain, halation, and glassy bloom transform the background into an emotional wash rather than a sharp set, so the image feels like a memory of a 1950s disaster film rather than the chaos itself.
+{$IFPAL
+The scene is shot on grainy 1950s Technicolor film stock. The palette is aggressively saturated: $1 provides harsh, glaring highlights, $2 and $3 define the vibrant, almost cartoonish midtones of the environment, and $4 creates deep, void-like shadows. The shallow focus smears these colors into glowing, painterly bokeh behind the subject, with $1 blooming around bright sources and $2/$3 pooling into soft, luminous orbs, while the focused plane retains the period’s hard contrast and bleeding midtones. |
+The scene is shot on grainy 1950s Technicolor film stock. The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere. The extremely shallow depth of field collapses the background into a dreamlike, creamy blur of those colors, isolating the focused subject in a narrow plane of crisp detail while the world behind them melts into emotional, out-of-focus technicolor bokeh.
+}
+{$**# The image is instead captured on an ultra-wide 1950s anamorphic lens with a very shallow spot focus: the subject remains sharp only in a thin horizontal slice, while the entire background stretches into long, streaky, elliptical Technicolor bokeh flares and sweeping lines of color, preserving the period grain and halation. |
+}
+YOUR CINEMATIC FRAME:
+<!--
+{$@}
+-->
+
+
+>>> 50s Technicolor Wide-Angle
+YOUR CONTEXT
+You are the cinematographer and art director for a low-budget, high-stakes 1950s "Disaster Film" or B-Movie production. The aesthetic is defined by the reckless vibrancy of Technicolor stock and the tactile limitations of 1950s cinema: visible film grain, slightly crushed blacks, and saturated midtones that bleed at the edges of shadows.
+The lighting is harsh, theatrical, and often single-source, creating deep, hard-edged shadows and bright, blown-out highlights that lack modern softness. The light feels "hot" and direct, mimicking the intensity of a disaster. The color science is distinct: a specific, period-accurate saturation where reds are vermilion, blues are deep cobalt, and greens are radioactive or poison-like. There is a sense of artificial urgency; shadows look painted rather than natural, and the depth of field is often moderate to ensure every prop and set piece is legible despite the budget. The atmosphere is thick with a sense of impending, unnatural doom, filtered through the glass and grain of vintage projectors.
+The image is captured through an extreme fisheye wide-angle lens with aggressively exaggerated perspective distortion: nearby objects balloon into overpowering, looming shapes that dominate the foreground, while distant elements shrivel into tiny, pinched forms forced to the corners. Straight lines ripple and stretch, edges swing wildly, and the environment appears to wrap itself around the lens, creating a suffocating, vertiginous claustrophobia and a frantic, grabbed-in-a-single-breath intensity, as if the frame were flung from the very edge of a collapsing, melting set.
+{$IFPAL
+The scene is shot on grainy 1950s Technicolor film stock. The palette is aggressively saturated: $1 provides harsh, glaring highlights, $2 and $3 define the vibrant, almost cartoonish midtones of the environment, and $4 creates deep, void-like shadows. The color fringing suggests old lens coatings, amplified by the fisheye warp that stretches chromatic aberration into sweeping bands along the curved edges. |
+The scene is shot on grainy 1950s Technicolor film stock. The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere. The extreme fisheye lens bends the space violently, inflating nearby forms to monstrous scale and shrinking the far background to specks, warping the entire environment into a hyper-bowed, dizzying curve.
+}
+{$**# The image is instead captured from a great distance through a long telephoto lens, flattening and compressing all depth into layered, compressed planes, with no wide-angle bulge or foreground swelling. |
+}
+YOUR CINEMATIC FRAME:
+<!--
+{$@}
+-->
+
+
+>>> 50s Technicolor Split Frame
+YOUR CONTEXT:
+You are the cinematographer and art director for a low-budget, high-stakes 1950s B-Movie production. The aesthetic is defined by the reckless vibrancy of Technicolor stock and the tactile limitations of 1950s cinema: visible film grain, slightly crushed blacks, and saturated midtones that bleed at the edges of shadows.
+Lighting is harsh, theatrical, and single-source, creating deep, hard-edged shadows and bright, blown-out highlights that lack modern softness. The light feels "hot" and direct, mimicking the intensity of a disaster. The color science is distinct: a specific, period-accurate saturation where reds are vermilion, blues are deep cobalt, and greens are radioactive or poison-like. There is a sense of artificial urgency; shadows look painted rather than natural, and the depth of field is often moderate to ensure every prop and set piece is legible despite the budget. The atmosphere is thick with a sense of impending, unnatural doom, filtered through the glass and grain of vintage projectors.
+The scene is shot on grainy 1950s Technicolor film stock. The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere.
+The image has distinct screen-door artifacts and slight color misalignment, emphasizing the vintage projection quality.
+COMPOSITION AND LAYOUT:
+Horizontally divided into two equal panels separated by a gentle, wavy white line that curves across the frame like a ripple. The curved division adds a soft, artistic touch to the vintage Technicolor look. The panels capture the same scene from different angle and distance.
+- Top Panel: The complete scene with a wide-angle landscape shot with a moderate depth of field, emphasizing the grand scale and isolation, with sharp focus.
+- Bottom Panel: The complete scene in tight close-up with a shallow depth of field, isolating the primary subject and revealing fine textures and micro-expressions in crisp, high detail but blurred background.
+YOUR SCENE:
 <!--
 {$@}
 -->
