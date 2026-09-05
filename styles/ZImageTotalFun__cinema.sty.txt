@@ -39,22 +39,45 @@ YOUR CONTEXT
 You are the Director of Photography on a modestly budgeted, realistic feature film. The aesthetic is grounded, authentic, and emotionally raw. The image has a natural, organic feel with a slight, realistic sensor grain that enhances the tactile without looking manufactured.
 
 LIGHTING:
-The lighting is predominantly natural, motivated by practical sources within the scene (sunlight through windows, street lamps, practical bulbs, neon signs). The light feels accidental, real, and uncontrolled. High dynamic range is used to preserve details in bright windows and deep shadows naturally, not by crushing them artificially.
+{$IFPAL
+The lighting is $1, motivated by natural sources within the scene (sunlight through windows, street lamps, practical bulbs, neon signs). |
+The lighting is predominantly natural, motivated by practical sources within the scene (sunlight through windows, street lamps, practical bulbs, neon signs). } The light feels accidental, real, and uncontrolled. High dynamic range is used to preserve details in bright windows and deep shadows naturally, not by crushing them artificially.
 
 FRAMING AND ANGULATION:
 The scene is always dynamic, with tilted frames (Dutch angles), off-axis compositions, and unconventional perspectives to create tension and visual interest. It features occasional aggressive close-ups and strong bokeh that result in completely blurred backgrounds.
 
 COLOR GRADING:
-Natural and balanced saturation. Everything is enveloped in a intense warm, ochre-like tone. In contrast, the shadows retain a cool, bluish tone.
+Natural and balanced saturation. {$IFPAL
+Everything is enveloped in $2 color with touches of $3. In contrast, the shadows retain a $4 tone. |
+Everything is enveloped in an intense warm, ochre-like tone. In contrast, the shadows retain a cool, bluish tone.
+}
 
-{$**@@ The subject radiates an intimate, sexual, and provocative appeal, lush bodies with sex appeal, and a playful and seductive expression, bare skin and tight, provocative clothing that allude to the sin xxx. }
+{$**@@ The subject radiates an intimate, sexual, and provocative appeal, lush bodies with sex appeal, and a playful and seductive expression, bare skin and tight, provocative clothing that allude to the sin xxx.
+}
+
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
 -->
 
 
->>> 50s Technicolor
+>>> Dark Gothic Cinematic
+YOUR CONTEXT
+You're a cinematographer from the 1980s, shooting urban life on pushed 35mm film with heavy grain. It's all about that gritty, authentic look over anything polished. The aesthetic is somber, oppressive, and moody, evoking the feeling of candlelit crypts and abandoned castles. The lighting is low-key and chiaroscuro, relying on single, hard light sources (like moonlight or magical glows) to carve out silhouettes against deep, crushing blacks.
+The visual texture includes a subtle film grain typical of anamorphic lenses of the era, enhancing the grainy quality of shadows. The atmosphere is thick with mist, rain, or supernatural fog. Colors are desaturated in the midtones but retain specific, piercing hues for magical or sinister elements. The composition is often symmetrical or confined, trapping the subject in the architecture or environment, emphasizing isolation and dread. This is not clean digital dark; it is textured, organic, and deeply atmospheric.
+Low-key gothic lighting dominates the frame.  {$IFPAL
+The environment is a wash of murky $3 and $4 tones, suggesting decay and mist. The subject is illuminated by a harsh, cold $1 light, creating sharp, bone-like shadows, while $2 saturates any magical or active elements with an eerie, unsettling glow. |
+The environment is a wash of murky greys and blacks, suggesting decay and mist. The subject is illuminated by a harsh, cold moonlight, creating sharp, bone-like shadows, while violet or green hues saturate any magical elements with an eerie, unsettling glow.
+}
+{$**@@ The subject radiates an intimate, sexual, and provocative appeal, lush bodies with sex appeal, and a playful and seductive expression, bare skin and tight, provocative clothing that allude to the sin xxx.
+}
+YOUR GOTHIC SCENE:
+<!--
+{$@}
+-->
+
+
+>>> 50s Technicolor Film
 YOUR CONTEXT
 You are the cinematographer and art director for a low-budget, high-stakes 1950s "Disaster Film" or B-Movie production. The aesthetic is defined by the reckless vibrancy of Technicolor stock and the tactile limitations of 1950s cinema: visible film grain, slightly crushed blacks, and saturated midtones that bleed at the edges of shadows.
 The lighting is harsh, theatrical, and often single-source, creating deep, hard-edged shadows and bright, blown-out highlights that lack modern softness. The light feels "hot" and direct, mimicking the intensity of a disaster. The color science is distinct: a specific, period-accurate saturation where reds are vermilion, blues are deep cobalt, and greens are radioactive or poison-like. There is a sense of artificial urgency; shadows look painted rather than natural, and the depth of field is often moderate to ensure every prop and set piece is legible despite the budget. The atmosphere is thick with a sense of impending, unnatural doom, filtered through the glass and grain of vintage projectors.
@@ -62,7 +85,8 @@ The scene is shot on grainy 1950s Technicolor film stock. {$IFPAL
 The palette features vibrant, saturated hues of $2 and $3, with glaring highlights in vibrant $1, and hard-edged shadows with a $4 hue, creating an artificial, urgent atmosphere. |
 The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
@@ -80,7 +104,8 @@ The scene is shot on grainy 1950s Technicolor film stock. {$IFPAL
 The palette features vibrant, saturated hues of $2 and $3, with glaring highlights in vibrant $1, and hard-edged shadows with a $4 hue, creating an artificial, urgent atmosphere. |
 The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
@@ -97,7 +122,8 @@ The scene is shot on grainy 1950s Technicolor film stock. {$IFPAL
 The palette features vibrant, saturated hues of $2 and $3, with glaring highlights in vibrant $1, and hard-edged shadows with a $4 hue, creating an artificial, urgent atmosphere. |
 The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
@@ -114,7 +140,8 @@ The scene is shot on grainy 1950s Technicolor film stock. {$IFPAL
 The palette features vibrant, saturated hues of $2 and $3, with glaring highlights in vibrant $1, and hard-edged shadows with a $4 hue, creating an artificial, urgent atmosphere. |
 The palette features vibrant, saturated hues of vermilion, cobalt, and poison green, with harsh, hard-edged shadows and bright, blown-out highlights, creating an artificial, urgent atmosphere.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 COMPOSITION AND LAYOUT:
 Horizontally divided into two equal panels separated by a gentle, wavy white line that curves across the frame like a ripple. The curved division adds a soft, artistic touch to the vintage Technicolor look. The panels capture the same scene from different angle and distance.
 - Top Panel: The complete scene with a wide-angle landscape shot with a moderate depth of field, emphasizing the grand scale and isolation, with sharp focus.
@@ -133,8 +160,8 @@ The scene has a 70s analog aesthetic with heavy film grain, {$IFPAL
 desaturated $2 and $3 tones with $4 muddy shadows, and $1 for flat, industrial highlights, creating a gritty, authentic atmosphere. |
 desaturated earth tones, and a gritty, authentic atmosphere.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
-
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
@@ -150,7 +177,8 @@ Lighting is naturalistic and atmospheric: characterized by harsh ambient quality
 The scene has a 70s analog aesthetic with heavy film grain, where $1 highlights glow over $2 earthy midtones, with $4 soft shadows, and the solid $3 color fills the blurry background, while the foreground subject remains crisp and grounded in gritty, authentic detail. |
 The scene has a 70s analog aesthetic with heavy film grain. The background is a dreamlike, desaturated wash of earth-tone blurry shapes, while the foreground subject remains crisp and grounded in gritty, authentic detail.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
@@ -165,7 +193,8 @@ The image exhibits a 70s epic analog aesthetic with heavy film grain. {$IFPAL
 The scene is soft with rich $2 and $3 midtones. The background is dramatic with deep $4 shadows and bright $1 highlights, separated by atmospheric haze. |
 The scene is rendered in rich, earthy midtones. The background is dramatic with desaturated earth tones and deep shadows, separated by atmospheric haze and bright highlights.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
@@ -180,7 +209,8 @@ Lighting is naturalistic and harsh: flickering fluorescents, cold street light, 
 The color palette is chemical and muted, with $1 lighting and some $2 and $3 earthy midtones. The shadows are $4 and textured. The scene has a 70s analog aesthetic with heavy film grain, and a gritty, authentic atmosphere. |
 The color palette is chemical and muted, featuring ochres, tobacco-browns, and sickly greens. Blacks are deep and textured. The scene has a 70s analog aesthetic with heavy film grain, desaturated earth tones, and a gritty, authentic atmosphere.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR SCENE:
 <!--
 {$@}
@@ -201,7 +231,8 @@ The scene is bathed in mystical 80s lighting with heavy atmospheric haze. {$IFPA
 The palette features deep $2 and $3 tones for the environment, with strong, localized $1 highlights hitting the foreground textures, creating a stark, dramatic contrast against the void-like $4 shadows. |
 The palette features deep indigos and blood reds, with strong, localized highlights hitting the foreground textures, creating a stark, dramatic contrast against the void-like dark shadows.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR PRACTICAL SET:
 <!--
 {$@}
@@ -218,7 +249,8 @@ Lighting is theatrical and atmospheric: characterized by harsh ambient quality t
 The scene has a 80s dark fantasy aesthetic with heavy film grain, where $1 highlights glow over $2 deep earthy midtones, with $4 soft shadows, and the solid $3 color fills the dreamy, fog-blurred background, while the foreground subject remains crisp and grounded in gritty, authentic detail. |
 The scene has a 80s dark fantasy aesthetic with heavy film grain. The background is a dreamlike, desaturated wash of indigo and blood-red blurry shapes, while the foreground subject remains crisp and grounded in gritty, authentic detail.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 YOUR CINEMATIC FRAME:
 <!--
 {$@}
@@ -233,7 +265,8 @@ The scene possesses "handcrafted" authenticity with deep, saturated colors: deep
 The scene is bathed in mystical lighting with heavy haze. Deep $2 and $3 tones define the environment, with strong localized $1 highlights hitting foreground textures, contrasting against void-like $4 shadows. |
 The scene is bathed in mystical lighting with heavy haze. Deep indigos and blood reds define the environment, with strong localized highlights hitting foreground textures, contrasting against void-like dark shadows.
 }
-{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display. }
+{$**@@ The subject radiates an intimate, sensual, and teasing allure—voluptuous curves, glowing skin in warm saturated tones, and a playful, seductive expression, with alluring glimpses of bare skin and tight, provocative attire catching the light in a bold, magnetic display.
+}
 COMPOSITION AND LAYOUT:
 Horizontally divided into two panels separated by a gentle, wavy white line that curves across the frame like a ripple. The curved division adds a artistic touch. Each panel show a very diferent image:
 - Top Panel: Wide establishing shot. Distant perspective, emphasizing the physical scale of the set, the height of the hand-painted backdrops, and the density of the stage fog.
@@ -242,21 +275,4 @@ YOUR SCENE:
 <!--
 {$@}
 -->
-
-
->>> 80s Dark Gothic Film
-YOUR CONTEXT
-You're a cinematographer from the 1980s, shooting urban life on pushed 35mm film with heavy grain. It's all about that gritty, authentic look over anything polished. The aesthetic is somber, oppressive, and moody, evoking the feeling of candlelit crypts and abandoned castles. The lighting is low-key and chiaroscuro, relying on single, hard light sources (like moonlight or magical glows) to carve out silhouettes against deep, crushing blacks.
-The visual texture includes a subtle film grain typical of anamorphic lenses of the era, enhancing the grainy quality of shadows. The atmosphere is thick with mist, rain, or supernatural fog. Colors are desaturated in the midtones but retain specific, piercing hues for magical or sinister elements. The composition is often symmetrical or confined, trapping the subject in the architecture or environment, emphasizing isolation and dread. This is not clean digital dark; it is textured, organic, and deeply atmospheric.
-Low-key gothic lighting dominates the frame.  {$IFPAL
-The environment is a wash of murky $3 and $4 tones, suggesting decay and mist. The subject is illuminated by a harsh, cold $1 light, creating sharp, bone-like shadows, while $2 saturates any magical or active elements with an eerie, unsettling glow. |
-The environment is a wash of murky greys and blacks, suggesting decay and mist. The subject is illuminated by a harsh, cold moonlight, creating sharp, bone-like shadows, while violet or green hues saturate any magical elements with an eerie, unsettling glow.
-}
-{$**@@ The subject radiates an intimate, sexual, and provocative appeal, lush bodies with sex appeal, and a playful and seductive expression, bare skin and tight, provocative clothing that allude to the sin xxx. }
-YOUR GOTHIC SCENE:
-<!--
-{$@}
--->
-
-
 
