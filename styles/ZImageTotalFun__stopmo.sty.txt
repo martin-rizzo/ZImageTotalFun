@@ -72,7 +72,7 @@ YOUR CONTEXT
 You are a cinematographer capturing the vibrant, kinetic world of 1970s variety-style fleece and rod puppetry. Your aesthetic is defined by expressive theatrical energy, tactile softness, and the charming visual appeal of oversized, stylized character proportions similar to the iconic design of Elmo from Sesame Street.
 The puppets feature flexible, lightweight craft construction with cute, exaggeratedly large heads and compact bodies, crafted from soft foam skeletons, brushed fleece skin, faux fur, and felt accents with visible hand-stitched seams. Lighting is bright, diffuse, and direct, creating an upbeat, cheerful stage atmosphere with minimal shadows. The set incorporates colorful painted wood, fabric backdrops, and practical studio props reminiscent of early color archival footage. The overall image carries the subtle softness and saturated warmth of analog video media.
 {$IFPAL 
-The color palette is nostalgic and warm: shadows are rendered in soft $4, midtones in vibrant $3 and $2, and highlights in creamy $1, with $5 accentuating the cozy textures of the costumes. | 
+The color palette is nostalgic and warm: shadows are rendered in soft $4 and midtones in vibrant $3 and $2. The scene is lit with $1 light. |
 The scene is defined by a comfortable, hand-crafted aesthetic characterized by soft focus, rich textile materials, and the joyful, radiant simplicity of classic network broadcasting.
 }
 {$**@@
@@ -90,7 +90,7 @@ You are a specialized cinematographer recreating classic mid-century supermarion
 Your puppet photographs capture the tangible charm of large mannequins and handcrafted studio mock-ups. The scene includes visible signs of hand-construction: molded resin, painted vinyl, and matte-finished plastics. All elements appear slightly oversized and tactile; the mannequins feature simplified facial geometry, painted textures, glossy eyes, and the distinctively stiff, uncanny, emotionless expressions of classic marionettes — porcelain-smooth skin, flat featureless planes, and that uncanny valley glow of a life-sized doll.
 The depth of field is deep, ensuring that both the mannequin and the intricate details of the miniature set remain in sharp, high-definition focus.
 {$IFPAL 
-The scene is defined by a clean, saturated retro sci-fi aesthetic, with $1 highlights sit atop $2 and $3 midtones, and $4 shadows. It is characterized by controlled color harmony, matte surface finishes, and the earnest, nostalgic glow of mid-century practical effects. | 
+The scene is defined by a clean, saturated retro sci-fi aesthetic, lit with $1 light, generating $2 and $3 midtones, and $4 shadows. It is characterized by controlled color harmony, matte surface finishes, and the earnest, nostalgic glow of mid-century practical effects. |
 The scene is defined by a clean, saturated retro sci-fi aesthetic, characterized by controlled color harmony, matte surface finishes, and the earnest, nostalgic glow of mid-century practical effects.
 }
 YOUR THUNDERBIRDS TV SHOW:
@@ -136,8 +136,8 @@ YOUR CONTEXT
 You are a macro-cinematographer specializing in extreme close-up puppet photography. Your aesthetic captures the hyper-detailed reality of miniature dioramas.
 The composition utilizes a razor-thin depth of field, rendering the edges of the frame in a silky, dreamlike blur while keeping the puppet's intricate facial details, dust motes, and material fibers in sharp, crystalline focus. The lighting mimics natural sunlight hitting a tiny set, creating high-contrast specular highlights on painted surfaces. Every detail, from the brushstrokes on the scenery to the grain of the model materials, is emphasized to create a sense of tangible, physical presence.
 {$IFPAL
-The scene is defined by an exquisite, high-detail macro aesthetic, with $1 highlights sit atop $2 and $3 midtones, and $4 shadows. Every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making. |
-The scene is defined by an exquisite, high-detail macro aesthetic, where every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making.
+The scene is defined by an exquisite high-detail macro aesthetic, lit with $1 light, generating $2 and $3 midtones, and $4 shadows. Every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making. |
+The scene is defined by an exquisite high-detail macro aesthetic, where every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making.
 }
 {$**@@
 The scene radiate a sultry, and provocative bimbo aesthetic with lush curvaceous bodies and sensual provocation like generous cleavages.
