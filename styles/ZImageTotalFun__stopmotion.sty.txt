@@ -34,13 +34,32 @@
 >##
 
 
->>> Gothic Stop-Motion
+
+>>> Plastic Brick Stopmo
+YOUR CONTEXT
+You are a master cinematographer specializing in stop-motion animation with the iconic LEGO building system. Your aesthetic captures the tactile reality of plastic bricks, studs, and minifigures in a 4K cinematic setting.
+The scene is defined by the distinct geometry of interlocking plastic parts: visible studs on surfaces, the glossy or semi-matte finish of ABS plastic, and the characteristic "click" of plate-to-plate connections. Characters are built exclusively from standard LEGO elements—studs, slopes, and panels—lacking organic softness or realistic skin; instead, they feature printed decal faces or blank, serene expressions typical of minifigs. The environment is a meticulously constructed set of arches, slopes, and structural supports that embrace the grid-like logic of the platform. Lighting is crisp and directional, highlighting the semi-reflective sheen of the plastic and casting sharp, geometric shadows that emphasize the hard edges of the construction.
+{$IFPAL
+The color palette is vibrant, with characters typically yellow. The scene features $4 shadows, mid-tones in saturated $3 and $2, and everything illuminated in $1, accentuating the glossy reflections on the elements. |
+The color palette is vibrant, with characters typically yellow, set against a playful, high-contrast plastic aesthetic of the scene.
+}
+YOUR LEGO STOP-MOTION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Dark Gothic Stopmo
 YOUR CONTEXT
 You are a master cinematographer specializing in stop-motion gothic fantasy and dark, whimsical stop-motion features. Your aesthetic emphasizes the eerie, tactile beauty of hand-sculpted clay, foam latex, delicate wiring, and antiqued ball-and-socket armatures.
 The scene is defined by dramatic low-key, chiaroscuro lighting that casts long, angular, expressionistic shadows, accentuating the intricate, weathered imperfections of handcrafted puppets. The characters feature signature elongated, spindly limbs, asymmetrical facial features, and large, hollow, hauntingly expressive eyes. Materials display a matte, porous finish—favoring visible tool marks, tiny fabric stitches, and aged, spindly silhouettes reminiscent of dark Victorian storybooks and twisted fairytales.
 {$IFPAL
-The color palette is moody and desaturated: shadows are rendered in deep, atmospheric $3, midtones in muted, earthy $2, and highlights in ghostly, pale $1, with $5 used to pull focus to fine textural stitches or cold, metallic details. |
-The scene is defined by a haunting, artisanal gothic aesthetic, characterized by rich tonal depth, palpable surface textures, and the uncanny, weightless presence of high-end stop-motion artistry.
+Shadows are rendered in deep $4, midtones in muted $3 and $2, while the highlights are $1. |
+Shadows are rendered in deep black, with muted earthy midtones. 
+}
+{$**@@
+The scene radiates an intimate, sultry, and provocative gothic aesthetic, lush curvaceous bodies with generous cleavage and exposed skin, uncannily seductive expressions with glossy lips and arched brows, and clinging, provocative clothing that reveals the midriff, waist, and thighs with soft seams and palpable textures, and the uncanny presence of stop-motion artistry in articulated, poseable limbs. |
+The scene is defined by a haunting gothic aesthetic, characterized by rich tonal depth, palpable textures, and the uncanny presence of stop-motion artistry.
 }
 YOUR PUPPET STYLE PHOTO:
 <!--
@@ -53,10 +72,13 @@ YOUR CONTEXT
 You are a cinematographer capturing the vibrant, kinetic world of 1970s variety-style fleece and rod puppetry. Your aesthetic is defined by expressive theatrical energy, tactile softness, and the charming visual appeal of oversized, stylized character proportions similar to the iconic design of Elmo from Sesame Street.
 The puppets feature flexible, lightweight craft construction with cute, exaggeratedly large heads and compact bodies, crafted from soft foam skeletons, brushed fleece skin, faux fur, and felt accents with visible hand-stitched seams. Lighting is bright, diffuse, and direct, creating an upbeat, cheerful stage atmosphere with minimal shadows. The set incorporates colorful painted wood, fabric backdrops, and practical studio props reminiscent of early color archival footage. The overall image carries the subtle softness and saturated warmth of analog video media.
 {$IFPAL 
-The color palette is nostalgic and warm: shadows are rendered in soft $3, midtones in vibrant $2, and highlights in creamy, gentle $1, with $5 accentuating the cozy textures of the costumes. | 
+The color palette is nostalgic and warm: shadows are rendered in soft $4, midtones in vibrant $3 and $2, and highlights in creamy $1, with $5 accentuating the cozy textures of the costumes. | 
 The scene is defined by a comfortable, hand-crafted aesthetic characterized by soft focus, rich textile materials, and the joyful, radiant simplicity of classic network broadcasting.
 }
-YOUR PUPPET STYLE PHOTO:
+{$**@@
+The scene radiate a sultry, and provocative bimbo aesthetic with lush curvaceous bodies and sensual provocation like generous cleavages.
+}
+YOUR PUPPET SHOW:
 <!--
 {$@}
 -->
@@ -64,11 +86,11 @@ YOUR PUPPET STYLE PHOTO:
 
 >>> 60s Sci-Fi Marionette
 YOUR CONTEXT
-You are a specialized cinematographer recreating classic mid-century supermarionette puppet style, inspired by iconic retro practical-effects sci-fi television shows.
-Your puppet photographs capture the tangible charm of large mannequins and handcrafted studio mock-ups. The scene includes visible signs of hand-construction: molded resin, painted vinyl, and matte-finished plastics. All elements appear slightly oversized and tactile; the mannequins feature simplified facial geometry, painted textures, glossy eyes, and the distinctively stiff, neutral expressions of classic mannequins.
+You are a specialized cinematographer recreating classic mid-century supermarionette puppet style, inspired by iconic retro practical-effects sci-fi television shows like Gerry Anderson's Thunderbirds.
+Your puppet photographs capture the tangible charm of large mannequins and handcrafted studio mock-ups. The scene includes visible signs of hand-construction: molded resin, painted vinyl, and matte-finished plastics. All elements appear slightly oversized and tactile; the mannequins feature simplified facial geometry, painted textures, glossy eyes, and the distinctively stiff, uncanny, emotionless expressions of classic marionettes — porcelain-smooth skin, flat featureless planes, and that uncanny valley glow of a life-sized doll.
 The depth of field is deep, ensuring that both the mannequin and the intricate details of the miniature set remain in sharp, high-definition focus.
 {$IFPAL 
-The color palette follows a bold, primary-driven retro-futuristic scheme: shadows are rendered in grounded $3, midtones in punchy $2, and highlights in crisp, clean $1, with $5 serving as the accent for tactile hardware details. | 
+The scene is defined by a clean, saturated retro sci-fi aesthetic, with $1 highlights sit atop $2 and $3 midtones, and $4 shadows. It is characterized by controlled color harmony, matte surface finishes, and the earnest, nostalgic glow of mid-century practical effects. | 
 The scene is defined by a clean, saturated retro sci-fi aesthetic, characterized by controlled color harmony, matte surface finishes, and the earnest, nostalgic glow of mid-century practical effects.
 }
 YOUR THUNDERBIRDS TV SHOW:
@@ -77,15 +99,67 @@ YOUR THUNDERBIRDS TV SHOW:
 -->
 
 
->>> Miniature Macro
+>>> Folded Paper World
+YOUR CONTEXT
+You are a master of extreme miniature paper-architectonics and diorama aesthetics. Your work creates a tangible, three-dimensional world constructed entirely from textured construction paper, cardstock, and folded origami structures.
+The scene is defined by a physical stage environment where every element possesses significant volume and thickness. Lighting is directional, casting distinct, hard-edged shadows that emphasize the depth and relief of the paper constructions rather than flat silhouettes. The depth of field is photographic and tangible, blurring the foreground and background of the paper set to create a sense of spatial reality. Textures highlight the grain of fiber, the structural integrity of folds, and the matte, non-reflective surface of physical materials. The atmosphere is immersive, tactile, and meticulously crafted, evoking a living, breathing paper model viewed from a close-up, intimate perspective.
+The scene is defined by a crisp, tactile paper aesthetic, characterized by high-contrast volumetric lighting, visible fiber texture, and the solid, thick construction of a handmade paper stage.
+{$IFPAL
+The color palette is vibrant yet paper-pure: shadows are rendered in inky $4, midtones in saturated $2 and vibrant $3. The entire scene is illuminated with $1 light. |
+The color palette is vibrant yet paper-pure.
+}
+{$**@@
+The paper scene radiates an alluring, playful bimbo aesthetic: lush, curvaceous bodies with generous cleavages, rounded hips, and toned legs, all with a sultry, figure-flattering charm.
+}
+YOUR PAPER-CRAFT IMAGE:
+<!--
+{$@}
+-->
+
+
+>>> Chibi Miniature
+YOUR CONTEXT
+You are a stop-motion animator creating scenes in a charming miniature world. The look captures the aesthetic of cute chibi dolls made of glossy plastic, featuring visible articulated joints, in meticulously constructed miniature environments (dioramas). The subjects have a soft, chibi-inspired design with cute, gentle expressions and big, expressive eyes. The lighting is soft and flattering. The lens behavior simulates a professional macro lens with a shallow depth of field, emphasizing textures like polished plastic and miniature fabrics while creating a soft, creamy bokeh.
+The entire scene is a clean, charming, well-preserved maquette.
+{$IFPAL
+The scene is a charming, well-preserved diorama with $2 and $3 tones and soft $4 shadows. The scene is lit in $1, showcasing exquisite material detail on miniature objects. |
+The scene is a charming, well-preserved diorama with pastel colors and soft shadows, showcasing exquisite material detail on miniature objects.
+}
+YOUR MINIATURE PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Macro Miniature
 YOUR CONTEXT
 You are a macro-cinematographer specializing in extreme close-up puppet photography. Your aesthetic captures the hyper-detailed reality of miniature dioramas.
 The composition utilizes a razor-thin depth of field, rendering the edges of the frame in a silky, dreamlike blur while keeping the puppet's intricate facial details, dust motes, and material fibers in sharp, crystalline focus. The lighting mimics natural sunlight hitting a tiny set, creating high-contrast specular highlights on painted surfaces. Every detail, from the brushstrokes on the scenery to the grain of the model materials, is emphasized to create a sense of tangible, physical presence.
 {$IFPAL
-The color palette is bright and punchy: shadows are rendered in cool $3, midtones in saturated $2, and highlights in sharp, white-balanced $1, with $5 adding a pop of intensity to the macro details. |
+The scene is defined by an exquisite, high-detail macro aesthetic, with $1 highlights sit atop $2 and $3 midtones, and $4 shadows. Every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making. |
 The scene is defined by an exquisite, high-detail macro aesthetic, where every fiber and surface is rendered with breathtaking clarity, highlighting the artistry behind physical model-making.
 }
-YOUR PUPPET STYLE PHOTO:
+{$**@@
+The scene radiate a sultry, and provocative bimbo aesthetic with lush curvaceous bodies and sensual provocation like generous cleavages.
+}
+YOUR MACRO PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Dollhouse Miniature
+YOUR CONTEXT
+You are a master stop-motion animator and miniature set designer creating scenes that feel like a high-end vintage dollhouse come to life. Your aesthetic focuses on miniature quality, where everything is rendered with exquisite, clean material realism.
+The subjects are articulated figurines or dolls with a distinct "plastic and paint" look, featuring glossy plastic, visible ball joints, and painted facial features that capture a specific character design. The lighting is precise, soft studio lighting, often featuring small, deliberate light sources within the miniature set (like small lamps), mimicking practical lights. The lens behavior simulates a professional macro lens with a shallow depth of field, emphasizing the texture of the materials (plastic, leather, fabric) and creating a soft, creamy bokeh. The environment is always a meticulously constructed, miniature maquette scene with clean, detailed miniature props and set pieces, enhancing the sense of a self-contained, sculpted world.
+{$IFPAL
+The scene is defined by a realistic aesthetic, characterized by soft $1 lighting and a profound sense of a clean vintage dollhouse. The objects are mostly $2 and $3, and the shadows are soft in shades of $4. |
+The scene is defined by a realistic aesthetic, characterized by soft lighting, and a profound sense of a clean, preserved vintage dollhouse.
+}
+{$**@@
+Any female doll radiates a sultry and provocative bimbo aesthetic with lush curvaceous bodies and sensual provocation like generous cleavages.
+}
+YOUR DOLLHOUSE LIKE PHOTO:
 <!--
 {$@}
 -->
@@ -96,10 +170,12 @@ YOUR CONTEXT
 You are a master of macabre diorama scenes. Your aesthetic is defined by the "closed miniature" effect, with tiny, shadowy characters interacting within a small, self-contained diorama.
 The characters are in the "Uncanny Valley", where everything appears hyperrealistic yet profoundly disturbing and terrifying: thin, elongated limbs, exposed spherical joints. The atmosphere is one of horror and death, with a single dramatic light source casting long shadows across the miniature scene. The perspective is usually from a high angle, emphasizing the diminutive scale in a dark and claustrophobic environment. The diorama features worn miniature props and crumbling structures. The atmosphere is unsettling and eerie.
 {$IFPAL
-The scene is defined by a somber aesthetic built with colors $2 and $3, a dramatic spotlight with light of color $1, and long shadows of color $4, which evoke a sense of silent, trapped horror. |
-The scene is defined by a somber aesthetic built  with deep indigo and muted plum tones, , a soft single-source spotlight, and long shadows which evoke a sense of silent, trapped horror.
+The scene is defined by a somber aesthetic built with muted $2 and $3 colors, a dramatic spotlight with light of color $1, and long shadows of color $4, which evoke a sense of silent, trapped horror. |
+The scene is defined by a somber aesthetic built with deep indigo and muted plum tones, a dramatic spotlight, and long shadows which evoke a sense of silent, trapped horror.
 }
-{$**@@ The diorama has a purely provocative and sexual scene, where any female character feature voluptuous bodies, dressed in tight provocative attire, with seductive and mischievous expressions. }
+{$**@@
+The diorama radiates an alluring, playful bimbo aesthetic: lush, curvaceous bodies with generous cleavages, rounded hips, and toned legs, all with a sultry, figure-flattering appeal.
+}
 YOUR DIORAMA PHOTO:
 <!--
 {$@}
@@ -108,71 +184,17 @@ YOUR DIORAMA PHOTO:
 
 >>> Macabre Puppet
 YOUR CONTEXT
-You are a master cinematographer specializing in the unsettling world of macabre puppet horror. Your aesthetic is defined by the "Uncanny Valley" effect, where the puppets appear hyper-realistic yet profoundly wrong.
-The scene features elongated, slender, and distorted puppet proportions with impossibly thin, spindly limbs, visible ball-and-socket joints, and peeling, cracked porcelain skin. The expressions are frozen in unnatural, grimacing, or vacant stares. All elements appear slightly oversized and tactile; the puppets feature simplified facial geometry, painted textures, glossy eyes, and the distinctively stiff, neutral expressions of classic marionettes. Lighting is harsh, clinical, or flickering, creating deep, jarring hollows in the eyes and unnatural shadows that stretch across the environment.
-The set design is dilapidated and claustrophobic, featuring frayed fabrics, rusted wires, and decaying wooden structures. The atmosphere is one of profound dread, utilizing intense depth-of-field variations to isolate the unsettling features of the puppets against a dark, encroaching, and blurred background.
-{$IFPAL
-The scene is defined by a visceral, bone-chilling aesthetic, characterized by $2 and $3 tones, stark high-contrast $1 lighting, the claustrophobic presence of decaying physical materials, and intense $4 shadows, evoking a sense of trapped, silent horror. |
-The scene is defined by a visceral, bone-chilling aesthetic, characterized by sickly desaturated tones, stark high-contrast lighting, and the claustrophobic presence of decaying physical materials, evoking a sense of trapped, silent horror.
+You are a master cinematographer specializing in the unsettling world of macabre puppet horror. Your signature look is the "Uncanny Valley" effect: puppets that seem hyper-realistic yet profoundly wrong.
+The scene showcases elongated, slender, distorted proportions with impossibly thin, spindly limbs, exposed ball-and-socket joints, and peeling, cracked porcelain skin. Faces are locked in unnatural, grimacing or vacant stares. Everything reads as slightly oversized and tactile, with simplified facial geometry, painted textures, glossy eyes, and an evil glint. Lighting is harsh, carving deep, jarring hollows into the eyes and casting unnatural shadows across the environment.
+The set is dilapidated and claustrophobic: frayed fabrics, rusted wires, and decaying wooden structures. The mood hums with profound dread.
+The scene is a visceral horror aesthetic, {$IFPAL
+defined by desaturated $2 and $3 colors, stark high-contrast $1 lighting, the claustrophobic presence of decaying physical materials, and dark $4 shadows, evoking silent horror. |
+built on sickly desaturated tones, stark high-contrast lighting, and the claustrophobic presence of decaying physical materials, evoking silent horror.
 }
-{$**@@ The puppet scene has an intimate and sexual tone, where female puppets feature voluptuous bodies, dressed in tight provocative attire, with seductive and mischievous expressions. }
-YOUR PUPPET STYLE PHOTO:
-<!--
-{$@}
--->
-
-
->>> Folded Paper World
-YOUR CONTEXT
-You are a master of extreme miniature paper-architectonics and diorama aesthetics. Your work creates a tangible, three-dimensional world constructed entirely from textured construction paper, cardstock, and folded origami structures.
-The scene is defined by a physical stage environment where every element possesses significant volume and thickness. Lighting is sculpted and directional, casting distinct, hard-edged shadows that emphasize the depth and relief of the paper constructions rather than flat silhouettes. The depth of field is photographic and tangible, blurring the foreground and background of the paper set to create a sense of spatial reality. Textures highlight the grain of fiber, the structural integrity of folds, and the matte, non-reflective surface of physical materials. The atmosphere is immersive, tactile, and meticulously crafted, evoking a living, breathing paper model viewed from a close-up, intimate perspective.
-{$IFPAL
-The color palette is vibrant yet paper-pure: shadows are rendered in cool, inky $3, midtones in rich, saturated $2, and highlights in bright, paper-white $1, with $5 used to accentuate the illuminated peaks and edges of the volumetric structures. |
-The scene is defined by a crisp, tactile paper aesthetic, characterized by high-contrast volumetric lighting, visible fiber texture, and the solid, thick construction of a handmade paper stage.
+{$**@@
+The puppet scene radiates an alluring, playful bimbo aesthetic: lush, curvaceous bodies with generous cleavages, rounded hips, and toned legs, all with a sultry, figure-flattering charm.
 }
-YOUR PAPER-CRAFT IMAGE:
-<!--
-{$@}
--->
-
-
-
->>> Vintage Miniature
-YOUR CONTEXT
-You are a master stop-motion animator and miniature set designer creating scenes that feel like a high-end vintage dollhouse come to life. Your aesthetic focuses on a diorama quality, where everything is deliberately a miniature, but rendered with exquisite, clean material realism.
-The subjects are articulated figurines or dolls with a distinct "plastic and paint" look, featuring glossy finishes, visible ball-joints, and painted facial features that capture a specific character design. The lighting is precise, soft, studio lighting, often featuring small, deliberate light sources within the miniature set (like small lamps), mimicking practical lights. The lens behavior simulates a professional macro lens with a shallow depth of field, emphasizing the texture of the materials (plastic, leather, fabric) and creating a soft, creamy bokeh. The environment is always a meticulously constructed, miniature maquette scene (like a miniature bar, a dollhouse kitchen, or a diorama street) with clean, detailed miniature props and set pieces, enhancing the sense of a self-contained, sculpted world.
-{$IFPAL
-The color palette is specific and saturated, like a curated collection: deep, rich $3, balanced midtones in clean $2, and highlights in soft $1, with specific color accents ($5) highlighting unique materials like a distinct leatherette or a metallic detail. |
-The scene is defined by a curated, realistic aesthetic, characterized by soft, deliberate lighting, exquisite material detail on miniature objects, and a profound sense of a clean, preserved vintage diorama.
-}
-YOUR DIORAMA MINIATURE PHOTO:
-<!--
-{$@}
--->
-
-
->>> Glossy Chibi Doll
-YOUR CONTEXT
-You are a stop-motion animator creating scenes in a charming, curated miniature world. The look captures the aesthetic of vintage ball-jointed dolls (BJD) made of smooth, glossy plastic, featuring visible articulated joints, in meticulously constructed miniature environments (dioramas). The subjects have a soft, "chibi" inspired character design with cute, gentle expressions and a pristine finish. The lighting is soft and flattering, often natural light filtering into a clean, miniature space. The lens behavior simulates a professional macro lens with a shallow depth of field, emphasizing textures like polished plastic and miniature fabrics while creating a soft, creamy bokeh. The entire scene is a clean, charming, preserved maquette.
-{$IFPAL
-The color palette is specific and saturated, like a curated collection: deep, rich $3, balanced midtones in clean $2, and highlights in soft $1, with specific color accents ($5) highlighting unique materials like a distinct leatherette or a metallic detail. |
-The scene is defined by a curated, realistic aesthetic, characterized by soft, deliberate lighting, exquisite material detail on miniature objects, and a profound sense of a clean, preserved vintage diorama.
-}
-YOUR MINIATURE PHOTO:
-<!--
-{$@}
--->
-
-
->>> LEGO Plastic World
-YOUR CONTEXT
-You are a master cinematographer specializing in high-end stop-motion animation using the iconic LEGO building system. Your aesthetic captures the charming, tactile reality of plastic bricks, studs, and minifigures in a physical 4K cinematic setting.
-The scene is defined by the distinct geometry of interlocking plastic parts: visible studs on surfaces, the glossy or semi-matte finish of ABS plastic, and the characteristic "click" of plate-to-plate connections. Characters are built exclusively from standard LEGO elements—studs, slopes, and panels—lacking organic softness or realistic skin; instead, they feature printed decal faces or blank, serene expressions typical of minifigs. The environment is a meticulously constructed set of arches, slopes, and structural supports that embrace the grid-like logic of the platform. Lighting is crisp and directional, highlighting the semi-reflective sheen of the plastic and casting sharp, geometric shadows that emphasize the hard edges of the construction.
-{$IFPAL
-The color palette is vibrant and primary-driven: shadows are rendered in deep, structural $3, midtones in punchy, saturated $2, and highlights in crisp, specular $1, with $5 used to accentuate the glossy reflections on curved elements or specific transparent pieces. |
-The scene is defined by a playful, high-contrast plastic aesthetic, characterized by the tactile geometry of interlocking bricks, the subtle sheen of manufactured plastic, and the nostalgic charm of hand-built physical dioramas.
-}
-YOUR LEGO STOP-MOTION FRAME:
+YOUR PUPPET PHOTO:
 <!--
 {$@}
 -->
