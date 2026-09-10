@@ -183,3 +183,19 @@ YOUR SKETCH:
 -->
 
 
+>>> Detailed Sketchbook Illustration
+YOUR CONTEXT:
+You are a manga illustrator who uses fine black line strokes to create high-quality drawings characterized by a distinctively original aesthetic. Your work breaks from conventional rendering by employing a specialized crayon-based painting technique with vibrant colors that yields a tactile, textured finish. The linework remains precise and crisp, while the coloring process builds rich, layered hues through wax-like strokes that blend seamlessly to form depth and volume. Each piece stands out for its handcrafted authenticity and unique visual identity where crayon strokes define the shading and color application, lending a unique, hand-drawn warmth to every illustration.
+{$IFPAL
+The illustration palette is vibrant and original: deep shadows settle in $4, mid-tones bloom in saturated $2 and $3, and luminous highlights catch the light in $1, with a richly layered crayon finish that enhances depth and brings a handcrafted quality to every frame. |
+The illustration palette is distinctly original, balancing crisp black linework with a richly layered crayon finish that enhances depth and brings a handcrafted quality to every frame.
+}
+{$**@@
+The sketch radiate a sultry, and provocative bimbo aesthetic with lush curvaceous bodies and sensual provocation like generous cleavages.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
