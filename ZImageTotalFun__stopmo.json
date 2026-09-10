@@ -172,13 +172,13 @@
         "previewExposures": []
       },
       "widgets_values": [
-        1,
+        2,
         "Plastic Brick Stopmo",
         false,
         "The interior of a bar features an architecture of rounded, modular forms. A bar extends horizontally along the frame, displaying a strip of acrylic. To the left, an elegant xenomorph, her biomechanical form glowing in a dim light, sits on a bar stool. She wears a tight corset and a leather skirt, holding a tall glass in one hand, raised in a toast as she looks to the right. Its head is elongated and angular, yet it has a sweet smile and a seductive look. To the right, a man in his mid-thirties stands at the bar, holding a tall glass. He turns his head to look directly at the camera, a playful, knowing smile spreading across his face. The glass contains a drink with small floating spheres that reflect the light. He wears a form-fitting uniform with a short, high collar and a single vertical stripe on the jacket. His hair is neatly styled with a clean, mid-century part. Behind the bar, in the center of the image, an imposing, anthropomorphic octopus-like alien bartender stands upright, his tentacles subtly arranged to mimic human arms while he holds a glass, wearing a crisp white shirt and smart trousers, his multifaceted eyes glaring in displeasure with a distinctly human scowl. Behind the bartender, a mirrored wall reflects rows of liquor bottles with geometric labels. Above the bar floats a neon sign made of curved glass tubes that reads 'COSMIC LOUNGE' in tall, rounded letters, emitting light with a soft, glowing halo. An illuminated menu board reads 'SIGNATURE DRINKS' with three items: 'ORBITAL HIGHBALL,' 'NEBULA SOUR,' and 'ROCKET MARTINI,' each displayed on glowing horizontal bars. To the right, a cylindrical column features a vertical neon panel that reads 'OPEN 24 HOURS' in condensed letters within a translucent strip. To the left, a curved booth sits beneath a domed ceiling light. An illuminated sign reading 'GALAXY BAR SERVICE' encircles the inner rim of the dome in capitals and dominates the left side of the frame. Soft lighting reflects off the glass and acrylic surfaces, highlighting the structural design.",
         8,
         0,
-        true,
+        false,
         true,
         2.7755575615628914e-17,
         2.7755575615628914e-17,
@@ -191,13 +191,13 @@
         "Z-Image_half_natural_vae.safetensors"
       ],
       "widgets_values_named": {
-        "seed": 1,
+        "seed": 2,
         "style": "Plastic Brick Stopmo",
         "enable_label": false,
         "prompt": "The interior of a bar features an architecture of rounded, modular forms. A bar extends horizontally along the frame, displaying a strip of acrylic. To the left, an elegant xenomorph, her biomechanical form glowing in a dim light, sits on a bar stool. She wears a tight corset and a leather skirt, holding a tall glass in one hand, raised in a toast as she looks to the right. Its head is elongated and angular, yet it has a sweet smile and a seductive look. To the right, a man in his mid-thirties stands at the bar, holding a tall glass. He turns his head to look directly at the camera, a playful, knowing smile spreading across his face. The glass contains a drink with small floating spheres that reflect the light. He wears a form-fitting uniform with a short, high collar and a single vertical stripe on the jacket. His hair is neatly styled with a clean, mid-century part. Behind the bar, in the center of the image, an imposing, anthropomorphic octopus-like alien bartender stands upright, his tentacles subtly arranged to mimic human arms while he holds a glass, wearing a crisp white shirt and smart trousers, his multifaceted eyes glaring in displeasure with a distinctly human scowl. Behind the bartender, a mirrored wall reflects rows of liquor bottles with geometric labels. Above the bar floats a neon sign made of curved glass tubes that reads 'COSMIC LOUNGE' in tall, rounded letters, emitting light with a soft, glowing halo. An illuminated menu board reads 'SIGNATURE DRINKS' with three items: 'ORBITAL HIGHBALL,' 'NEBULA SOUR,' and 'ROCKET MARTINI,' each displayed on glowing horizontal bars. To the right, a cylindrical column features a vertical neon panel that reads 'OPEN 24 HOURS' in condensed letters within a translucent strip. To the left, a curved booth sits beneath a domed ceiling light. An illuminated sign reading 'GALAXY BAR SERVICE' encircles the inner rim of the dome in capitals and dominates the left side of the frame. Soft lighting reflects off the glass and acrylic surfaces, highlighting the structural design.",
         "steps": 8,
         "initial_bias": 0,
-        "turbo_creativity": true,
+        "turbo_creativity": false,
         "detailed_refiner": true,
         "effect_1_tweak": 2.7755575615628914e-17,
         "effect_2_tweak": 2.7755575615628914e-17,
@@ -610,7 +610,7 @@
               140
             ],
             "flags": {},
-            "order": 4,
+            "order": 3,
             "mode": 0,
             "inputs": [
               {
@@ -658,7 +658,7 @@
               160
             ],
             "flags": {},
-            "order": 3,
+            "order": 2,
             "mode": 0,
             "inputs": [
               {
@@ -708,7 +708,7 @@
               170
             ],
             "flags": {},
-            "order": 2,
+            "order": 1,
             "mode": 0,
             "inputs": [
               {
@@ -760,7 +760,7 @@
               100
             ],
             "flags": {},
-            "order": 7,
+            "order": 6,
             "mode": 0,
             "inputs": [
               {
@@ -811,7 +811,7 @@
               200
             ],
             "flags": {},
-            "order": 5,
+            "order": 4,
             "mode": 0,
             "inputs": [
               {
@@ -871,7 +871,7 @@
               140
             ],
             "flags": {},
-            "order": 6,
+            "order": 5,
             "mode": 0,
             "inputs": [
               {
@@ -921,7 +921,7 @@
               470
             ],
             "flags": {},
-            "order": 9,
+            "order": 8,
             "mode": 0,
             "inputs": [
               {
@@ -1028,7 +1028,7 @@
               470
             ],
             "flags": {},
-            "order": 8,
+            "order": 7,
             "mode": 0,
             "inputs": [
               {
@@ -1116,7 +1116,7 @@
               26
             ],
             "flags": {},
-            "order": 10,
+            "order": 9,
             "mode": 0,
             "inputs": [
               {
@@ -1151,7 +1151,7 @@
               720
             ],
             "flags": {},
-            "order": 11,
+            "order": 10,
             "mode": 0,
             "inputs": [
               {
@@ -1288,7 +1288,7 @@
               270
             ],
             "flags": {},
-            "order": 12,
+            "order": 11,
             "mode": 0,
             "inputs": [
               {
@@ -1438,7 +1438,7 @@
               30
             ],
             "flags": {},
-            "order": 13,
+            "order": 12,
             "mode": 0,
             "inputs": [
               {
@@ -1476,7 +1476,7 @@
               840
             ],
             "flags": {},
-            "order": 1,
+            "order": 13,
             "mode": 0,
             "inputs": [
               {
