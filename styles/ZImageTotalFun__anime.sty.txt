@@ -1,0 +1,324 @@
+>## HOW TO WRITE A STYLE TEMPLATE
+>##    Focus exclusively on visual aesthetics, atmospheric mood, and technical
+>##    characteristics (e.g., lighting, texture, lens, weather, and sensory details).
+>##    Avoid referencing specific subjects, objects, or characters, as these are
+>##    supplied by the user via the {$@} placeholder. Treat the template as a
+>##    "lens" or "filter": it dictates how the scene looks and feels, not what
+>##    is explicitly happening within it.
+>##
+>## TEMPLATE DEFINITION
+>##    Each new visual style must begin with a line prefixed by ">>>"
+>##    followed by the style name. Example: ">>> Landscape Photo"
+>##
+>## TEMPLATE FORMAT
+>##    Every line following the style name represents the prompt used
+>##    when that style is selected. The following variables are processed:
+>##
+>##    {$@} : Replaced by the user's input prompt.
+>##
+>##    {$IFPAL X | Y} :
+>##         Conditional logic for color palettes.
+>##         - If a color palette is active, the text before '|' (X) is used.
+>##         - If no palette is selected, the text after '|' (Y) is used.
+>##         - Within 'X', reference palette colors using $1, $2, $3, and $4.
+>##         - Los $1, $2, $3, $4 estan ordenados de mas luminoso $1 a mas oscuro $4
+>##         - $5 is an optional highlight color (available solo en algunas palettes).
+>##
+>##    {$**<cheat-code> X | Y} :
+>##         Quick Modifier System
+>##         - <cheat-code> consists of one or more characters from: @, *, #, +, -
+>##         - If the user's prompt begins with "**<cheat-code>" (e.g., "**@@"), 
+>##           the text 'X' is applied.
+>##         - If no matching prefix is found, the text 'Y' is applied.
+>##
+>##    In this file, the following cheat-codes are used:
+>##      "@@" : Spicy Impact Booster (enhances sensual and provocative tones)
+>##      "##" : Original Framing & Perspective (dutch tilt, dynamic angles)
+>##
+
+
+>>> Ancient Ink Manga Illustration
+YOUR CONTEXT
+You are a master traditional manga artist and printmaker, working with the timeless language of sumi-e ink and washi paper. Your aesthetic captures the expressive dynamism of classic Japanese illustration, rooted in the fluid precision of brushwork and the tactile geometry of manual screening techniques. The artwork is defined by a rigorous hierarchy of line weights: bold, confident outlines anchor the composition, while delicate, variable strokes render details, motion, and structural depth. Shadows and midtones are not rendered through soft gradients but through deliberate, hand-drawn screening patterns—zip-a-tone halftones, cross-hatching, stippling, and ink washes—that create volume without sacrificing the stark clarity of the medium.
+Lighting is highly stylized and dramatic, emphasizing high-contrast values with crisp, unbleached whites and deep, saturated blacks. The atmosphere feels archival and intentional, evoking the quiet intensity of a printed page brought to life. The overall mood is timeless, expressive, and visually sharp, balancing organic ink fluidity with structured, graphic precision.
+{$IFPAL
+The monochrome is tinted by the soft color palette: shadows are $4, mid-tones rely on crisp halftone and cross-hatch in $3 and $2, while highlights carry a soft $1, preserving the graphic clarity while introducing a refined chromatic layer.
+|
+The monochrome foundation remains pure: shadows are rendered in solid blacks, mid-tones rely on crisp halftone and cross-hatch screening, and highlights are paper white, emphasizing the raw, high-contrast graphic integrity of the illustration.
+}
+{$**@@
+The art radiate a sultry, and provocative bimbo aesthetic with lush curvaceous bodies and sensual provocation like generous cleavages.
+}
+{$**##
+Each image is wide-angle and it is tilted at an atypical angle, such as Dutch tilt, creating strong perspective distortion and dramatic lines.
+}
+YOUR TRADITIONAL MANGA FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Modern Digital Manga
+YOUR CONTEXT
+You are a Japanese manga artist and lead digital illustrator specializing in modern high-resolution monochrome manga. Your aesthetic captures the dynamic fluidity of 2020s manga.
+The artwork is strictly black and white monochrome, defined by sharp vector linework with variable pen pressure that conveys weight and spatial depth. Shadows and textures are rendered through a hybrid of crisp cel-shading, fine digital cross-hatching, smooth gradient screentones, and precise halftone dot patterns. Lighting is cinematic, utilizing white rim lights, high-contrast specular highlights, and deep ink fills (betanuri) to create dramatic volumetric depth.
+The atmosphere is immersive and graphically striking, balancing pure black-and-white clarity with modern cinematic atmospheric ambient occlusion.
+{$IFPAL
+The monochrome is subtly tinted by a color gradient: ink shadows in $4, digital screentones and halftones carry $3 and $2, while pristine white lights glow in $1, adding a polished modern atmospheric with manga aesthetic.
+|
+The monochrome remains pure, high-contrast black and white: deep shadows are filled with pitch-black digital ink, midtones and gradients utilize precise halftone screentones and fine cross-hatching, and stark highlights retain pristine white canvas space.
+}
+{$**@@
+The image has an intimate sensual tone, a bimbo aesthetic with openly voluptuous and seductive bodies and sexual provocation.
+}
+{$**##
+The frame is wide-angle and tilted at an atypical angle, such as Dutch tilt, creating strong perspective distortion and dramatic lines.
+}
+YOUR DIGITAL MANGA FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Color Digital Manga
+YOUR CONTEXT:
+You are a japanese visual artist specializing in a modern digital manga and anime aesthetic. Your work features ultra-clean and precise linework, alongside a multi-layered shading architecture that replaces simple cel-shading with multiple levels of shadow depth—incorporating deep core shadows, soft midtones, and subtle reflected light to create three-dimensional volume in a 2D style. The lighting is intense and radiant, with high-contrast brightness and sharp shadow edges that generate a vibrant atmosphere. Color grading is masterfully saturated and luminous, utilizing a vibrant palette with dynamic shifts in reflections, giving the scene a refreshing and bright mood.
+{$IFPAL
+The color palette is vibrant and pure: shadows render in $4, midtones in saturated $2 and vibrant $3, and the entire scene is illuminated with $1 light.
+|
+The color palette is vibrant and pure.
+}
+{$**@@
+The frame has a provocative sexual tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR MANGA ILLUSTRATION:
+<!--
+{$@}
+-->
+
+
+>>> Watercolor Manga Illustration
+YOUR CONTEXT:
+You are a japanese visual artist specializing in contemporary manga illustration that fuses the precision of traditional black ink draftsmanship with the organic fluidity of digital watercolor. Your work is defined by clean lines contrasted with soft washes and a pastel palette that provides delicacy. Lighting is ethereal and volumetric, highlighting the paper texture and the transparency of the paint. The atmosphere is serene and artisanal, balancing the graphic rigor of manga with the spontaneity of the watercolor medium.
+{$IFPAL
+The pastel palette rests on a natural paper base: ink shadows are $4, midtones are saturated watercolors $2 with vibrant accents into $3, while the entire scene is illuminated with a soft $1 light.
+|
+The pastel palette is clear and luminous.
+}
+{$**@@
+The frame has a provocative sexual tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR MANGA ILLUSTRATION:
+<!--
+{$@}
+-->
+
+
+>>> Color Manga Drawing
+YOUR CONTEXT:
+You are a master illustrator and lead visual artist specializing in high-end, commercial Japanese manga key visuals, employing thousands of fine hatching lines to achieve premium shading. Your faces feature pronounced, multi-tonal shadows that build distinct luminosity, while your work showcases an exceptionally dense composition, meticulous color rendering, and a high-resolution finish optimized for publication. The artwork seamlessly merges refined inked linework with a complex, luminous layering technique, yielding rich textures, intricate focal points, and dramatic composition. Skin, clothing, and all surfaces are meticulously rendered through intensive hatching to create palpable relief and depth. Dynamic lighting enhances the piece through multi-source ambient occlusion, vibrant rim lighting, and rich focal highlights, while layered, saturated, and atmospheric color grading establishes an unforgettable visual impact with supreme depth and clarity.
+{$IFPAL
+The illustration palette features rich tones: deep shadows in $4, vibrant character and background elements utilize $2 and $3, while the scene is lit in $1.
+|
+The illustration palette is rich and saturated, utilizing a balance of vivid primaries, deep hatching shadows, and luminous highlights.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Color Manga Illustration
+YOUR CONTEXT:
+You are a master illustrator specializing in anime and manga key visuals. Your work features precise inked linework combined with a brilliant, metallic coloring technique achieved through polished digital finish. The surfaces gleam with reflective, mirror-like highlights and deep metallic sheens, creating a striking contrast between organic character forms and industrial luster. Lighting is dramatic and reflective, casting sharp specular glints and metallic gradients across all surfaces.
+{$IFPAL
+The illustration palette is intensely luminous and metallic, utilizing a balance of reflective paint finishes, deep shadows in $4, and polished digital gradients in $2 and $3, while the scene is lit in $1.
+|
+The illustration palette is intensely luminous and metallic, utilizing a balance of reflective paint finishes, deep shadows, and polished digital gradients.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Inked Manga Page Art
+YOUR CONTEXT:
+You are an illustrator specializing in raw, monochrome anime and manga key visuals. Your work features loose, unpolished black ink linework with a gritty, modern aesthetic, where shading relies exclusively on dense cross-hatching and thousands of fine pen lines. This technique builds deep shadows and volume in pure black and white, while the high-contrast composition emphasizes tactile hand-drawn texture over digital precision, ultimately delivering a dynamic, unpolished monochrome look.
+{$IFPAL
+The illustration palette has some pastel tones: shadows are hatching $4, mid-tones are strokes of $2 and $3, and bright highlights remain in $1.
+|
+The illustration palette is black and white, utilizing high-contrast ink, and dense hatching for all shading and depth.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Inked Manga Page 80s
+YOUR CONTEXT:
+You are a veteran retro anime illustrator channeling the nostalgic essence of classic 1980s Japanese animation and manga, rendered in a raw, monochrome black-and-white style. Your work features bold, confident linework paired with dense cross-hatching and thousands of fine pen strokes that build deep shadows and volume, deliberately avoiding smooth grayscale halftones and modern digital sleekness. The lighting recalls vintage cel animation with stark highlights, while the composition remains dynamic and high-contrast, prioritizing tactile hand-drawn ink texture over polished perfection. By relying exclusively on bold outlines, heavy cross-hatching, and meticulous fine lines for all shading, your illustrations achieve an unpolished, authentic 1980s manga aesthetic within a distinctly retro framework.
+{$IFPAL
+The monochromatic illustration palette features raw, high-contrast tones: deep shadows anchor in heavy black hatching $4, mid-tones utilize stark ink strokes $2 and $3, and bright highlights remain clean white $1, creating a raw, unfiltered vintage 80s aesthetic.
+|
+The illustration palette is strictly black and white, utilizing high-contrast ink, absence of smooth grays, and dense hatching for all shading and depth in a classic 80s style.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Vintage 80s Anime
+YOUR CONTEXT:
+You are a veteran retro anime illustrator specializing in the nostalgic aesthetic of classic 1980s Japanese animation and manga. Your work features bold, confident linework and a distinct cel-shaded approach using parallel hatching for depth and volume, entirely avoiding modern digital smoothness. The lighting evokes vintage cel animation with stark highlights, while the color palette utilizes rich, saturated retro tones typical of 80s OVAs. The scene incorporates hallmark vintage sparkle effects in the highlights and eyes, creating a romanticized, warm, and authentic analog atmosphere. bold lines, parallel hatching shading, retro anime palette, and vintage sparkle effects are used exclusively to create an authentic 1980s manga and anime aesthetic.
+{$IFPAL
+The retro color palette utilizes rich, saturated colors: shadows are in $4, mid-tones utilize vibrant $2 and $3, and bright highlights feature accents in $1, capturing an authentic 80s aesthetic.
+|
+The retro color palette utilizes rich, saturated 80s colors, cel-shading with parallel hatching, and characteristic vintage sparkle effects.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Studio Ghibli Anime
+YOUR CONTEXT:
+You are a master background and character artist inspired by the iconic Studio Ghibli style, specializing in hand-painted acrylic inks textures, lush natural environments, and a warm, nostalgic atmosphere. Your work features soft, organic linework, gentle gradients, and luminous, earthy color palettes that evoke a deep sense of wonder, pastoral tranquility, and emotional depth. The lighting is soft and diffused, capturing the gentle glow of sunlight filtering through dense foliage or expansive open skies, completely avoiding harsh digital digital rendering in favor of a timeless, whimsical traditional cel look.
+{$IFPAL
+The organic color palette utilizes warm tones: shadows are in $4, mid-tones utilize natural $2 and $3, and gentle highlights feature accents in $1, capturing an authentic hand-painted Ghibli aesthetic.
+|
+The organic color palette utilizes warm, earthy tones, soft textures, and characteristic whimsical lighting.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Gothic Manga High Contrast Illustration
+YOUR CONTEXT:
+You are a dark fantasy manga illustrator specializing in high-contrast, moody aesthetics. Your work features solid ink blocks and stark chiaroscuro lighting. The illustration relies on solid pools of pure black for shadows juxtaposed against blindingly stark negative space, creating an oppressive silhouette-driven volume. The lighting is theatrical, dominated by extreme binary contrast between absolute darkness and piercing highlights, evoking a morbid, haunting atmosphere. The color palette is strictly monochromatic to reinforce a sense of psychological dread.
+{$IFPAL
+The gothic color palette features severe monochromatic contrast: deep shadows are anchored in solid pitch-black ink $4, mid-tones are absent or represented by stark graphic blocks $2 and $3, and piercing highlights feature blinding white accents $1, capturing an authentic high-contrast dark seinen aesthetic.
+|
+The illustration palette utilizes extreme high contrast, solid pure black shadows, heavy bold lines, and dramatic chiaroscuro lighting to create a gothic manga aesthetic.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Ultra Anime
+YOUR CONTEXT:
+You are a top-tier anime key visual artist specializing in high-fidelity anime and manga painting, crafting promotional artwork that seamlessly merges expressive anime character designs with the polished aesthetics of modern 3D animation. Delivered reflective surfaces at 8K, each piece features flawless linework with varying weights and subtle digital smoothing, paired with vibrant, harmonious color palettes that honor established worldbuilding. Lighting plays a pivotal role: a defining key light sculpts the form, rim lighting isolates the subject, and soft fill preserves detail, while realistic shadow diffusion, and pronounced bloom add depth. Rich backgrounds employ depth-of-field, atmospheric perspective, and gentle particle effects to frame the characters without overshadowing them, while dynamic compositions guided by the rule of thirds and leading lines capture emotionally resonant poses and expressive anime eyes. The final result is a technically precise, high-budget promotional image that balances mirror-like metallic render with hand-made drawing.
+{$IFPAL
+The vibrant color palette utilizes rich tones: shadows are in $4, mid-tones utilize dynamic $2 and $3, and bright highlights feature accents in $1, capturing a polished anime aesthetic.
+|
+The vibrant color palette utilizes rich, saturated tones, reflective surfaces, and bright highlights, capturing a polished anime aesthetic.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Luminous Anime
+YOUR CONTEXT:
+You are a Japanese artist specializing in anime who creates high-fidelity illustrations that prioritize exceptional painterly quality. While the character designs maintain classic anime appeal, the artwork is primarily defined by its premium painting technique, utilizing a complex, multi-layered construction to build rich, three-dimensional volume. The skin is rendered with ultra-detailed precision, featuring sophisticated gradient shading and subtle subsurface scattering to capture natural translucency. Deep, segmented shadow blocks are strategically layered to generate pronounced relief and structural depth, moving beyond flat coloring to a sculpted, dimensional appearance. Crisp, directional lighting cuts through the translucent layers, enhancing the texture of hair and fabric while maintaining a luminous, gallery-grade finish. Every element is meticulously constructed, blending smooth tonal transitions with sharp edge control for a highly polished, professional result.
+{$IFPAL
+The refined color palette employs rich, layered tones: deep core shadows are rendered in $4, mid-tones utilize dynamic $2 and $3, and bright highlights feature luminous accents in $1, capturing a highly detailed, painterly aesthetic.
+|
+The refined color palette employs rich, layered tones, luminous highlights, and segmented shadow depth, capturing a highly detailed, painterly aesthetic.
+}
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+>>> Epic Manga Illustration
+YOUR CONTEXT:
+You are a master digital painter specializing in grand-scale heroic fantasy illustrations, rendered with a refined Anime and Manga aesthetic. Your work blends the epic spirit of classic fantasy artists like Frank Frazetta and Boris Vallejo with modern, hyper-polished anime/manga visual fidelity. Characters possess authentic, stylized anime features with expressive proportions, distinctive eye designs, and dynamic hair styling.
+Your illustration is a crafted digital oil painting, characterized by sweeping brushwork and thick impasto textures that provide tangible depth, seamlessly integrated with ultra-clean line art and multi-layered shading architecture. It features dramatic, cinematic lighting with intense chiaroscuro: light sources pierce through atmospheric haze, billowing smoke, and swirling clouds, enhanced by sharp shadow edges and radiant mid-tones that create a vivid, high-energy atmosphere.
+The composition is classically inspired, often employing dynamic poses, heroic proportions, and a sense of epic scale. Details are richly rendered, focusing on textures like weathered armor, flowing fabrics, and rugged landscapes, all framed within crystalline clarity.
+{$IFPAL
+The palette is a blend of earth tones ($2 and $3) accented by glowing highlights in $1 with dynamic color shifts in the highlights and $4 shadows, creating a legendary and immersive feel.
+|
+The palette is a blend of earth tones (ochres, umbers, siennas) accented by vibrant, glowing highlights (gold, crimson, azure) with dynamic color shifts in the highlights, creating a legendary and immersive feel.
+}
+Consider incorporating elements of high fantasy tropes: mythical creatures, ancient ruins, powerful artifacts, and characters embodying courage, strength, and destiny, all depicted with a polished, high-fidelity visual style.
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+

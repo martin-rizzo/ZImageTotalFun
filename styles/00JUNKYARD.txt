@@ -99,3 +99,67 @@ YOUR CINEMATIC FRAME:
 -->
 
 
+>>>Epic Paint
+YOUR CONTEXT:
+You are a master digital painter specializing in grand-scale heroic fantasy illustrations, rendered with a refined Anime and Manga aesthetic. Your work blends the epic spirit of classic fantasy artists like Frank Frazetta and Boris Vallejo with modern, hyper-polished anime/manga visual fidelity.
+Your illustration is a meticulously crafted digital oil painting, characterized by masterful, sweeping brushwork and thick impasto textures that provide tangible depth, seamlessly integrated with ultra-clean line art and complex, multi-layered shading architecture. It features dramatic, cinematic lighting with intense chiaroscuro: light sources pierce through atmospheric haze, billowing smoke, and swirling clouds, enhanced by sharp shadow edges and radiant mid-tones that create a vivid, high-energy atmosphere.
+The composition is classically inspired, often employing dynamic poses, heroic proportions, and a sense of epic scale. Details are richly rendered, focusing on textures like weathered armor, flowing fabrics, and rugged landscapes, all framed within crystalline clarity. The palette is a moody blend of deep earth tones (ochres, umbers, siennas) accented by vibrant, glowing highlights (gold, crimson, azure) with dynamic color shifts in the highlights, creating a legendary and immersive feel.
+Consider incorporating elements of high fantasy tropes: mythical creatures, ancient ruins, powerful artifacts, and characters embodying courage, strength, and destiny, all depicted with a polished, high-fidelity visual style.
+{$**@@
+The frame has a exciting tone, a big bimbo pin-up aesthetic with openly voluptuous and seductive bodies and direct sexual provocation.
+}
+{$**##
+The frame has an exaggerated wide-angle perspective, and is tilted at an atypical angle, such as the Dutch tilt, which creates strong perspective distortion and dramatic appearance.
+}
+YOUR ILLUSTRATION FRAME:
+<!--
+{$@}
+-->
+
+
+
+
+>>> Romantic Shōjo Manga
+>## (Fine and delicate lines, high pupil shine, blurred floral/abstract backgrounds, and an ethereal atmosphere.)
+
+
+>>> Cyberpunk / Mecha Manga
+>## (Detailed industrial design, complex screening for metallic textures, vibrant neon lights, and a worn futuristic aesthetic.)
+
+>>> Chibi / Super Deformed (SD)
+>## (Reduced and stylized proportions, simplified lines, exaggerated expressions, and saturated vivid colors.)
+
+>>> Manga Sketch / Sketchbook
+>## (Loose and organic pencil lines, visible construction marks, quick screening, and a working draft appearance.)
+
+>>> Brush-inked Manga (Sumie / Brushpen)
+>## (Variable line weights, organic gestural strokes, and fresh ink texture on fiber paper.)
+
+>>> Copic / Alcohol Marker-inked Manga
+>## (Soft gradients and layering, semi-transparent colors, and manual tone blending.)
+
+>>> Retro-Futuristic Sci-Fi Manga (70s)
+>## (Complex geometric screentones, classic space aesthetic with earthy tones and metallic accents.)
+
+>>> Yonkoma (4-Koma) Style Manga Page
+>## (Clean grid structure, comedic visual style, simplified composition, and straightforward narrative.)
+
+>>> Slice of Life / Minimalist Manga
+>## (Clean and fine lines, desaturated/pastel palette, and a focus on soft ambient lighting.)
+
+>>> Horror / Junji Ito-Style Manga
+>## (Microscopic detail lines, extremely dense hatching, unsettling shadows, and organic distortion.)
+
+>>> Martial Arts / Action Shōnen Manga
+>## (Exaggerated speed and motion lines, wide-angle perspective, and high-impact dynamic composition.)
+
+>>> Engraving-Style / Modern Ukiyo-e Manga
+>## (Traditional woodblock print aesthetic, defined contours, and a flat composition with contemporary depth.)
+
+>>> Webtoon / Manhwa-Style Colored Manga
+>## (Clean digital gradients, volumetric ambient lighting effects, and soft shading optimized for screens.)
+
+>>> Pop Art / Block-Color Manga
+>## (Flat primary colors, visible Halftone dot screening, and heavily defined black outlines.)
+
+
