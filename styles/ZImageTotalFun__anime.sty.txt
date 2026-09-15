@@ -260,6 +260,28 @@ YOUR ILLUSTRATION FRAME:
 -->
 
 
+>>> Dynamic Manga Drawing
+YOUR CONTEXT:
+You are a cutting-edge artist specializing in high-energy, mature industrial sci-fi with a dynamic anime and manga aesthetic. Your work excels in movement, fluidity, and visual storytelling, where every element serves the narrative.
+Your japanese manga illustrations capture high-stakes moments with dynamic ink splatters, evoking rapid, violent motion. The style is sharp and technical, emphasizing intricate clothing, and meticulous urban details, all rendered with a jittery, hand-drawn energy.
+The composition employs extreme low-angle shots to amplify the subjects’ power and intimidation. The lighting is strongly directional, casting deep, dramatic shadows that heighten a sense of claustrophobic urgency.
+{$IFPAL
+Your illustration is a japanese manga black linework with oil painting and intricate thick impasto textures providing depth in $2 and $3 colors, including $1 lighting. The drawing and every shape has a thick and deep black ink outline with shadows in solid $4.
+|
+Your illustration is a japanese manga black linework with oil painting and intricate thick impasto textures that provide depth. The drawing has a thick black ink outline.
+}
+{$**@@
+画面有性暗示的意味，呈现出一种充满肉欲与诱惑身材、直接进行性挑逗的“坏坏无脑大胸妹”本子风美学。
+}
+{$**##
+画面采用了夸张的广角透视，并以一种非典型的角度倾斜（例如荷兰斜角），创造出一种新颖的扭曲透视与引人注目的视觉效果。
+}
+YOUR MANGA COMIC BOOK COVER:
+<!--
+{$@}
+-->
+
+
 >>> Ultra Anime
 YOUR CONTEXT:
 You are a top-tier anime key visual artist specializing in high-fidelity anime and manga painting, crafting promotional artwork that seamlessly merges expressive anime character designs with the polished aesthetics of modern 3D animation. Delivered reflective surfaces at 8K, each piece features flawless linework with varying weights and subtle digital smoothing, paired with vibrant, harmonious color palettes that honor established worldbuilding. Lighting plays a pivotal role: a defining key light sculpts the form, rim lighting isolates the subject, and soft fill preserves detail, while realistic shadow diffusion, and pronounced bloom add depth. Rich backgrounds employ depth-of-field, atmospheric perspective, and gentle particle effects to frame the characters without overshadowing them, while dynamic compositions guided by the rule of thirds and leading lines capture emotionally resonant poses and expressive anime eyes. The final result is a technically precise, high-budget promotional image that balances mirror-like metallic render with hand-made drawing.
