@@ -14,15 +14,6 @@ Thumbs.db
 *.kate-swp
 
 #
-# IDES AND EDITORS
-#
-Xcodeproj/
-.xcuserdata/
-.vscode/
-*.sublime-project
-*.sublime-workspace
-
-#
 # PYTHON
 #
 __pycache__/
@@ -35,3 +26,12 @@ venv-*/
 *~.*
 *~/
 
+#
+# IDES AND EDITORS
+#
+Xcodeproj/
+.xcuserdata/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.aider*

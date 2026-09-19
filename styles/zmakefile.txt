@@ -1,0 +1,39 @@
+@ZMAKEFILE
+
+>::// >::INCLUDE
+>::// globals.txt
+
+
+>::LOAD! #REQUIREMENTS
+globals/requirements.txt
+
+>::LOAD! #README
+globals/readme.txt
+
+>:://-----------------------------------------------------
+
+>::SET #STYLE_GROUP
+Anime
+
+>::SET #STYLE_DESCRIPTION
+This is an experimental workflow for generating images that resemble anime and manga-style artwork.
+
+>::LOAD #STYLE_TEMPLATES
+ZImageTotalFun__anime.sty.txt
+
+>::MAKE
+{#PWD}/ZImageTotalFun__anime.AUTO.json : zworkflow.base.json
+
+
+>:://-----------------------------------------------------
+
+>::SET #SYTLE_GROUP
+cinema
+
+>::LOAD #STYLE_TEMPLATES
+ZImageTotalFun__cinema.sty.txt
+
+>::MAKE
+{#PWD}/ZImageTotalFun__cinema.AUTO.json : zworkflow.base.json
+
+
