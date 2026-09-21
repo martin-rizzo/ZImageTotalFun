@@ -18,9 +18,8 @@ Each workflow groups 10+ preconfigured visual styles around a specific theme (Ci
 1. [Workflows](#workflows)
 2. [Requirements](#requirements)
 3. [Checkpoints Used](#checkpoints-used)
-4. [Installation](#installation)
-5. [Project Structure](#project-structure)
-6. [License](#license)
+4. [Alternative Checkpoints](#alternative-checkpoints)
+5. [License](#license)
 
 ## Workflows
 
