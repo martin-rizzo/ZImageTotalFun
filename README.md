@@ -16,7 +16,7 @@ Each workflow groups 10+ preconfigured visual styles around a specific theme (Ci
 ## Table of Contents
 1. [Workflows](#workflows)
 2. [Requirements](#requirements)
-3. [Recommended Checkpoints](#recommended-checkpoints)
+3. [Checkpoints Used](#checkpoints-used)
 4. [Installation](#installation)
 5. [Project Structure](#project-structure)
 6. [License](#license)
@@ -39,53 +39,63 @@ Each `.json` file is a complete, ready-to-use workflow. Simply load it, pick a s
 - **Z-Image Power Nodes:** v2.1.1 or higher
 - **Hardware:** CUDA-capable GPU (recommended)
 
-## Recommended Checkpoints
+## Checkpoints Used
 
-The following checkpoints are used in each workflow, but any Z-Image Turbo checkpoint should work well, including the original models from the ComfyUI repository.
+Please ensure you update ComfyUI first and have the latest version of the Z-Image Power Nodes installed.
 
-### Safetensors (INT8-ConvRot) — *Recommended*
-- __`z_image_turbo_int8_convrot_bf16emixed.safetensors`__ <sub>~6.17 GB</sub>  
+### diffusion_models
+
+- __[z_image_turbo_int8_convrot_bf16emixed.safetensors](https://huggingface.co/martin-rizzo/Z-Image-Turbo-INT8-ConvRot-ComfyUI/resolve/main/z_image_turbo_int8_convrot_bf16emixed.safetensors)__ [6.17 GB]  
   Local: _`ComfyUI/models/diffusion_models/`__
-- __`qwen3-4b_int8_convrot_fp16emixed.safetensors`__ <sub>~4.42 GB</sub>  
+
+### text_encoders
+
+- __[qwen3-4b_int8_convrot_fp16emixed.safetensors](https://huggingface.co/martin-rizzo/Qwen3-4B-INT8-ConvRot-ComfyUI/resolve/main/qwen3-4b_int8_convrot_fp16emixed.safetensors)__ [4.42 GB]  
   Local: _`ComfyUI/models/text_encoders/`__
-- __`Z-Image_half_natural_vae.safetensors`__ <sub>~335 MB</sub>  
+
+### vae
+
+- __[Z-Image_half_natural_vae.safetensors](https://huggingface.co/easygoing0114/Z-Image_clear_vae/resolve/main/Z-Image_half_natural_vae.safetensors)__ [335 MB]  
   Local: _`ComfyUI/models/vae/`__
 
-### Alternatives
-Versions in **GGUF (Q5/Q8)**, **FP8**, and **BF16 original** are also available through the official ComfyUI repository and HuggingFace. If your hardware doesn't perform optimally with ConvRot, try the alternatives that best suit your setup.
-
-## Installation
-
-### Manual Installation (Recommended)
-1. Open your preferred terminal.
-2. Navigate to your ComfyUI directory:
-   ```bash
-   cd <your_comfyui_directory>
-   ```
-3. Create a folder for the workflows (or use your preferred location):
-   ```bash
-   mkdir -p ComfyUI/user_defaults/workflows
-   ```
-4. Place the `.json` files into that folder:
-   ```bash
-   cp ZImageTotalFun__*.json ComfyUI/user_defaults/workflows/
-   ```
-5. Restart ComfyUI, go to the **Workflows** tab, and you'll see all 5 workflows ready to load.
-
-> **Note:** Make sure you have the checkpoints and Power Nodes installed before generating.
-
-## Project Structure
+### Model Storage Location
 
 ```
-ComfyUI-ZImageTotalFun/
-├── ZImageTotalFun__anime.json
-├── ZImageTotalFun__cinema.json
-├── ZImageTotalFun__photobooth.json
-├── ZImageTotalFun__sketch.json
-├── ZImageTotalFun__stopmo.json
-├── README.md
-└── .gitignore
+📂 ComfyUI/
+├── 📂 models/
+│   │
+│   └── 📂 diffusion_models/
+│   │   └── z_image_turbo_int8_convrot_bf16emixed.safetensors
+│   │
+│   ├── 📂 text_encoders/
+│   │   └── qwen3-4b_int8_convrot_fp16emixed.safetensors
+│   │
+│   ├── 📂 vae/
+│   │   └── Z-Image_half_natural_vae.safetensors
 ```
+
+## Alternative Checkpoints
+
+> The following checkpoints are provided as alternatives in case you experience issues.  
+> Due to the wide variety of GPUs, VRAM capacities, and ComfyUI versions, one of these may work better for your system.
+
+### diffusion_models
+
+- __[z_image_turbo-Q5_K_S.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/resolve/main/z_image_turbo-Q5_K_S.gguf)__ [5.19 GB] : GGUF
+- __[z_image_turbo_int8_convrot.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors)__ [6.20 GB] : ComfyOrg I8ConvRot
+- __[z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)__ [12.3 GB] : ComfyOrg BF16
+
+### text_encoders
+
+- __[Qwen3-4B-Q8_0.gguf](https://huggingface.co/Qwen/Qwen3-4B-GGUF/resolve/main/Qwen3-4B-Q8_0.gguf)__ [4.28 GB] : GGUF
+- __[qwen_3_4b_fp8_mixed.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors)__ [5.63 GB] : ComfyOrg FP8
+- __[qwen_3_4b.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/text_encoders/qwen_3_4b.safetensors)__ [8.04 GB] : ComfyOrg BF16
+
+### vae
+
+- __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/resolve/main/split_files/vae/ae.safetensors)__ [335 MB] : ComfyOrg
+- More: [Z-Image_clear_vae](https://huggingface.co/easygoing0114/Z-Image_clear_vae), [Z-Image_Anime_VAE](https://huggingface.co/Anzhc/Z-Image_Anime_VAE)
+
 
 ## License
 
