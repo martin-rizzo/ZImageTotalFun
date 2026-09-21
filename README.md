@@ -71,19 +71,19 @@ Each `.json` file is a complete, ready-to-use workflow. Simply load it, pick a s
 
 ### diffusion_models
 
-- __[z_image_turbo-Q5_K_S.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf)__ [5.19 GB] : GGUF
-- __[z_image_turbo_int8_convrot.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors)__ [6.20 GB] : ComfyOrg I8ConvRot
-- __[z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors)__ [12.3 GB] : ComfyOrg BF16
+- [z_image_turbo-Q5_K_S.gguf](https://huggingface.co/jayn7/Z-Image-Turbo-GGUF/blob/main/z_image_turbo-Q5_K_S.gguf) [__5.19 GB__]<sub>GGUF</sub>
+- [z_image_turbo_int8_convrot.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_int8_convrot.safetensors) [__6.20 GB__]<sub>ComfyOrg</sub>
+- [z_image_turbo_bf16.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/diffusion_models/z_image_turbo_bf16.safetensors) [__12.3 GB__]<sub>ComfyOrg</sub>
 
 ### text_encoders
 
-- __[Qwen3-4B-Q8_0.gguf](https://huggingface.co/Qwen/Qwen3-4B-GGUF/blob/main/Qwen3-4B-Q8_0.gguf)__ [4.28 GB] : GGUF
-- __[qwen_3_4b_fp8_mixed.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors)__ [5.63 GB] : ComfyOrg FP8
-- __[qwen_3_4b.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors)__ [8.04 GB] : ComfyOrg BF16
+- [Qwen3-4B-Q8_0.gguf](https://huggingface.co/Qwen/Qwen3-4B-GGUF/blob/main/Qwen3-4B-Q8_0.gguf) [__4.28 GB__]<sub>GGUF</sub>
+- [qwen_3_4b_fp8_mixed.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b_fp8_mixed.safetensors) [__5.63 GB__]<sub>ComfyOrg</sub>
+- [qwen_3_4b.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/text_encoders/qwen_3_4b.safetensors) [__8.04 GB__]<sub>ComfyOrg</sub>
 
 ### vae
 
-- __[ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors)__ [335 MB] : ComfyOrg
+- [ae.safetensors](https://huggingface.co/Comfy-Org/z_image_turbo/blob/main/split_files/vae/ae.safetensors) [__335 MB__]<sub>ComfyOrg</sub>
 - More: [Z-Image_clear_vae](https://huggingface.co/easygoing0114/Z-Image_clear_vae), [Z-Image_Anime_VAE](https://huggingface.co/Anzhc/Z-Image_Anime_VAE)
 
 
