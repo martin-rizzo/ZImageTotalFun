@@ -34,29 +34,19 @@ Each workflow groups 10+ preconfigured visual styles around a specific theme (Ci
 Each `.json` file is a complete, ready-to-use workflow. Simply load it, pick a style, and let Z-Image Turbo do the rest. Styles are organized by theme so you can explore one category at a time without feeling overwhelmed.
 
 ## Requirements
+> Please ensure you update ComfyUI first and have the latest version of the Z-Image Power Nodes installed.
 
 - **ComfyUI:** v0.2.7 or higher
 - **Z-Image Power Nodes:** v2.1.1 or higher
-- **Hardware:** CUDA-capable GPU (recommended)
 
 ## Checkpoints Used
 
-Please ensure you update ComfyUI first and have the latest version of the Z-Image Power Nodes installed.
-
-### diffusion_models
-
 - __[z_image_turbo_int8_convrot_bf16emixed.safetensors](https://huggingface.co/martin-rizzo/Z-Image-Turbo-INT8-ConvRot-ComfyUI/resolve/main/z_image_turbo_int8_convrot_bf16emixed.safetensors)__ [6.17 GB]  
-  Local: _`ComfyUI/models/diffusion_models/`__
-
-### text_encoders
-
+  Local: _`ComfyUI/models/diffusion_models/`_
 - __[qwen3-4b_int8_convrot_fp16emixed.safetensors](https://huggingface.co/martin-rizzo/Qwen3-4B-INT8-ConvRot-ComfyUI/resolve/main/qwen3-4b_int8_convrot_fp16emixed.safetensors)__ [4.42 GB]  
-  Local: _`ComfyUI/models/text_encoders/`__
-
-### vae
-
+  Local: _`ComfyUI/models/text_encoders/`_
 - __[Z-Image_half_natural_vae.safetensors](https://huggingface.co/easygoing0114/Z-Image_clear_vae/resolve/main/Z-Image_half_natural_vae.safetensors)__ [335 MB]  
-  Local: _`ComfyUI/models/vae/`__
+  Local: _`ComfyUI/models/vae/`_
 
 ### Model Storage Location
 
@@ -75,7 +65,6 @@ Please ensure you update ComfyUI first and have the latest version of the Z-Imag
 ```
 
 ## Alternative Checkpoints
-
 > The following checkpoints are provided as alternatives in case you experience issues.  
 > Due to the wide variety of GPUs, VRAM capacities, and ComfyUI versions, one of these may work better for your system.
 
