@@ -23,13 +23,13 @@ Each workflow groups 10+ preconfigured visual styles around a specific theme (Ci
 
 ## Workflows
 
-| Workflow | Theme | Size | Date |
-|----------|-------|------|------|
-| [ZImageTotalFun__anime.json](ZImageTotalFun__anime.json) | 🎌 Anime | 112 KB | Sep 15 |
-| [ZImageTotalFun__cinema.json](ZImageTotalFun__cinema.json) | 🎬 Cinema | 111 KB | Sep 15 |
-| [ZImageTotalFun__photobooth.json](ZImageTotalFun__photobooth.json) | 📸 Photobooth | 77 KB | Sep 03 |
-| [ZImageTotalFun__sketch.json](ZImageTotalFun__sketch.json) | ✏️ Sketch | 90 KB | Aug 29 |
-| [ZImageTotalFun__stopmo.json](ZImageTotalFun__stopmo.json) | 🎞️ Stop Motion | 93 KB | Sep 06 |
+| Theme | Workflow |
+|-------|----------|
+| 🎌 Anime | [ZImageTotalFun__anime.json](ZImageTotalFun__anime.json) |
+| 🎬 Cinema | [ZImageTotalFun__cinema.json](ZImageTotalFun__cinema.json) |
+| 📸 Photobooth | [ZImageTotalFun__photobooth.json](ZImageTotalFun__photobooth.json) |
+| ✏️ Sketch | [ZImageTotalFun__sketch.json](ZImageTotalFun__sketch.json) |
+| 🎞️ Stop Motion | [ZImageTotalFun__stopmo.json](ZImageTotalFun__stopmo.json) |
 
 Each `.json` file is a complete, ready-to-use workflow. Simply load it, pick a style, and let Z-Image Turbo do the rest. Styles are organized by theme so you can explore one category at a time without feeling overwhelmed.
 
