@@ -10,30 +10,37 @@ globals/requirements.txt
 >::LOAD! #README
 globals/readme.txt
 
+>::LOAD! #STYLE_TEMPLATES_DOC
+globals/style_templates_doc.txt
+
+
 >:://-----------------------------------------------------
 
->::SET #STYLE_GROUP
+>::SET #WORKFLOW_NAME
 Anime
 
->::SET #STYLE_DESCRIPTION
+>::SET #WORKFLOW_DESCRIPTION
 This is an experimental workflow for generating images that resemble anime and manga-style artwork.
 
 >::LOAD #STYLE_TEMPLATES
 ZImageTotalFun__anime.sty.txt
 
 >::MAKE
-{#PWD}/ZImageTotalFun__anime.AUTO.json : zworkflow.base.json
+{#PWD}/ZImageTotalFun__anime.AUTO~.json : zworkflow.base.json
 
 
 >:://-----------------------------------------------------
 
->::SET #SYTLE_GROUP
-cinema
+>::SET #WORKFLOW_NAME
+Cinema
+
+>::SET #WORKFLOW_DESCRIPTION
+This is an experimental workflow for generating images that resemble anime and manga-style artwork.
 
 >::LOAD #STYLE_TEMPLATES
 ZImageTotalFun__cinema.sty.txt
 
 >::MAKE
-{#PWD}/ZImageTotalFun__cinema.AUTO.json : zworkflow.base.json
+{#PWD}/ZImageTotalFun__cinema.AUTO~.json : zworkflow.base.json
 
 

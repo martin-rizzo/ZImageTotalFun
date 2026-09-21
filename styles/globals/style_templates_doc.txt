@@ -1,0 +1,34 @@
+>## HOW TO WRITE A STYLE TEMPLATE
+>##    Focus exclusively on visual aesthetic, atmospheric mood, and technical
+>##    characteristics (e.g., lighting, texture, lens, weather, sensations,..).
+>##    Avoid mentioning specific subjects, objects, or characters, as these are
+>##    provided by the user via the {$@} placeholder. Think of the template as a
+>##    "lens" or "filter": it defines how the scene feels and looks, not what
+>##    is happening in it.
+>##
+>## TEMPLATE DEFINITION
+>##    Each new visual style must begin with a line prefixed with ">>>"
+>##    followed by the style name(*). Example: ">>> Landscape Photo"
+>##
+>## TEMPLATE FORMAT
+>##    Every line following the style name represents the prompt used
+>##    when that style is selected. The following variables are processed:
+>##
+>##    {$@} : Replaced by the user's input prompt.
+>##
+>##    {$IFPAL X | Y} :
+>##         Conditional logic for color palettes.
+>##         - If a color palette is selected, the text 'X' is used.
+>##         - If no palette is selected, the text 'Y' is used.
+>##         - Within 'X', use $1, $2, $3, and $4 to reference specific
+>##           colors from the palette.
+>##         - $5 is an optional highlight color (not available in all palettes).
+>##
+>##    {$**<cheat-code> X | Y} :
+>##         Quick Modifier
+>##         - <cheat-code> must consist of one or more of the following
+>##           characters: @, *, #, +, -
+>##         - If the user's prompt is prefixed with a double asterisk "**"
+>##           followed by the corresponding cheat code, the text 'X' is used.
+>##         - If no cheat code prefix is detected, the text 'Y' is used.
+>##

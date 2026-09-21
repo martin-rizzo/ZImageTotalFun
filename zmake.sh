@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python zmake.py -s styles
+python zmake.py styles --overwrite
