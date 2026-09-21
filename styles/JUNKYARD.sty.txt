@@ -1,3 +1,8 @@
+>## JUNKYARD.sty.txt
+>## This file stores style templates that have been discarded for various
+>## reasons. However, they are kept because they can produce high-quality
+>## images and may be useful for future reference.
+
 
 >>> CUSTOM 6
 YOUR CONTEXT:
