@@ -1,13 +1,14 @@
 <div align="center">
-# Z-Image Total Fun<br><sub><sup><i>Exploring visual styles with pure creative joy</i></sup></sub>
-[![Platform](https://img.shields.io/badge/platform%3A-ComfyUI-007BFF)](#)  
-[![License](https://img.shields.io/github/license/aiman/ComfyUI-ZImageTotalFun?label=license%3A&color=28A745)](#)  
-[![Version](https://img.shields.io/github/v/tag/aiman/ComfyUI-ZImageTotalFun?label=version%3A&color=D07250)](#)  
-[![Last](https://img.shields.io/github/last-commit/aiman/ComfyUI-ZImageTotalFun?label=last%20commit%3A)](#)  
-<img src="banner_total_fun.jpg" width="90%"></img>
+
+# Z-Image Total Fun!!!<br><sub><sup><i>Exploring visual styles with pure creative joy</i></sup></sub>
+[![Platform](https://img.shields.io/badge/platform%3A-ComfyUI-007BFF)](#)
+[![License](https://img.shields.io/github/license/martin-rizzo/ZImageTotalFun?label=license%3A&color=28A745)](#)
+[![Version](https://img.shields.io/github/v/tag/martin-rizzo/ZImageTotalFun?label=version%3A&color=D07250)](#)
+[![Last](https://img.shields.io/github/last-commit/martin-rizzo/ZImageTotalFun?label=last%20commit%3A)](#) 
+<img src="assets/workflow-screenshot.jpg" width="60%"></img>
 </div>
 
-**Z-Image Total Fun** is a collection of experimental workflows designed to test and enjoy visual styles and prompting techniques with [Z-Image Turbo](https://github.com/Tongyi-MAI/Z-Image). No LoRAs, no upscalers—just pure prompting, executed in the simplest way possible, thanks to **Z-Image Power Nodes v2.1.1+** and the magic of **Nodes 2.0** and **Sub-graphs** in ComfyUI.
+**Z-Image Total Fun!!!** is a collection of experimental workflows to test visual styles and prompting techniques with [Z-Image Turbo](https://github.com/Tongyi-MAI/Z-Image). No LoRAs, pure prompting, executed in the simplest way possible, thanks to **Z-Image Power Nodes** and the magic of **Nodes 2.0** and **Sub-graphs** in ComfyUI.
 
 > 🎉 **The result? TOTAL FUN!** 🤩
 
@@ -25,11 +26,11 @@ Each workflow groups 10+ preconfigured visual styles around a specific theme (Ci
 
 | Theme | Workflow |
 |-------|----------|
-| 🎌 Anime | [ZImageTotalFun__anime.json](ZImageTotalFun__anime.json) |
-| 🎬 Cinema | [ZImageTotalFun__cinema.json](ZImageTotalFun__cinema.json) |
-| 📸 Photobooth | [ZImageTotalFun__photobooth.json](ZImageTotalFun__photobooth.json) |
-| ✏️ Sketch | [ZImageTotalFun__sketch.json](ZImageTotalFun__sketch.json) |
-| 🎞️ Stop Motion | [ZImageTotalFun__stopmo.json](ZImageTotalFun__stopmo.json) |
+| 🎌 __Anime__ | [ZImageTotalFun__anime.json](ZImageTotalFun__anime.json) |
+| 🎬 __Cinema__ | [ZImageTotalFun__cinema.json](ZImageTotalFun__cinema.json) |
+| 📸 __Photobooth__ | [ZImageTotalFun__photobooth.json](ZImageTotalFun__photobooth.json) |
+| ✏️ __Sketch__ | [ZImageTotalFun__sketch.json](ZImageTotalFun__sketch.json) |
+| 🎞️ __Stop Motion__ | [ZImageTotalFun__stopmo.json](ZImageTotalFun__stopmo.json) |
 
 Each `.json` file is a complete, ready-to-use workflow. Simply load it, pick a style, and let Z-Image Turbo do the rest. Styles are organized by theme so you can explore one category at a time without feeling overwhelmed.
 
