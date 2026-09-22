@@ -14,9 +14,10 @@ from __future__ import annotations
 import os
 import sys
 import json
+import shlex
 import argparse
 from pathlib import Path
-from typing import overload, NoReturn
+from typing import overload, NoReturn, Any
 
 # default directory where to look for source files
 DEFAULT_SOURCE_DIR = "src"
@@ -122,6 +123,172 @@ def rel(path: Path | str) -> str:
         return './' + str(target_path.relative_to(_reference_dir))
     except ValueError:
         return str(target_path)
+
+
+#------------------------- ComfyUI NODE OPERATIONS -------------------------#
+
+def _find_comfyui_nodes(nodes: list[dict], title: str) -> list[dict]:
+    if not isinstance(nodes, list) or not title:
+        return []
+
+    # detect the search type only once at the start
+    is_startswith = title.endswith('*')
+    is_endswith   = title.startswith('*')
+    is_contains   = is_startswith and is_endswith
+
+    # strip the asterisks to keep only the actual text to search for
+    clean_title = title.strip('*')
+
+    found_nodes = []
+    for node in nodes:
+        if not isinstance(node, dict):
+            continue
+        node_title = node.get("title")
+        if not isinstance(node_title, str):
+            continue
+
+        # evaluate based on the detected wildcard type
+        if is_contains:
+            if clean_title in node_title: found_nodes.append(node)
+        elif is_startswith:
+            if node_title.startswith(clean_title): found_nodes.append(node)
+        elif is_endswith:
+            if node_title.endswith(clean_title): found_nodes.append(node)
+        else:
+            if node_title == clean_title: found_nodes.append(node)
+
+    return found_nodes
+
+
+def find_comfyui_nodes(workflow: dict, title: str) -> list[dict]:
+    """
+    Searches for ComfyUI nodes in a workflow by matching node titles.
+
+    This function recursively searches both the main workflow's node list
+    and all subgraphs for nodes whose title matches the given `title` pattern.
+
+    The `title` parameter supports wildcard patterns using '*' at the start
+    and end of the title string. For example, 'foo*' will match any node title
+    that starts with 'foo'.
+
+    Args:
+        workflow: A dictionary representing a ComfyUI workflow JSON structure.
+        title:    The node title pattern to search for. Use '*' at the start
+                  or end to enable wildcard matching.
+
+    Returns:
+        A list of dictionaries (each dict is a ComfyUI node) whose title
+        matches the given pattern. Returns an empty list if no matching
+        nodes are found.
+    """
+    if not isinstance(workflow, dict) or not title:
+        return []
+
+    found_nodes = []
+
+    # first search for nodes within the main workflow
+    # - 'workflow/nodes'
+    nodes = workflow.get("nodes")
+    if isinstance(nodes, list):
+        found_nodes.extend( _find_comfyui_nodes(nodes, title=title) )
+
+    # then search for nodes within all subgraphs
+    # - 'workflow/definitions/subgraphs[]/nodes'
+    definitions = workflow.get("definitions")
+    if isinstance(definitions,dict):
+        subgraphs = definitions.get("subgraphs")
+        if isinstance(subgraphs, list):
+            for subgraph in subgraphs:
+                nodes = subgraph.get("nodes")
+                if isinstance(nodes, list):
+                    found_nodes.extend( _find_comfyui_nodes(nodes, title=title) )
+
+    return found_nodes
+
+
+def set_comfyui_node_param(node: dict, param: str, value: Any) -> bool:
+    """
+    Sets a parameter value on a ComfyUI node by matching the parameter name.
+    Args:
+        node: A dictionary representing a ComfyUI node.
+        param: The parameter name to match against node input labels or names.
+               Matching is case-insensitive.
+        value: The new value to set. Will be converted to the appropriate type
+               (int, float, or str) based on the existing value type.
+    Returns:
+        True if a matching parameter was found and updated, False otherwise.
+    """
+    if not isinstance(node,dict):
+        return False
+    inputs               : list[dict]    = list( node.get("inputs") or [] )
+    widgets_values       : list[Any]     = list( node.get("widgets_values") or [] )
+    widgets_values_named : dict[str,Any] = dict( node.get("widgets_values_named") or {} )
+    if (not isinstance(inputs, list) or
+        not isinstance(widgets_values,list) or
+        not isinstance(widgets_values_named,dict) ):
+        return False
+
+    # create a map between internal names and the labels shown on screen
+    labels_by_name : dict[str,str] = {}
+    for input in inputs:
+        input_name  = input.get("name")
+        input_label = input.get("label")
+        if isinstance(input_label,str) and isinstance(input_name,str):
+            labels_by_name[input_name] = input_label
+
+    # search for any widget label that matches 'param'
+    windex = 0
+    for wname, old_value in widgets_values_named.items():
+        if old_value != widgets_values[windex]:
+            warning(f"widget {wname} has different values between widget_values/widgets_values_names. (Internal bug?)")
+
+        label = labels_by_name.get(wname, wname)
+        if label.lower() == param.lower():
+            # if there was a match,
+            # convert `value` to the appropriate type and update it
+            if   isinstance(old_value,int)  : new_value = int(value)
+            elif isinstance(old_value,float): new_value = float(value)
+            elif isinstance(old_value,str)  : new_value = str(value)
+            widgets_values_named[wname] = new_value
+            widgets_values[windex]      = new_value
+            return True
+
+        else:
+            # if no match, move to the next widget
+            windex += 1
+
+    # if all widgets were checked and none matched 'param', return False
+    return False
+
+
+def adjust_comfyui_nodes(workflow: dict, adjustments: dict[str, dict[str,str]]) -> None:
+    """
+    Adjusts parameters of ComfyUI nodes in a workflow based on the provided adjustments.
+
+    This function iterates over the given `adjustments` dictionary, where each key
+    is a node title (or a title with '*' wildcards) and each value is a dictionary
+    mapping parameter names to new values. For each node found matching the title,
+    the function updates the specified parameters with the provided values.
+
+    Args:
+        workflow: A dictionary representing a ComfyUI workflow JSON structure.
+        adjustments: A dictionary mapping node titles to dictionaries of parameter
+                     adjustments. Each parameter adjustment is a mapping from
+                     parameter name to the new value. Wildcards ('*') are
+                     supported in node titles at the start or end.
+
+    Returns:
+        None. Adjustments are applied in-place to the workflow dictionary.
+    """
+    for node_title, node_params_to_adjust in adjustments.items():
+        nodes = find_comfyui_nodes(workflow, node_title)
+        for node in nodes:
+            for param, value in node_params_to_adjust.items():
+                worked = set_comfyui_node_param(node, param=param, value=value)
+                if worked:
+                    node_title = node.get("title","???")
+                    if isinstance(node_title,str):
+                        print(f"Node '{node_title.strip()}' adjusted ({param} = {value})")
 
 
 #----------------------------- CLASS VarSolver -----------------------------#
@@ -304,8 +471,9 @@ class ZMakeParser:
 
     def __init__(self):
         """Initialize the parser."""
-        self.local_vars  : dict[str, str] = { }
-        self.global_vars : dict[str, str] = { }
+        self.global_vars          : dict[str, str]           = {}
+        self.local_vars           : dict[str, str]           = {}
+        self.local_nodes_to_adjust: dict[str, dict[str,str]] = {}
 
 
     @staticmethod
@@ -415,6 +583,7 @@ class ZMakeParser:
         elif file_type == "json":
             raw_data      = json.loads(template)
             resolved_data = var_solver.solve(raw_data)
+            adjust_comfyui_nodes(resolved_data, adjustments=self.local_nodes_to_adjust)
             with open(dest_path, 'w', encoding='utf-8') as f:
                 json.dump( resolved_data, f, indent=4, ensure_ascii=False )
         else:
@@ -464,10 +633,25 @@ class ZMakeParser:
             filepaths : list[Path] = [base_dir / c_line.strip() for c_line in content if c_line.strip()]
             self.load_var(var_name, filepaths, persistent=False )
 
+        elif instruction == "ADJUST_NODE":
+            node_title  : str = params[0]
+            node_params : dict[str,str] = {}
+            for line in content:
+                if "=" in line:
+                    key, value = line.split("=", 1)
+                    key, value = key.strip(), value.strip()
+                    if key and value:
+                        node_params[key] = value
+            if node_title and node_params:
+                self.local_nodes_to_adjust[node_title] = node_params
+
         elif instruction == "MAKE":
+            # at the start of MAKE, load variables into the solver
             var_solver = VarSolver()
             var_solver.add_vars( self.global_vars )
             var_solver.add_vars( self.local_vars  )
+
+            # process each build defined in 'content' line by line
             for line in content:
                 line = var_solver.solve(line)
                 dest_file, _, template_file = line.partition(":")
@@ -476,6 +660,10 @@ class ZMakeParser:
                               template_path   = base_dir / template_file.strip(),
                               var_solver      = var_solver,
                               overwrite_files = overwrite_files)
+
+            # at the end of MAKE, clear the local variables
+            self.local_vars = {}
+            self.local_nodes_to_adjust = {}
 
 
     def execute_lines(self,
@@ -540,7 +728,7 @@ class ZMakeParser:
                 instr  = instr.strip()
                 params = params.strip()
                 pending_instr   = instr.upper()
-                pending_params  = params.split() if len(params) > 1 else []
+                pending_params  = shlex.split(params)
                 pending_content = []
 
             # the line does not contain any marker,
@@ -568,17 +756,17 @@ class ZMakeParser:
         Returns:
             The number of instructions executed, or 0 on failure.
         """
-        try:
-            with open(filepath, 'r') as f:
-                lines = f.read()
-            base_dir = filepath.parent
-            return self.execute_lines(lines,
-                                      base_dir = base_dir,
-                                      overwrite_files = overwrite_files,
-                                      recursive_count = recursive_count)
-        except Exception as e:
-            error(f"Failed to process '{rel(filepath)}':\n  {e}")
-            return 0
+        #try:
+        with open(filepath, 'r') as f:
+            lines = f.read()
+        base_dir = filepath.parent
+        return self.execute_lines(lines,
+                                    base_dir = base_dir,
+                                    overwrite_files = overwrite_files,
+                                    recursive_count = recursive_count)
+        #except Exception as e:
+        #    error(f"Failed to process '{rel(filepath)}':\n  {e}")
+        #    return 0
 
 
 

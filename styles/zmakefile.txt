@@ -25,6 +25,10 @@ This is an experimental workflow for generating images that resemble anime and m
 >::LOAD #STYLE_TEMPLATES
 ZImageTotalFun__anime.sty.txt
 
+>::ADJUST_NODE "Z-Image Total Fun*"
+seed  = 8
+style = Ultra Anime
+
 >::MAKE
 {#PWD}/ZImageTotalFun__anime.AUTO~.json : zworkflow.base.json
 
