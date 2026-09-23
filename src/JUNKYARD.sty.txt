@@ -4,6 +4,67 @@
 >## images and may be useful for future reference.
 
 
+>>> Y2K Digicam
+YOUR CONTEXT:
+You are using a cheap, early-2000s point-and-shoot digital camera. 
+The photograph exhibits a characteristic "digital snapshot" look: harsh direct flash that creates high contrast and slight overexposure on skin tones. There is a slight blur in the background and a raw, amateurish quality to the framing, capturing a nostalgic and spontaneous atmosphere where the moment matters more than technique.
+{$IFPAL
+The colors are vivid but lack dynamic range, shadows are $4, mid-tones rely on $3 and $2, while the lighting has a $1 tint, with a subtle digital grain and a 4:3 aspect ratio feel.
+|
+The colors are vivid but lack dynamic range, with a subtle digital grain and a 4:3 aspect ratio feel. 
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+画面采用了夸张的广角透视，并以一种非典型的角度倾斜（例如荷兰斜角），创造出一种新颖的扭曲透视与引人注目的视觉效果。
+}
+YOUR PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> ???
+YOUR CONTEXT:
+You are using a 35mm single-lens reflex camera with a standard prime lens, shot on slow ISO color negative film (e.g., Kodachrome 64 or Kodak Portra 160). 
+The photograph exhibits a characteristic "Sunday afternoon" look: natural, warm, and diffused daylight that produces soft, silvery highlights and deep, warm, brownish shadows with a smooth tonal gradient. There is a subtle haziness in the lighter areas from internal lens reflection, which adds to the soft-focus, dreamy quality. 
+The image features a fine, uniform film grain texture (characteristic of slow ISO films), and occasional dust spots or light flare clouds. It has a raw, intimate, and timeless feel to the framing, as if it were lifted from a well-loved family album or a vintage lifestyle magazine.
+{$IFPAL
+The colors are deep but slightly desaturated, with a distinct $2/$3 muted color separation, particularly in the $4 shadows.
+|
+The colors are deep but slightly desaturated, with a distinct warm amber/red color cast and a muted color separation, particularly in the blues and greens.
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+画面采用了夸张的广角透视，并以一种非典型的角度倾斜（例如荷兰斜角），创造出一种新颖的扭曲透视与引人注目的视觉效果。
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
+>>> Epic Scale Photo
+YOUR CONTEXT:
+You are creating overwhelming, cinematic 35mm film photographs that contrast tiny human-scaled details with colossal, imposing environments.
+The image should feel like a spontaneous, flawed snapshot shot on vintage consumer-grade glass with high-ISO color negative film pushed during development. The framing is extreme wide-angle, with the camera positioned low or at mid-height to exaggerate depth and make the environment feel immense.
+One small subject or foreground element appears dwarfed at the bottom of the frame, rendered with tactile, realistic detail: fabric fibers, dust, scratches, skin texture, mechanical parts, or film emulsion flaws. This small, tangible scale should feel fragile and vulnerable. Behind or above it stretches a monumental backdrop: towering architecture, endless sky, vast industrial structures, massive crowds, giant machinery, colossal natural landforms, or other overwhelming forms that dominate the upper two-thirds of the image.
+The optics feel strained and organic: soft overall focus, slight breathing blur, heavy halation, edge distortion, and a sun-bleached glare that flattens highlights into raw, tactile light. The grain is coarse and visible, anchoring the epic scale in believable analog reality. Intentional camera movement may add subtle sweeping blur, especially in moving elements, giving the scene raw energy without destroying the sense of scale.
+The composition should feel vertiginous, liminal, and surreal: a tiny, fragile detail trapped inside a crushing, infinite world. Use negative space aggressively to emphasize distance, altitude, and the overwhelming dominance of the larger forms. The final image should feel epic, lonely, and real — as if captured accidentally on cheap film while standing before something far too large to comprehend.
+{$IFPAL
+The scene is defined by high-key, oppressive $1 luminosity and $4 shadows, where the sheer magnitude of light washes out the horizon, leaving only the intricate textures of the $3 micro elements to anchor the viewer in the epic space.
+|
+The scene is defined by high-key, oppressive luminosity where the sheer magnitude of light washes out the horizon, leaving only the intricate textures of the micro elements to anchor the viewer in the epic space.
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
 >>> CUSTOM 6
 YOUR CONTEXT:
 You are a creator producing a raw, desultory doodle composed strictly of line art; there is absolutely no coloring or shading fills. The subject is defined by sparse, erratic fragments of ink and graphite, leaving the majority of the textured paper surface completely exposed and blank throughout the entire drawing.
@@ -167,4 +228,17 @@ YOUR ILLUSTRATION FRAME:
 >>> Pop Art / Block-Color Manga
 >## (Flat primary colors, visible Halftone dot screening, and heavily defined black outlines.)
 
+
+>##================================================================================
+
+>## PROMPT ANTERIOR
+The interior of a bar features an architecture of rounded, modular forms. A bar extends horizontally along the frame, displaying a strip of acrylic. To the left, an elegant xenomorph, her biomechanical form glowing in a dim light, sits on a bar stool. She wears a tight corset and a leather skirt, holding a tall glass in one hand, raised in a toast as she looks to the right. Its head is elongated and angular, yet it has a sweet smile and a seductive look. To the right, a man in his mid-thirties stands at the bar, holding a tall glass. He turns his head to look directly at the camera, a playful, knowing smile spreading across his face. The glass contains a drink with small floating spheres that reflect the light. He wears a form-fitting uniform with a short, high collar and a single vertical stripe on the jacket. His hair is neatly styled with a clean, mid-century part. Behind the bar, in the center of the image, an imposing, anthropomorphic octopus-like alien bartender stands upright, his tentacles subtly arranged to mimic human arms while he holds a glass, wearing a crisp white shirt and smart trousers, his multifaceted eyes glaring in displeasure with a distinctly human scowl. Behind the bartender, a mirrored wall reflects rows of liquor bottles with geometric labels. Above the bar floats a neon sign made of curved glass tubes that reads 'COSMIC LOUNGE' in tall, rounded letters, emitting light with a soft, glowing halo. An illuminated menu board reads 'SIGNATURE DRINKS' with three items: 'ORBITAL HIGHBALL,' 'NEBULA SOUR,' and 'ROCKET MARTINI,' each displayed on glowing horizontal bars. To the right, a cylindrical column features a vertical neon panel that reads 'OPEN 24 HOURS' in condensed letters within a translucent strip. To the left, a curved booth sits beneath a domed ceiling light. An illuminated sign reading 'GALAXY BAR SERVICE' encircles the inner rim of the dome in capitals and dominates the left side of the frame. Soft lighting reflects off the glass and acrylic surfaces, highlighting the structural design.
+
+>##================================================================================
+
+>## PROMPT NUEVO
+A woman from Argentina, with full, red lips and a smile, is perched on the shoulder of a tall and powerfully built polar bear. They are in a vibrant, slightly blurry, nighttime club scene. Directly above them, a large retro neon sign glows with the words "Total Fun!!!" in thick, hand-drawn retro letters made of pink and gold neon tubes, framed by a slightly dented metal border, its glow flickering warmly against the dark ceiling like a heartbeat of light. She is clad in a pink, bulky, industrial-style mecha armor, made of metal and covering her body, and in her hands, she holds a huge black gun. The polar bear is wearing identical mecha armor, but in black, also made of metal and covering its body. The polar bear is holding her securely on his shoulder with one massive paw, and its other arm is raised high in the air, waving as if celebrating. Its eyes are directly facing the camera with a wide, cheerful grin spreading across its face. The setting is a crowded nightclub with people in the background, clusters of shiny metallic and multicolored balloons bobbing gently among the crowd, surrounded by smoke, and colorful lights flashing everywhere. The atmosphere is lively, with the woman and the polar bear seemingly lost in the music, moving in sync as if dancing together, their mecha armor glistening under the flashing lights.
+
+
+>##================================================================================
 

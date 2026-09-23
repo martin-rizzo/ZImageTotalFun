@@ -1,0 +1,204 @@
+{#STYLE_TEMPLATES_DOC}
+
+
+>>> Film Photography
+YOUR CONTEXT:
+You love using a 35mm film, prime lens, and shotting on color negative film (e.g., Kodak Gold or Portra). 
+The photograph exhibits a characteristic "film still" look: soft, natural light with gentle highlights and shadow rolloff, with a subtle warm color cast. There is a shallow depth of field with smooth, out-of-focus bokeh in the background, and occasional light leaks or grain motes that add to the organic character of the image.
+{$IFPAL
+The colors are vibrant, shadows are $4, with some objects in $3 and $2, while the light areas has a $1 tint, with a 35mm film grain texture that increases in the shadows.
+|
+The colors are muted and slightly desaturated with a 35mm film grain texture that increases in the shadows.  
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+画面采用了夸张的广角透视，并以一种非典型的角度倾斜（例如荷兰斜角），创造出一种新颖的扭曲透视与引人注目的视觉效果。
+}
+YOUR PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Vibrant Analog Photo
+YOUR CONTEXT:
+You love using a 35mm film, prime lens, and shotting on slide film (e.g., Kodak Ektachrome).
+The photograph exhibits a characteristic "slide film travel" look: colors are intensely saturated and punchy, with a rich, vibrancy where hues pop with energy.
+The image has a crisp, sharp focus with a slight film grain texture and gentle halation around bright highlights, adding authenticity and a nostalgic warmth. Skin tones are warm and natural, carrying the golden light of the moment. A crisp, "postcard" quality to the framing captures the spontaneous thrill of documenting vibrant cultures and landscapes.
+{$IFPAL
+Bright, direct $1 light dominates the lighting, emphasizing vivid environment with $2 and $3 colors and creating crisp contrast with well-defined shadows, with dark areas in $4
+|
+Bright, direct sunlight dominates the lighting, emphasizing vivid environment colors and creating crisp contrast with well-defined shadows.
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+画面采用了夸张的广角透视，并以一种非典型的角度倾斜（例如荷兰斜角），创造出一种新颖的扭曲透视与引人注目的视觉效果。
+}
+YOUR PHOTO:
+<!--
+{$@}
+-->
+
+
+>>> Analog Film Landscape
+YOUR CONTEXT:
+A stunning wide-angle landscape captured on 35mm or medium-format color negative film with a prime lens. 
+The photograph exhibits a characteristic "film still" look: soft, natural light with gentle highlights and a warm color cast, subtle film grain that increases in the shadows, and slight vignetting toward the frame edges. Low vantage point emphasizing scale, with strong leading lines drawing the viewer's eye into the distance and long exposure depth preserved faithfully by the film's tonal response.
+THE LANDSCAPE:
+A panoramic view of distant landscapes dominating the horizon. Details are visible, but the atmospheric perspective softens them, creating a sense of depth and scale, with film grain rendering the textures organically.
+THE ATMOSPHERE:
+A clear and crisp atmosphere with a subtle haze in the distance, rendered through the soft halation and warm tonal gradation typical of color negative film.
+{$IFPAL
+Intense $1 light dominates the lighting, emphasizing vivid environment with $2 and $3 colors and creating crisp contrast with well-defined $4 shadows.
+|
+Bright, direct sunlight dominates the lighting, emphasizing vivid environment colors and creating crisp contrast with well-defined shadows.
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+THE FRAME:
+低角度仰拍结合极端荷兰角，广角镜头畸变，强烈的视觉错位感，动荡不稳定的视角
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
+>>> Flash Analog Photo
+YOUR CONTEXT:
+You are using a mid-90s 35mm point-and-shoot camera loaded with push-processed color negative film (e.g., Kodak ColorPlus). 
+The photograph exhibits a characteristic "nighttime snapshot" look: harsh, direct on-camera flash that creates flat frontal lighting, blown-out highlights, and hard-edged or absent background shadows. The image features a heavy, textured film grain that is more pronounced in the darker areas, slight motion blur on moving subjects, and occasional light leaks, red mist leaks, or dust spots along the frame edges.
+{$IFPAL
+The colors are muted and have a $4 undercast in the dark background areas, contrasting with the $1 illumination of the flash-lit foreground. With some objects in $2 and $3. It gives a raw, candid, disposable-camera feel to the framing, capturing an unpolished and unscripted atmosphere. 
+|
+The colors are muted and have a cool bluish undercast in the non-hit-by-flash areas, contrasting with the warm, harsh tone of the flash-lit foreground. It gives a raw, candid, disposable-camera feel to the framing, capturing an unpolished and unscripted atmosphere. 
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+THE FRAME:
+低角度仰拍结合极端荷兰角，广角镜头畸变，强烈的视觉错位感，动荡不稳定的视角
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
+>>> Nostalgic Vintage Photo
+YOUR CONTEXT:
+You are using 35mm film, standard prime lens, and shotting on slow ISO color negative film (e.g., Kodak Portra). 
+There is a pronounced soft-focus effect and a gentle box diffusion that lifts the blacks slightly and mutes the contrasts, giving the image a dreamy, hazy, slightly blurred quality, as if the photograph had been gently degraded by years of heat and sunlight in a home. The highlighting areas and bright backgrounds exhibit a soft, creamy bloom.
+The image features a fine, uniform film grain texture (characteristic of slow ISO films), and occasional dust spots or light flare clouds. It has a raw, intimate, and timeless feel to the framing, as if it were lifted from a well-loved family album. 
+{$IFPAL
+The photograph exhibits a soft, faded, and $2 tone appearance, with natural $1 diffused light that produces soft highlights, and $4 shadows with a smooth tonal gradient. The image is soaked in a heavy, $3 color cast over the entire frame.
+|
+The photograph exhibits a soft, faded, and sepia-tinged appearance, with natural, warm, and diffused light that produces soft, silvery highlights and deep, warm, brownish shadows with a smooth tonal gradient. The image is soaked in a heavy, warm amber/golden color cast over the entire frame.
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+THE FRAME:
+低角度仰拍结合极端荷兰角，广角镜头畸变，强烈的视觉错位感，动荡不稳定的视角
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
+>>> 80s Dark Fantasy Photo
+YOUR CONTEXT:
+You love the style of 35mm single-lens reflex camera with a 50mm prime lens, shotting on high ISO color negative film (e.g., Kodak Ektachrome 100 pushed to 800). 
+The image features a pronounced soft-focus and lens flare effect, as if shot through a slightly hazy glass lens, creating a hard, dreamy, and slightly blooming quality. There is an intentional subtle analog grain texture and a slight vignette that emphasizes the center, adding a gritty, unpolished, practical feel. The overall mood is of a mysterious, intimate, and threatening atmosphere, with a heavy sense of impending doom, giving the frame the appearance of a film still taken during the night exterior of a fantasy epic.
+{$IFPAL
+The photograph exhibits a characteristic "cinematic still" look: dramatic, theatrical lighting that employs deep, saturated colors like $2, $3, dark blues, and bruised purples, with strong, low-angle backlighting and intense $1 lighting to outline the subjects. 
+|
+The photograph exhibits a characteristic "cinematic still" look: dramatic, theatrical lighting that employs deep, saturated colors like dark cobalt blues, fiery oranges, sickly greens, and bruised purples, with strong, low-angle backlighting and intense rim lighting to outline the subjects. 
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+THE FRAME:
+低角度仰拍结合极端荷兰角，广角镜头畸变，强烈的视觉错位感，动荡不稳定的视角
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
+>>> Lomography Spirit
+YOUR CONTEXT:
+You are using vintage cheap lens, shotting with a high-ISO color negative film pushed during development. 
+The photograph exhibits a characteristic "spontaneous and flawed" look: the image suffers from a distinct lack of sharp focus, with a soft, dreamy blur sitting across the entire frame rather than just the edges. Intentional camera movement during the exposure causes horizontal sweeping motion blur on moving elements, adding a sense of raw energy and chaos to the scene.
+The light leaks into the lens from the side, causing intense, colourful rainbow flare streaks and a strong, uneven luminance bloom across the frame. Because of the cheap glass, the depth of field is irregular, creating irregular out-of-focus bokeh in the background that looks like floating, swirling clouds of color, avoiding the smooth circular bokeh of premium lenses.
+{$IFPAL
+The colors are heavily saturated, overly bright in $1, and lack subtle contrast transitions, with a pronounced dark vignette bleeding into the corners and $4 shadows. The objects in the scene have a $2 and $3 color tint.
+|
+The colors are heavily saturated, overly bright, and lack subtle contrast transitions, with a pronounced dark vignette bleeding into the corners and shadows.
+} There is heavy, coarse, uneven film grain texture. It has a raw, intimate, and joyful feel to the framing, capturing the messy, unscripted emotion of the moment.
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+THE FRAME:
+低角度仰拍结合极端荷兰角，广角镜头畸变，强烈的视觉错位感，动荡不稳定的视角
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
+>>> Noir Style Photo
+YOUR CONTEXT:
+You love shotting on highly desaturated, thin-film color negative stock (e.g., expired Kodak Ektachrome). 
+The photograph exhibits a characteristic expressionist noir look: dramatic chiaroscuro lighting with moody gobo patterns. Direct light projects high-contrast shadows across the subject and the background, casting intricate, geometrically fractured patterns—reminiscent of light filtering through venetian blinds, window grilles, or ornamental lattices—that stretch and warp along the contours of the face and torso, creating a strong sense of mystery and tension.
+The image features a high-contrast tonal curve where blacks are dense in the shadow areas, while highlights on the illuminated skin or objects are blown out rapidly with a hard rolloff. The transition between the gobo's light patterns and the absolute dark shadows is razor-sharp.
+The image features a gritty film grain texture that becomes heavier in the deep shadow areas. The framing is slightly off-center and deliberate, adding to the raw, cinematic, and suspenseful atmosphere. A moody, dusty-earth appearance.
+{$IFPAL
+The color palette consists of heavily desaturated $2 and $3 tones and faded ochres. The black shadows carry a $4 underline. The illuminated parts of the scene retain a $1 hue, making the entire image feel like an aged film.
+|
+The color palette consists of heavily desaturated, muted earth tones—think of warm sepia, dull brasses, oxidized rust, and faded ochres. The black shadows carry a deep, inky violet-brown underline, rather than a flat grey. The illuminated parts of the scene retain a warm, dusty amber hue, making the entire image feel like an aged film.
+}
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+THE FRAME:
+低角度仰拍结合极端荷兰角，鱼眼扭曲效果，强烈的视觉错位感，动荡不稳定的视角
+}
+LANDSCAPE DETAILS:
+<!--
+{$@}
+-->
+
+
+>>> Pop-Art Photo Collage
+YOUR CONTEXT:
+You are creating striking mixed-media collage images that blend raw 35mm film photography with 1960s Pop-Art comic-book graphics.
+The central subject is a sharp, realistic 35mm photograph with natural detail, tangible imperfections, and moderate film grain. It is treated as a physical cutout placed inside a bold Pop-Art world. The subject is surrounded by thick black comic outlines, with occasional hand-drawn accents such as cross-hatching, halftone dots, flat painted highlights, motion lines, or comic bursts.
+The entire visible background — both above and below the photo — should look ripped straight from a 1960s Pop-Art comic page. Use flat, saturated red, electric blue, bold yellow, and occasional black-and-white graphic elements. Include halftone patterns, comic-style shapes, radial bursts, speech-bubble-like forms, geometric color fields, stars, arrows, borders, and layered graphic blocks. The background is not photographic and should feel like a full comic panel environment surrounding the image.
+The Pop-Art world irregularly wraps around and envelops the photographic subject: comic elements protrude behind the subject, overlap its edges, peek around its silhouette, and cut across it with ragged, torn, or jagged borders. Some graphic shapes should partially cover or partially disappear behind the photo, creating a layered, collaged feel where the realistic subject is being swallowed by bold 2D comic graphics.
+The overall composition should feel raw, avant-garde, and visually disruptive: a true 35mm photo character embedded in, besieged by, and partially absorbed by an irregular 1960s Pop-Art comic backdrop. Maintain a strong mixed-media collage aesthetic with dense top-and-bottom graphic activity.
+{$**@@
+这幅摄影作品以鲜明的情欲风格为基调，散发着强烈的性张力与深具挑逗性的气息，令人自然联想到经典的“Bimbo Girl”。她饱满的丰乳与性感的身姿，交织着满溢的渴望与炽热的激情。
+}
+{$**##
+THE FRAME:
+低角度仰拍结合极端荷兰角，鱼眼扭曲效果，强烈的视觉错位感，动荡不稳定的视角
+}
+POP-ART ARTWORK DETAILS:
+<!--
+{$@}
+-->

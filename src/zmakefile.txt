@@ -14,37 +14,25 @@ globals/readme.txt
 globals/style_templates_doc.txt
 
 
->:://-----------------------------------------------------
+
+>:://======================================================
+>:://== ANALOG PHOTO ======================================
+>:://======================================================
 
 >::SET #WORKFLOW_NAME
-Anime
+Analog Photo
 
 >::SET #WORKFLOW_DESCRIPTION
-This is an experimental workflow for generating images that resemble anime and manga-style artwork.
+This is an experimental workflow for generating images that resemble analog film photography.
 
 >::LOAD #STYLE_TEMPLATES
-ZImageTotalFun__anime.sty.txt
+ZImageTotalFun__analog.sty.txt
 
 >::ADJUST_NODE "Z-Image Total Fun*"
-seed  = 8
-style = Ultra Anime
+seed  = 1
+style = Lomography Spirit
 
 >::MAKE
-{#PWD}/ZImageTotalFun__anime.AUTO~.json : zworkflow.base.json
-
-
->:://-----------------------------------------------------
-
->::SET #WORKFLOW_NAME
-Cinema
-
->::SET #WORKFLOW_DESCRIPTION
-This is an experimental workflow for generating images that resemble anime and manga-style artwork.
-
->::LOAD #STYLE_TEMPLATES
-ZImageTotalFun__cinema.sty.txt
-
->::MAKE
-{#PWD}/ZImageTotalFun__cinema.AUTO~.json : zworkflow.base.json
+{#PWD}/ZImageTotalFun__analog.json : zworkflow.base.json
 
 

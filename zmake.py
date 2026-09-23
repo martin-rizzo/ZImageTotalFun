@@ -220,9 +220,9 @@ def set_comfyui_node_param(node: dict, param: str, value: Any) -> bool:
     """
     if not isinstance(node,dict):
         return False
-    inputs               : list[dict]    = list( node.get("inputs") or [] )
-    widgets_values       : list[Any]     = list( node.get("widgets_values") or [] )
-    widgets_values_named : dict[str,Any] = dict( node.get("widgets_values_named") or {} )
+    inputs               : list[dict]    = node.get("inputs") or []
+    widgets_values       : list[Any]     = node.get("widgets_values") or []
+    widgets_values_named : dict[str,Any] = node.get("widgets_values_named") or {}
     if (not isinstance(inputs, list) or
         not isinstance(widgets_values,list) or
         not isinstance(widgets_values_named,dict) ):
